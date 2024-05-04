@@ -1,15 +1,16 @@
 package microwave;
+import java.sql.SQLOutput;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
 import static org.junit.Assert.*;
 
-import cucumber.api.DataTable;
-import cucumber.api.Delimiter;
-import cucumber.api.java.en.Given;
-import cucumber.api.java.en.When;
-import junit.framework.Assert;
-import cucumber.api.java.en.Then;
+
+import io.cucumber.datatable.DataTable;
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.When;
+import io.cucumber.java.en.Then;
 
 public class Stepdefs {
 
@@ -43,12 +44,20 @@ public class Stepdefs {
     }
 */
 	@Given("^presets are$")
-    public void presets_are(List<Preset> presets) throws Throwable {
+    public void presets_are(DataTable dataTable) throws Throwable {
+        List<Preset> presets = new ArrayList<>();
+        List<Map<String, String>> dataTableMaps = dataTable.asMaps(String.class, String.class);
+        for(Map<String,String> row:dataTableMaps){
+            presets.add(new Preset(row.get("name")
+                    ,Integer.parseInt(row.get("timeToCook"))
+                    ,Integer.parseInt(row.get("powerLevel"))));
+        }
 		microwave = new Microwave(new ModeController(), new DisplayController(100), presets);
     	microwave.setDoorOpen(false);
 		presets.stream().forEach(p -> System.out.println(p));
     }
-	
+
+	/*
 	@Given("^foobars are$")
     // public void presets_are(List<List<String>> arg) throws Throwable {
     public void foobars_are(DataTable arg) throws Throwable {
@@ -59,7 +68,7 @@ public class Stepdefs {
 		// System.out.println("This next one will fail!");
 		// System.out.println("foobars (as map) are:" + arg.asMap(String.class, String.class));
 	}
-	
+	*/
 	
     @Given("^polling rate is (\\d+) ms$")
     public void polling_rate_is_ms(int rate) throws Throwable {
@@ -75,14 +84,16 @@ public class Stepdefs {
         // printStatus();
 	}
 
+	/*
 	@Given("^([A-Za-z]+) presses the following keys: (.*)$")
-	public void user_presses_keys(String user, @Delimiter(" ") List<Integer> keys) {
+	public void user_presses_keys(String user,String keys) {
         // System.out.println(user + " presses the following keys: " + keys.toString());
 		for (Integer key: keys) {
 			microwave.digitPressed(key);
 			microwave.tick();
 		}
 	}
+	*/
 
 	@Given("^([A-Za-z]+) presses the following keys as a table:")
 	public void user_presses_keys_table(String user, List<Integer> keys) {
@@ -96,6 +107,7 @@ public class Stepdefs {
     @When("^([A-Za-z]+) presses the start key$")
     public void user_presses_the_start_key(String user) throws Throwable {
         // System.out.println(user + " presses the start key.");
+
         microwave.startPressed();
         microwave.tick();
         // printStatus();
@@ -103,17 +115,23 @@ public class Stepdefs {
 
     @When("^(\\d+) seconds elapse$")
     public void seconds_elapse(int time) throws Throwable {
-        // System.out.println("" + time + " seconds elapse.");
-        for (int i = 0; i < (time*1000) / microwave.getTickRateInHz(); i++) {
+         //System.out.println("" + time + " seconds elapse."+microwave.getTickRateInHz());
+        for (int i = 0; i < 20*time; i++) {
         	microwave.tick(); 
         }
         // printStatus();
     }
 
+
+
     @Then("^digits reads (\\d)(\\d)(\\d)(\\d)$")
     public void digits_reads(int tensOfMinutes, int minutes, int tensOfSeconds, int seconds) throws Throwable {
     	// System.out.println("Digits expects: " + tensOfMinutes + " " + minutes + " " + tensOfSeconds + " " + seconds);
     	byte [] digits = microwave.digits();
+        System.out.println("DIGITOSSSSSSSSSSSSSSS");
+        for(byte b: microwave.digits()){
+            System.out.println(b);
+        }
     	// printDigits(digits);
     	assertEquals((int)digits[DisplayController.TENS_OF_MINUTES], tensOfMinutes);
     	assertEquals((int)digits[DisplayController.MINUTES], minutes);

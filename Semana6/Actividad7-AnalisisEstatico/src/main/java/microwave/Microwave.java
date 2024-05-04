@@ -78,7 +78,7 @@ public class Microwave {
 	public boolean isCooking() { return cooking; }
 	
 	// should I make a copy of this?
-	public byte [] digits() { return dc.getDigits(); } ; 
+	public byte [] digits() { return dc.getDigits(); }
 	
 	public ModeController.Mode getMode() { return mode; }
 	

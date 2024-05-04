@@ -1,5 +1,7 @@
 package microwave;
 
+import java.sql.SQLOutput;
+
 public class DisplayController {
 
 	public static final int NO_PRESS = -1;
@@ -63,7 +65,7 @@ public class DisplayController {
 		case Setup: 
 			byte numberPressed = NO_PRESS;
 			ticks = 0 ;
-			
+
 			for (byte i = 0; i < 10; i++) {
 				if (digitPressed[i]) {
 					numberPressed = i;
@@ -81,19 +83,19 @@ public class DisplayController {
 		case Suspended: /* do nothing - wait for user */
 			break;
 		case Cooking:
-			ticks++; 
+			ticks++;
 			if (secondElapsed() && timeToCook() != 0) {
 				for (int i=digits.length - 1; i >= 0; i--) {
 					if (digits[i] != 0) {
 						digits[i]--; 
 						break;
 					} else {
+						System.out.println(ROLLOVER[i]);
 						digits[i] = ROLLOVER[i]; 
 						// not carrying over to the next thing...oops.
 					}
 				}
 			}
-			break;
 		}
 		clearDigitPressed();
 /*		int currTime = timeToCook(); 

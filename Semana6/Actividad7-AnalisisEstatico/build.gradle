@@ -19,6 +19,9 @@ buildscript {
 
 plugins {
     id "info.solidsoft.pitest" version "1.7.0" // Updated
+    id "org.sonarqube" version "3.5.0.2730"
+    id 'java-library'
+    id "jacoco"
 }
 
 // Apply the java-library plugin to add support for Java Library
@@ -56,6 +59,8 @@ dependencies {
     testImplementation 'io.cucumber:cucumber-java:6.10.4'
     testImplementation 'io.cucumber:cucumber-junit:6.10.4'
 
+    // Additional dependency for cucumber.api support
+    testImplementation 'io.cucumber:cucumber-core:6.10.4'
 }
 
 test {
@@ -70,3 +75,18 @@ pitest {
     targetClasses = ['microwave.*']  // Adjusted to match your package structure
 }
 
+sonar {
+    properties {
+        property "sonar.projectKey", "CodigoEstatico1"
+        property "sonar.login", "sqp_07af6cae55dc0db0b88da1b776581e877437e5e3"
+        property "sonar.host.url", "http://localhost:9000"
+    }
+}
+
+/*
+./gradlew sonar \
+  -Dsonar.projectKey=codigo_estatico \
+  -Dsonar.host.url=http://localhost:9000 \
+  -Dsonar.login=sqp_07af6cae55dc0db0b88da1b776581e877437e5e3
+
+ */
