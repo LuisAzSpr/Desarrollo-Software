@@ -1,0 +1,12 @@
+
+C
+java:S1604R"(Make this anonymous inner class a lambda(Ô¶µÿþÿÿÿÿ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÎçúËûÿÿÿÿ
+l	java:S116"WRename this field "CANVAS_WIDTH" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ô‰“¯
+m	java:S116"XRename this field "CANVAS_HEIGHT" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ææ±À
+t
+java:S1450"^Remove the "gameBoardCanvas" field and declare it as a local variable in the relevant methods.(µŽÇÎ
+B
+java:S1948"'Make "board" transient or serializable.(åÌ–®þÿÿÿÿ
+d
+java:S3252 "IUse static access with "javax.swing.WindowConstants" for "EXIT_ON_CLOSE".(Õû»öþÿÿÿÿ
