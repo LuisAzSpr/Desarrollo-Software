@@ -11,35 +11,35 @@ Haremos seguimiento de los code smells que conllevan un cambio en el codigo sign
 
 ### Reporte Sonarqube
 
-![alt text](image-6.png)
+![alt text](imagenes/image-6.png)
 
-![alt text](image-1.png)
-![alt text](image-2.png)
-![alt text](image-3.png)
-![alt text](image-4.png)
+![alt text](imagenes/image.png)
+![alt text](imagenes/image-2.png)
+![alt text](imagenes/image-3.png)
+![alt text](imagenes/image-4.png)
 
 ---------------------------
 
 #### 1. Primer olor de codigo
-![alt text](image-5.png)
-![alt text](image-7.png)
+![alt text](imagenes/image-5.png)
+![alt text](imagenes/image-7.png)
 
 una primera refactorizacion podria ser crear un metodo privado en DisplayController que maneje el SetUp y el cooking , para poder hacer el codigo mas entendible, como se muestra:
 
-![alt text](image-16.png)
+![alt text](imagenes/image-16.png)
 
 Ahora veamos si la refactorizacion afecta en algo al comportamiento que se espera de las clases ... podemos ver que siguen pasando las pruebas!!
 
-![alt text](image-17.png)
+![alt text](imagenes/image-17.png)
 
 #### Segundo olor de codigo
 
-![alt text](image-11.png)
-![alt text](image-8.png)
+![alt text](imagenes/image-11.png)
+![alt text](imagenes/image-8.png)
 
 Podemos ver que la solucion que nos brinda es eliminar la clase enumerable y cambiar cada valor por una variable final.
 
-![alt text](image-15.png)
+![alt text](imagenes/image-15.png)
 
 Pero podemos considerar que esta clase brindan una forma mas literal y entendible de referirse a los modos como :
 
@@ -52,21 +52,21 @@ Por lo que para este caso considero que podrian ignorarse estos olores de codigo
 
 #### Tercer olor de codigo
 
-![alt text](image-12.png)
-![alt text](image-13.png)
+![alt text](imagenes/image-12.png)
+![alt text](imagenes/image-13.png)
 
 Los siguientes olores de codigo hacen referencia a que el primer argumento debe ser el valor esperado y el segundo el valor actual, sinembargo aqui estan en orden distinto, por lo que deben cambiarse...
 
-![alt text](image-14.png)
+![alt text](imagenes/image-14.png)
 
 de manera equivalente podemos ver que las pruebas siguen pasando...
 
-![alt text](image-18.png)
+![alt text](imagenes/image-18.png)
 
 Ahora crearemos un nuevo reporte, para poder determinar cuantos olores de codigo hemos reducido.
 
 Vemos ahora que los olores de codigo se han reducido de 14 a 5, por lo que ahora tenemos un codigo mas limpio, hay que mencionar que 3 de esos 6 decidimos no cambiar, porque consideramos que hacen mas facil la lectura de codigo.
 
-![alt text](image-19.png)
+![alt text](imagenes/image-19.png)
 
 
