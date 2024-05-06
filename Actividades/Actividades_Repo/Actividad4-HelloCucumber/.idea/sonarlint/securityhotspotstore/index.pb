@@ -7,3 +7,5 @@ T
 $src/test/java/skeleton/Stepdefs.java,e/9/e906b13324eeb7ca2b1fb02f5cb762f049143ef5
 <
 build.gradle,f/0/f07866736216be0ee2aba49e392191aeae700a35
+Y
+)src/test/resources/skeleton/belly.feature,2/d/2d41b6fdbe02d324e17b570d0bd8c0dd13975776

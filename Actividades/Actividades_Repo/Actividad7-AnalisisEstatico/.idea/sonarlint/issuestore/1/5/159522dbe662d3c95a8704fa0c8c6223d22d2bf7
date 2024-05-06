@@ -1,7 +1,0 @@
-
-“
-java:S3776>"RRefactor this method to reduce its Cognitive Complexity from 22 to the 15 allowed.(öªŸÿúÿÿÿÿJ$8bb109d9-d09b-41dc-ab46-7194e158b2fe
-m	java:S106]"+Replace this use of System.out by a logger.(®Áéæ8üŽÈ¡ô1J$00fcffa7-1978-45e5-b2a2-230a8f4310a2
-w	java:S125e"<This block of commented-out lines of code should be removed.(ãÝ¶öJ$65d18dd3-c16f-43dc-bc83-c09c7ff2c6d8
-w
-java:S1128"/Remove this unused import 'java.sql.SQLOutput'.(ê¤òÃùÿÿÿÿ8šòö ô1J$297518f7-16a8-4ca7-a2d0-1f92ef1e7a1c
