@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="microwave.RunCukesTest" tests="12" skipped="0" failures="0" errors="0" timestamp="2024-05-06T16:43:49" hostname="luis-GF65" time="0.129">
+<testsuite name="microwave.RunCukesTest" tests="12" skipped="0" failures="0" errors="0" timestamp="2024-05-06T18:14:14" hostname="luis-GF65" time="0.129">
   <properties/>
-  <testcase name="Mike reheats a cookie for 1 second" classname="microwave.RunCukesTest" time="0.084"/>
-  <testcase name="Bob reheats a coffee for 3 seconds" classname="microwave.RunCukesTest" time="0.006"/>
-  <testcase name="Bob reheats a coffee again for 3 seconds" classname="microwave.RunCukesTest" time="0.004"/>
-  <testcase name="Cooking for different amounts of time. #1" classname="microwave.RunCukesTest" time="0.004"/>
-  <testcase name="Cooking for different amounts of time. #2" classname="microwave.RunCukesTest" time="0.003"/>
-  <testcase name="Cooking for different amounts of time. #3" classname="microwave.RunCukesTest" time="0.006"/>
-  <testcase name="Cooking for different amounts of time. #4" classname="microwave.RunCukesTest" time="0.005"/>
-  <testcase name="Cooking for different amounts of time. #5" classname="microwave.RunCukesTest" time="0.003"/>
+  <testcase name="Mike reheats a cookie for 1 second" classname="microwave.RunCukesTest" time="0.086"/>
+  <testcase name="Bob reheats a coffee for 3 seconds" classname="microwave.RunCukesTest" time="0.005"/>
+  <testcase name="Bob reheats a coffee again for 3 seconds" classname="microwave.RunCukesTest" time="0.003"/>
+  <testcase name="Cooking for different amounts of time. #1" classname="microwave.RunCukesTest" time="0.003"/>
+  <testcase name="Cooking for different amounts of time. #2" classname="microwave.RunCukesTest" time="0.004"/>
+  <testcase name="Cooking for different amounts of time. #3" classname="microwave.RunCukesTest" time="0.003"/>
+  <testcase name="Cooking for different amounts of time. #4" classname="microwave.RunCukesTest" time="0.003"/>
+  <testcase name="Cooking for different amounts of time. #5" classname="microwave.RunCukesTest" time="0.004"/>
   <testcase name="Trying out a preset." classname="microwave.RunCukesTest" time="0.003"/>
-  <testcase name="Preset out of range" classname="microwave.RunCukesTest" time="0.002"/>
+  <testcase name="Preset out of range" classname="microwave.RunCukesTest" time="0.003"/>
   <testcase name="Mode incorrect for preset" classname="microwave.RunCukesTest" time="0.003"/>
-  <testcase name="User interrupts cooking" classname="microwave.RunCukesTest" time="0.005"/>
+  <testcase name="User interrupts cooking" classname="microwave.RunCukesTest" time="0.003"/>
   <system-out><![CDATA[Preset [name=popcorn, timeToCook=55, powerLevel=10]
 Preset [name=pizza slice, timeToCook=30, powerLevel=5]
 Preset [name=cup of coffee, timeToCook=65, powerLevel=10]

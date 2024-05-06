@@ -93,17 +93,17 @@ public class Stepdefs {
 
     @Then("^mode is cooking$")
     public void mode_is_cooking() throws Throwable {
-    	assertEquals(microwave.getMode(), ModeController.Mode.Cooking);
+    	assertEquals( Mode.Cooking,microwave.getMode());
     }
 
     @Then("^mode is setup$")
     public void mode_is_setup() throws Throwable {
-    	assertEquals(microwave.getMode(), ModeController.Mode.Setup);
+    	assertEquals(Mode.Setup,microwave.getMode());
     }
 
     @Then("^mode is suspended$")
     public void mode_is_suspended() throws Throwable {
-    	assertEquals(microwave.getMode(), ModeController.Mode.Suspended);
+    	assertEquals(Mode.Suspended,microwave.getMode());
     }
 
     @Given("^Bob presses the (\\d+) scenario key$")

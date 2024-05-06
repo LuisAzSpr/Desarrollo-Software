@@ -9,7 +9,7 @@ public class Microwave {
 
 	private boolean doorOpen;
 	private boolean cooking;
-	private ModeController.Mode mode = ModeController.Mode.Setup;
+	private Mode mode = Mode.Setup;
 
 	public Microwave(ModeController mc, DisplayController dc, 
 			List<Preset> presets) {
@@ -19,17 +19,7 @@ public class Microwave {
 		doorOpen = true; // start in fail-safe state.
 		this.presets = presets;
 	}
-	
-//	public void zeroPressed() { dc.digitPressed(0); }
-//	public void onePressed() { dc.digitPressed(1); }
-//	public void twoPressed() { dc.digitPressed(2); }
-//	public void threePressed() { dc.digitPressed(3); }
-//	public void fourPressed() { dc.digitPressed(4); }
-//	public void fivePressed() { dc.digitPressed(5); }
-//	public void sixPressed() { dc.digitPressed(6); }
-//	public void sevenPressed() { dc.digitPressed(7); }
-//	public void eightPressed() { dc.digitPressed(8); }
-//	public void ninePressed() { dc.digitPressed(9); }
+
 	public void startPressed() { mc.setStartPressed(true); }
 	public void clearPressed() { mc.setClearPressed(true); 
 								 dc.clearKeyPressed(mc.getMode()); }
@@ -42,7 +32,7 @@ public class Microwave {
 		if (preset < 1 || preset > presets.size()) {
 			throw new IllegalArgumentException("Preset out of range for presetPressed.");
 		}
-		if (mode != ModeController.Mode.Setup) {
+		if (mode != Mode.Setup) {
 			throw new IllegalArgumentException("Presets can only be used in setup mode");
 		}
 		// Seeded fault here
@@ -73,7 +63,7 @@ public class Microwave {
 	public void tick() {
 		dc.tick(mode);
 		mode = mc.tick(doorOpen, dc.timeToCook() != 0);
-		cooking = (mode == ModeController.Mode.Cooking);
+		cooking = (mode == Mode.Cooking);
 	}
 	
 	public boolean isCooking() { return cooking; }
@@ -81,7 +71,7 @@ public class Microwave {
 	// should I make a copy of this?
 	public byte [] digits() { return dc.getDigits(); }
 	
-	public ModeController.Mode getMode() { return mode; }
+	public Mode getMode() { return mode; }
 	
 	public int getTickRateInHz() { return dc.getTickRateInHz(); }
 	

@@ -2,11 +2,10 @@ package microwave;
 
 public class ModeController {
 
-	public enum Mode {Cooking, Suspended, Setup};
 	private boolean startPressed = false;
 	private boolean clearPressed = false;
 	private Mode mode = Mode.Setup;
-	private Mode preMode = Mode.Setup;
+	private final Mode preMode = Mode.Setup;
 	
 	public synchronized boolean isStartPressed() {
 		return startPressed;

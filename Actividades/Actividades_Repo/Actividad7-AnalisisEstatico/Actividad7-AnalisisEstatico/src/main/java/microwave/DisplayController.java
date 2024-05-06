@@ -1,6 +1,8 @@
 package microwave;
 
 
+import java.util.Arrays;
+
 public class DisplayController {
 
 	public static final int NO_PRESS = -1;
@@ -37,12 +39,10 @@ public class DisplayController {
 		}
 	}
 	
-	public synchronized void clearKeyPressed(ModeController.Mode m) {
-		if (m == ModeController.Mode.Suspended || 
-			m == ModeController.Mode.Setup) {
-			for (int i = 0; i < digits.length; i++) {
-				digits[i] = 0;
-			}
+	public synchronized void clearKeyPressed(Mode m) {
+		if (m == Mode.Suspended ||
+			m == Mode.Setup) {
+            Arrays.fill(digits, (byte) 0);
 		}
 	}
 	
@@ -56,47 +56,57 @@ public class DisplayController {
 	public boolean secondElapsed() {
 		return (ticks % tickRateInHz) == 0;
 	}
-	
-	
-	public synchronized void tick(ModeController.Mode mode) {
-		int arraySize = digits.length;
+
+	public synchronized void tick(Mode mode) {
 		switch (mode) {
 			case Setup:
-				byte numberPressed = NO_PRESS;
-				ticks = 0 ;
-
-				for (byte i = 0; i < 10; i++) {
-					if (digitPressed[i]) {
-						numberPressed = i;
-						break;
-					}
-				}
-
-				if (numberPressed != NO_PRESS) {
-					for (int i = 0; i < arraySize - 1; i++) {
-						digits[i] = digits[i+1];
-					}
-					digits[arraySize - 1] = numberPressed;
-				}
+				setUp();
 				break;
 			case Suspended: /* do nothing - wait for user */
 				break;
 			case Cooking:
-				ticks++;
-				if (secondElapsed() && timeToCook() != 0) {
-					for (int i = arraySize - 1; i >= 0; i--) {
-						if (digits[i] != 0) {
-							digits[i]--;
-							break;
-						} else {
-							digits[i] = ROLLOVER[i];
-							// not carrying over to the next thing...oops.
-						}
-					}
-				}
+				cooking();
 		}
 		clearDigitPressed();
 	}
+
+	private void setUp(){
+		int arraySize = digits.length;
+		byte numberPressed = NO_PRESS;
+		ticks = 0 ;
+
+		for (byte i = 0; i < 10; i++) {
+			if (digitPressed[i]) {
+				numberPressed = i;
+				break;
+			}
+		}
+
+		if (numberPressed != NO_PRESS) {
+			for (int i = 0; i < arraySize - 1; i++) {
+				digits[i] = digits[i+1];
+			}
+			digits[arraySize - 1] = numberPressed;
+		}
+	}
+
+	private void cooking(){
+		int arraySize = digits.length;
+		ticks++;
+		if (secondElapsed() && timeToCook() != 0) {
+			for (int i = arraySize - 1; i >= 0; i--) {
+				if (digits[i] != 0) {
+					digits[i]--;
+					break;
+				} else {
+					digits[i] = ROLLOVER[i];
+					// not carrying over to the next thing...oops.
+				}
+			}
+		}
+	}
+
+
 
 	byte [] getDigits() {
 		return digits;
