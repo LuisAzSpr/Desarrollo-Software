@@ -34,33 +34,8 @@ public class AuthenticationService {
 
     public AuthenticationResponse register(RegisterRequest request) {// Obtenemos un objeto de la clase RegisterRequest
 
-        // verificamos si es que ya se registraron el nombre de usuario o el correo
-        Optional<User> optionUsername = repository.findByUsername(request.getUsername());
-        Optional<User> optionEmail = repository.findByEmail(request.getEmail());
-
-        // ademas tomamos las 2 contrasenas ingresadas para el registro
-        String contrasena = request.getPassword();
-        String confirmContrasena = request.getConfirmPassword();
-
-        // si optionUsername esta presente entonces si existe un usuario con ese nombre
-        if(optionUsername.isPresent()){
-            throw new UserAlredyExistsException("El nombre de usuario ya se encuentra registrado"); // lanza exception personalizada de username
-        }
-        if(optionEmail.isPresent()){ // si optionEmail esta presente entonces si existe un usuario con ese correo
-            throw new EmailAlredyInUse("El correo electronico ya se encuentra registrado"); // lanza exception personalizada de email
-        }
-
-        if(!validatorService.validateEmail(request.getEmail())){
-            throw new InvalidEmail("email no valido");
-        }
-
-        if(!contrasena.equals(confirmContrasena)){ // si las contrasenas no coinciden
-            throw new PasswordDoesntMatch("Las contrasenas no coinciden"); // lanza exception personalizada de email
-        }
-
-        if(!contrasenaEsValida(contrasena)){ // si la contrasena no cumple con los requisitos de seguridad
-            throw new InsecurePassword("la contrasena no cumple con los requisitos de seguridad"); // lanza exception personalizada de inseguridad
-        }
+        // verificamos si el request es correcto
+        verificacion(request);
 
         // ahora guarda el usuario en la base de datos
         var user = User.builder()
@@ -70,23 +45,11 @@ public class AuthenticationService {
                 .password(passwordEncoder.encode(request.getPassword())) // codifica la contrasena
                 .role(Role.USER)
                 .build();
-
         repository.save(user);
 
-        // se genera el token apartir de los datos
-        var jwtToken = jwtService.generateToken(user);
+        String jwtToken = procesarToken(user);
 
-        // el token es guardado en una base de datos (esto nos servira a la hora de hacer logout)
-        var token = tokenEntity.builder()
-                .tokenStr(jwtToken)
-                .username(request.getUsername())
-                .build();
-        tokenRepository.save(token);
-
-
-        System.out.println("Se registro al usuario con exito-------");
-
-        // retorna un Authentication response cn el jwtToken con el que posteriormente accedera
+        // retorna un Authentication response con el jwtToken con el que posteriormente accedera
         // a endpoints protegidos
         return AuthenticationResponse.builder()
                 .token(jwtToken)
@@ -117,17 +80,9 @@ public class AuthenticationService {
 
         // ahora generamos un user que posteriormente se usara para crear un token
         var user = repository.findByUsername(request.getUsername())
-                .orElseThrow();
+                .orElseThrow(null);
 
-        // se crea el token
-        var jwtToken = jwtService.generateToken(user);
-
-        //el token es guardado en la base de datos
-        var token = tokenEntity.builder()
-                .tokenStr(jwtToken)
-                .username(request.getUsername())
-                .build();
-        tokenRepository.save(token);
+        String jwtToken = procesarToken(user);
 
         // retorna un Authentication response cn el jwtToken con el que posteriormente accedera
         // a endpoints protegidos
@@ -136,6 +91,50 @@ public class AuthenticationService {
                 .build();
     }
 
+    private void verificacion(RegisterRequest request){
+
+        // verificamos si es que ya se registraron el nombre de usuario o el correo
+        Optional<User> optionUsername = repository.findByUsername(request.getUsername());
+        Optional<User> optionEmail = repository.findByEmail(request.getEmail());
+
+        // ademas tomamos las 2 contrasenas ingresadas para el registro
+        String contrasena = request.getPassword();
+        String confirmContrasena = request.getConfirmPassword();
+
+        // si optionUsername esta presente entonces si existe un usuario con ese nombre
+        if(optionUsername.isPresent()){
+            throw new UserAlredyExistsException("El nombre de usuario ya se encuentra registrado"); // lanza exception personalizada de username
+        }
+        if(optionEmail.isPresent()){ // si optionEmail esta presente entonces si existe un usuario con ese correo
+            throw new EmailAlredyInUse("El correo electronico ya se encuentra registrado"); // lanza exception personalizada de email
+        }
+
+        if(!validatorService.validateEmail(request.getEmail())){
+            throw new InvalidEmail("email no valido");
+        }
+
+        if(!contrasena.equals(confirmContrasena)){ // si las contrasenas no coinciden
+            throw new PasswordDoesntMatch("Las contrasenas no coinciden"); // lanza exception personalizada de email
+        }
+
+        if(!contrasenaEsValida(contrasena)){ // si la contrasena no cumple con los requisitos de seguridad
+            throw new InsecurePassword("la contrasena no cumple con los requisitos de seguridad"); // lanza exception personalizada de inseguridad
+        }
+    }
+
+    public String procesarToken(User user){
+        // se crea el token
+        var jwtToken = jwtService.generateToken(user);
+
+        //el token es guardado en la base de datos
+        var token = tokenEntity.builder()
+                .tokenStr(jwtToken)
+                .username(user.getUsername())
+                .build();
+        tokenRepository.save(token);
+
+        return jwtToken;
+    }
 
     public String logOut(HttpServletRequest request) {
 
@@ -155,13 +154,13 @@ public class AuthenticationService {
     }
 
     @Transactional
-    public void realizarCierre(String token){
+    protected void realizarCierre(String token){
         // eliminamos el token de la base de datos (el usuario ya no puede acceder con ese token)
         tokenRepository.deleteByTokenStr(token);
     }
 
 
-    public boolean contrasenaEsValida(String contrasena) {
+    private boolean contrasenaEsValida(String contrasena) {
 
         if (contrasena.length()<8) { //longitud minima de la cadena
             return false;
