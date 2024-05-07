@@ -32,11 +32,11 @@ Podemos ver ahora que todos los tests fallan.
 
 En este ciclo TDD tomaremos el test isEmpty, escribiremos el codigo necesario para que pase y por el ultimor refactorizaremos el codigo.
 
-1. Rojo : Para empezar veamos que falle...
+1. Red : Para empezar veamos que falle...
 
 ![alt text](image-3.png)
 
-2. Verde : Escribamos el codigo necesario para que pase
+2. Green : Escribamos el codigo necesario para que pase
 
 Inicializamos elementos en 0 y cada vez que se llame a put (agregar elemento) aumentamos el campo elementos, esto puede parecer una implementacion bastante absurda, pero solo nos estamos concentrnado en hacer que esa prueba pase (codigo minimo necesario)...
 
@@ -50,9 +50,7 @@ y quedan las otras 3 pruebas por pasar...
 
 ![alt text](image-9.png)
 
-3. Refactorizar
-
-Ahora refactorizaremos el codigo ...
+3. Refactor : Ahora refactorizaremos el codigo ...
 
 Esta refactorizacion reduce la cantidad de lineas de nuestro codigo y lo hace mas entendible
 
@@ -66,11 +64,11 @@ Vemos que aun pasa la prueba!!
 
 En este ciclo TDD tomaremos el test size, escribiremos el codigo necesario para que pase y por el ultimor refactorizaremos el codigo.
 
-1. Rojo : Para empezar veamos que falle...
+1. Reed : Para empezar veamos que falle...
 
 ![alt text](image-4.png)
 
-2. Verde : Escribamos el codigo necesario para que pase
+2. Green : Escribamos el codigo necesario para que pase
 
 En este caso solo necesitamos devolver el campo contador declarado en el ciclo anterior...
 
@@ -84,9 +82,9 @@ y quedan las otras 2 pruebas por pasar...
 
 ![alt text](image-15.png)
 
-3. Refactorizar : Es hora de refactorizar el codigo, podemos darle un nombre mas entendible al campo elementos
+3. Refactor : Es hora de refactorizar el codigo, podemos darle un nombre mas entendible al campo elementos
 
-elemntos -> numeroElementos
+elementos -> numeroElementos
 
 ![alt text](image-13.png)
 
@@ -100,11 +98,11 @@ y vemos que la prueba sigue pasando...
 En este ciclo TDD tomaremos el test get y escribiremos el codigo necesario para que pase.
 
 
-1. Rojo : Para empezar veamos que falle...
+1. Red : Para empezar veamos que falle...
 
 ![alt text](image-5.png)
 
-2. Verde : Escribamos el codigo necesario para que pase 
+2. Green : Escribamos el codigo necesario para que pase 
 
 Lo que estamos haciendo es declarar 2 arreglos de tipo String para almacenar las keys y los values, en este caso cada key y cada value se relacionan segun el indice del arreglo al que pertenece cada una, es por esto que en el metodo get, retornamos el valor de values[i] en caso se encuentra que akey es igual a keys[i]...
 
@@ -123,13 +121,34 @@ y queda 1 ultima prueba por pasar...
 En este ciclo TDD tomaremos el test getExpired, escribiremos el codigo necesario para que pase y por el ultimor refactorizaremos el codigo.
 
 
-1. Rojo : Para empezar veamos que falle...
+1. Red : Para empezar veamos que falle...
 
 ![alt text](image-6.png)
 
-2. Verde : Escribamos el codigo necesario para que pase
+2. Green : Escribamos el codigo necesario para que pase
+
+Podemos verificar que hemos agregado un metodo actualizacion, que se implementa en todos los metodos de instancia de esa clase, esto permite tener los datos actualizados en caso el tiempo de uno haya expirado y se llame a un metodo de una instancia de la clase SimpleAgedCache.
 
 ![alt text](image-18.png)
+ 
+ Podemos verificar que todos los test pasan(los 4 estan en verde)...
 
-Podemos verificar que hemos agregado un metodo actualizar, que se implementa en todos los metodos de instancia de esa clase, esto permite tener los datos actualizados en caso 
+![alt text](image-19.png)
+![alt text](image-20.png)
+
+3. Refactor : Ahora toca refactorizar....
+
+Para esto extraeremos 2 metodos del metodo actualizacion que parece ser complicado y dificil de leer, para esto haremos lo siguiente: 
+
+- Extraemos la condicional para verificar si el par key-value expiro o no en el metodo PairExpired
+
+- ademas extraemos el "borrar elemento" (cuando el key-value expiró) en el método dropElement.
+
+![alt text](image-22.png)
+
+Ahora probemos que no hayamos roto nada...
+
+Como podemos ver,sigue en verde!!
+
+![alt text](image-23.png)
 
