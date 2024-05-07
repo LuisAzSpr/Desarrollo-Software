@@ -23,8 +23,6 @@ V
 &src/main/java/microwave/Microwave.java,d/c/dc94626efd2e52d980c565668bf0281e79291304
 ^
 .src/main/java/microwave/DisplayController.java,1/5/159522dbe662d3c95a8704fa0c8c6223d22d2bf7
-^
-.src/test/resources/microwave/Microwave.feature,3/c/3ce5b8870acdb0f3a38ae091c542388e0e6042a6
 V
 &src/test/resources/microwave/extra.txt,0/b/0bfb91ebf6b6ecab89317cfb106bc73dadf337f5
 Q

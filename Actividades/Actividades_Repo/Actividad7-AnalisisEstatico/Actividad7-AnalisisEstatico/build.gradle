@@ -85,6 +85,15 @@ sonar {
     }
 }
 
+task runInfer(type: Exec) {
+    commandLine 'infer', 'run', '--', 'gradle', 'compileJava'
+    doLast {
+        println 'Infer analysis completed!'
+    }
+}
+// Configura runInfer para que dependa de compileJava
+compileJava.finalizedBy(runInfer)
+
 /*
 ./gradlew sonar \
   -Dsonar.projectKey=codigo_estatico \
