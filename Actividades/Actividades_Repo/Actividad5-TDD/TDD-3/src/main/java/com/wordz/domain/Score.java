@@ -30,8 +30,6 @@ public class Score {
         }
         return Letter.INCORRECT;
     }
-
-
     private boolean occursInWord(char current) {
         return correct.contains(String.valueOf(current));
     }

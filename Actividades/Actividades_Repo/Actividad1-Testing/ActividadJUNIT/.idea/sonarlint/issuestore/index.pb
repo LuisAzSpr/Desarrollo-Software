@@ -13,3 +13,9 @@ Z
 gradlew.bat,2/a/2a45a911a8f1836b0b6c5b758962572012d8f8c3
 <
 build.gradle,f/0/f07866736216be0ee2aba49e392191aeae700a35
+l
+<src/test/java/org/example/MoneyManyParamsAnnotationTest.java,c/a/ca61cee0fd74cd6e9f212bea9fbc598e0a34149e
+j
+:src/test/java/org/example/MoneyOneParamAnnotationTest.java,2/a/2a2d185046f980dbade7cf6d764c2e24f2b720e5
+X
+(src/test/java/org/example/MoneyTest.java,b/c/bcb9eddbf216e4b8600ca6279ea4f50da613362c

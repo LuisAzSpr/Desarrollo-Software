@@ -1,10 +1,6 @@
 package com.wordz.domain;
 
-import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-
-import java.lang.reflect.Array;
-import java.util.ArrayList;
 
 import static com.wordz.domain.Letter.*;
 import static org.assertj.core.api.Assertions.assertThat;
@@ -12,21 +8,21 @@ import static org.assertj.core.api.Assertions.assertThat;
 public class WordTest {
 
     @Test
-    public void oneIncorrectLetter() {
+    void oneIncorrectLetter() {
         var word = new Word("A");
         var score = word.guess("Z");
         assertScoreForGuess(score, INCORRECT);
     }
 
     @Test
-    public void oneCorrectLetter() {
+    void oneCorrectLetter() {
         var word = new Word("A");
         var score = word.guess("A");
         assertScoreForGuess(score, CORRECT);
     }
 
     @Test
-    public void secondLetterWrongPosition() {
+    void secondLetterWrongPosition() {
         var word = new Word("AR");
         var score = word.guess("ZA");
         assertScoreForGuess(score, INCORRECT,
@@ -34,7 +30,7 @@ public class WordTest {
     }
 
     @Test
-    public void allScoreCombinations() {
+    void allScoreCombinations() {
         var word = new Word("ARI");
         var score = word.guess("ZAI");
         assertScoreForGuess(score, INCORRECT,

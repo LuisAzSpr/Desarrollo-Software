@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="FootballTeamTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2024-05-05T03:00:24" hostname="luis-GF65" time="0.064">
+<testsuite name="FootballTeamTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2024-05-07T14:20:07" hostname="luis-GF65" time="0.073">
   <properties/>
-  <testcase name="[1] -10" classname="FootballTeamTest" time="0.043"/>
+  <testcase name="[1] -10" classname="FootballTeamTest" time="0.052"/>
   <testcase name="[2] -1" classname="FootballTeamTest" time="0.001"/>
-  <testcase name="teamsWithSameNumberOfMatchesWonShouldBeEqual()" classname="FootballTeamTest" time="0.002"/>
-  <testcase name="teamsWithMoreMatchesWonShouldBeGreater()" classname="FootballTeamTest" time="0.003"/>
-  <testcase name="shouldBePossibleToCompareTeams()" classname="FootballTeamTest" time="0.002"/>
+  <testcase name="teamsWithSameNumberOfMatchesWonShouldBeEqual()" classname="FootballTeamTest" time="0.003"/>
+  <testcase name="teamsWithMoreMatchesWonShouldBeGreater()" classname="FootballTeamTest" time="0.002"/>
+  <testcase name="shouldBePossibleToCompareTeams()" classname="FootballTeamTest" time="0.001"/>
   <testcase name="teamsWithLessMatchesWonShouldBeLesser()" classname="FootballTeamTest" time="0.001"/>
   <testcase name="[1] 0" classname="FootballTeamTest" time="0.001"/>
   <testcase name="[2] 1" classname="FootballTeamTest" time="0.001"/>
-  <testcase name="[3] 3" classname="FootballTeamTest" time="0.001"/>
+  <testcase name="[3] 3" classname="FootballTeamTest" time="0.0"/>
   <testcase name="[4] 10" classname="FootballTeamTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>

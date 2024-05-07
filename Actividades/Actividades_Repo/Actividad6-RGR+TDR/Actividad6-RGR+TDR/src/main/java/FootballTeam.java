@@ -1,5 +1,7 @@
 public class FootballTeam implements Comparable<FootballTeam>{
+
     private int gamesWon;
+
     public FootballTeam(int gamesWon) {
         if (gamesWon < 0) {
             throw new IllegalArgumentException(
