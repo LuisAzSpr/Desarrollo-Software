@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>Microwave.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">Microwave_Gradle_fbinfer</a> &gt; <a href="index.source.html" class="el_package">microwave</a> &gt; <span class="el_source">Microwave.java</span></div><h1>Microwave.java</h1><pre class="source lang-java linenums">package microwave;
+import java.util.List;
+
+public class Microwave {
+	private ModeController mc;
+	private DisplayController dc;
+	List&lt;Preset&gt; presets; 
+	private int powerLevel; 
+
+	private boolean doorOpen;
+	private boolean cooking;
+<span class="fc" id="L12">	private Mode mode = Mode.Setup;</span>
+
+	public Microwave(ModeController mc, DisplayController dc, 
+<span class="fc" id="L15">			List&lt;Preset&gt; presets) {</span>
+<span class="fc" id="L16">		this.mc = mc;</span>
+<span class="fc" id="L17">		this.dc = dc;</span>
+<span class="fc" id="L18">		cooking = false;</span>
+<span class="fc" id="L19">		doorOpen = true; // start in fail-safe state.</span>
+<span class="fc" id="L20">		this.presets = presets;</span>
+<span class="fc" id="L21">	}</span>
+
+<span class="fc" id="L23">	public void startPressed() { mc.setStartPressed(true); }</span>
+<span class="fc" id="L24">	public void clearPressed() { mc.setClearPressed(true); </span>
+<span class="fc" id="L25">								 dc.clearKeyPressed(mc.getMode()); }</span>
+
+	public void digitPressed(int digit) {
+<span class="fc" id="L28">		dc.digitPressed(digit);</span>
+<span class="fc" id="L29">	}</span>
+	
+	public void presetPressed(int preset) {
+<span class="pc bpc" id="L32" title="1 of 4 branches missed.">		if (preset &lt; 1 || preset &gt; presets.size()) {</span>
+<span class="fc" id="L33">			throw new IllegalArgumentException(&quot;Preset out of range for presetPressed.&quot;);</span>
+		}
+<span class="fc bfc" id="L35" title="All 2 branches covered.">		if (mode != Mode.Setup) {</span>
+<span class="fc" id="L36">			throw new IllegalArgumentException(&quot;Presets can only be used in setup mode&quot;);</span>
+		}
+		// Seeded fault here
+<span class="fc" id="L39">		Preset p = presets.get(preset - 1);</span>
+		
+<span class="fc" id="L41">		dc.setTimeToCook(p.getTimeToCook());</span>
+<span class="fc" id="L42">		setPowerLevel(p.getPowerLevel());</span>
+<span class="fc" id="L43">	}</span>
+		
+<span class="fc" id="L45">	public void setDoorOpen(boolean doorOpen) { this.doorOpen = doorOpen; }</span>
+	
+	public void setPowerLevel(int powerLevel) { 
+<span class="pc bpc" id="L48" title="2 of 4 branches missed.">		if (powerLevel &gt;= 1 &amp;&amp; powerLevel &lt;= 10) {</span>
+<span class="fc" id="L49">			this.powerLevel = powerLevel; </span>
+		} else {
+<span class="nc" id="L51">			throw new IllegalArgumentException(&quot;power level out of range&quot;);</span>
+		}
+<span class="fc" id="L53">	}</span>
+	
+	public int getPowerLevel() {
+<span class="nc" id="L56">		return this.powerLevel; </span>
+	}
+	
+	public boolean isDoorOpen() {
+<span class="nc" id="L60">		return doorOpen;</span>
+	}
+
+	public void tick() {
+<span class="fc" id="L64">		dc.tick(mode);</span>
+<span class="fc bfc" id="L65" title="All 2 branches covered.">		mode = mc.tick(doorOpen, dc.timeToCook() != 0);</span>
+<span class="fc bfc" id="L66" title="All 2 branches covered.">		cooking = (mode == Mode.Cooking);</span>
+<span class="fc" id="L67">	}</span>
+	
+<span class="nc" id="L69">	public boolean isCooking() { return cooking; }</span>
+	
+	// should I make a copy of this?
+<span class="fc" id="L72">	public byte [] digits() { return dc.getDigits(); }</span>
+	
+<span class="fc" id="L74">	public Mode getMode() { return mode; }</span>
+	
+<span class="nc" id="L76">	public int getTickRateInHz() { return dc.getTickRateInHz(); }</span>
+	
+<span class="fc" id="L78">	public void setTickRateInHz(int tickRate) { dc.setTickRateInHz(tickRate); }</span>
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.7.202105040129</span></div></body></html>

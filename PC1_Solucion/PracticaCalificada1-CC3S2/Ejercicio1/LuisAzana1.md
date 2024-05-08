@@ -151,4 +151,3 @@ Ahora probemos que no hayamos roto nada...
 Como podemos ver,sigue en verde!!
 
 ![alt text](image-23.png)
-

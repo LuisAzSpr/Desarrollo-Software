@@ -52,5 +52,5 @@ public class SimpleAgedCacheTest {
         assertEquals("anotherValue", expired.get("anotherKey"));
     }
 
-    
+
 }

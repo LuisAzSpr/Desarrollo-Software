@@ -1,6 +1,5 @@
 package skeleton;
 
-import java.sql.SQLOutput;
 
 public class Belly {
     int eatenCucumbers = 0;
