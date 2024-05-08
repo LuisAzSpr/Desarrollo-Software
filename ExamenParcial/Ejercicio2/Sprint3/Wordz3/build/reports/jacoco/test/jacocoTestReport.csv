@@ -1,0 +1,7 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+Microwave_Gradle_fbinfer,default,Library,5,0,0,0,2,0,2,0,2,0
+Microwave_Gradle_fbinfer,microwave,Mode,0,21,0,0,0,1,0,1,0,1
+Microwave_Gradle_fbinfer,microwave,ModeController,44,62,13,9,7,21,12,8,4,5
+Microwave_Gradle_fbinfer,microwave,Preset,15,26,0,0,7,8,4,4,4,4
+Microwave_Gradle_fbinfer,microwave,DisplayController,23,312,13,31,6,60,14,24,1,14
+Microwave_Gradle_fbinfer,microwave,Microwave,18,138,3,11,5,32,7,15,4,11
