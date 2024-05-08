@@ -162,37 +162,37 @@ Sigue en verde!!
 
 ## Analisis en sonarqueb
 
-![alt text](image-1.png)
+![alt text](Imagenes2/image-1.png)
 
 Ahora vamos a limpiar ciertos olores de codigo...
 
 1. Remover el "import" duplicado
 
-![alt text](image-4.png)
+![alt text](Imagenes2/image-4.png)
 
 2. Remover el modificador publico en los metodos del test
 
-![alt text](image-2.png)
+![alt text](Imagenes2/image-2.png)
 
 Hagamos otro analisis estatico 
 
 Podemos ver que hemos reducido a unicamente 1 olor de codigo 
 
-![alt text](image-5.png)
+![alt text](Imagenes2/image-5.png)
 
 ## Sprint 3
 
 Implementacion del juego en consola
 
-![alt text](image-6.png)
+![alt text](Imagenes2/image-6.png)
 
 Ahora toca refactorizar un poco...
 
-![alt text](image-7.png)
+![alt text](Imagenes2/image-7.png)
 
 Podemos crear un metodo ImprimirResults que imprima los resultados en consola desde la clase score...
 
-![alt text](image-8.png)
+![alt text](Imagenes2/image-8.png)
 
 
 ## Zona de preguntas
@@ -228,12 +228,12 @@ Para validar la puntuacion podriamos usar un test que dado una palabra correcta 
 
 Como vimos anteriormente teniamos este metodo ...
 
-![alt text](image-9.png)
+![alt text](Imagenes2/image-9.png)
 
 que fue refactorizar de esta forma...
 
 que como podemos ver es mucho mas claro y legible
 
-![alt text](image-10.png)
+![alt text](Imagenes2/image-10.png)
 
 ----------------------
