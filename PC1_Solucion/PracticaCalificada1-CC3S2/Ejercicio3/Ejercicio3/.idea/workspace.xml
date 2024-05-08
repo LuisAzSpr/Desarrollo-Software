@@ -1,0 +1,643 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4317e5ad-606c-46d9-b2bf-887cfe169b91" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/LuisAzana1.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/.gradle/7.4/checksums/checksums.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/.gradle/7.4/checksums/md5-checksums.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/.gradle/7.4/checksums/sha1-checksums.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/.gradle/7.4/dependencies-accessors/dependencies-accessors.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/.gradle/7.4/dependencies-accessors/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/.gradle/7.4/executionHistory/executionHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/.gradle/7.4/executionHistory/executionHistory.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/.gradle/7.4/fileChanges/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/.gradle/7.4/fileHashes/fileHashes.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/.gradle/7.4/fileHashes/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/.gradle/7.4/fileHashes/resourceHashesCache.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/.gradle/7.4/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/.gradle/file-system.probe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/.gradle/vcs-1/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/.idea/kotlinc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/.idea/sonarlint/issuestore/5/5/55af36175cb97557db22e70c0c115bd5ed263682" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/.idea/sonarlint/issuestore/7/5/753bd413c8094b800ed2cd1192ce4658e9107a9e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/.idea/sonarlint/issuestore/9/1/915eee5442ab5c281159e8bda3c9f44de2301a82" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/.idea/sonarlint/issuestore/9/c/9cad2b17371f870e2eee0865b459c9ac1a39b906" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/.idea/sonarlint/issuestore/index.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/.idea/sonarlint/securityhotspotstore/5/5/55af36175cb97557db22e70c0c115bd5ed263682" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/.idea/sonarlint/securityhotspotstore/7/5/753bd413c8094b800ed2cd1192ce4658e9107a9e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/.idea/sonarlint/securityhotspotstore/9/1/915eee5442ab5c281159e8bda3c9f44de2301a82" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/.idea/sonarlint/securityhotspotstore/9/c/9cad2b17371f870e2eee0865b459c9ac1a39b906" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/bin/main/io/collective/SimpleAgedKache.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/bin/test/test/collective/SimpleAgedCacheTest$TestClock.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/bin/test/test/collective/SimpleAgedCacheTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/bin/test/test/collective/SimpleAgedKacheTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/build/classes/java/main/io/collective/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/build/classes/java/main/io/collective/SimpleAgedCache.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/build/classes/java/main/io/collective/TestClock.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/build/classes/java/test/test/collective/SimpleAgedCacheTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/build/classes/kotlin/main/META-INF/Tarea1-CC3S2.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/build/classes/kotlin/main/io/collective/SimpleAgedKache.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/build/classes/kotlin/test/META-INF/Tarea1-CC3S2.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/build/classes/kotlin/test/test/collective/SimpleAgedKacheTest$TestClock.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/build/classes/kotlin/test/test/collective/SimpleAgedKacheTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/build/kotlin/Tarea1CC3S210SNAPSHOTjar-classes.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/build/kotlin/compileKotlin/cacheable/caches-jvm/inputs/source-to-output.tab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/build/kotlin/compileKotlin/cacheable/caches-jvm/inputs/source-to-output.tab.keystream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/build/kotlin/compileKotlin/cacheable/caches-jvm/inputs/source-to-output.tab.keystream.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/build/kotlin/compileKotlin/cacheable/caches-jvm/inputs/source-to-output.tab.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/build/kotlin/compileKotlin/cacheable/caches-jvm/inputs/source-to-output.tab.values.at" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/build/kotlin/compileKotlin/cacheable/caches-jvm/inputs/source-to-output.tab_i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/build/kotlin/compileKotlin/cacheable/caches-jvm/inputs/source-to-output.tab_i.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab.keystream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab.keystream.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab.values.at" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab_i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab_i.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.keystream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.keystream.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.values.at" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab_i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab_i.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab.keystream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab.keystream.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab.values.at" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab_i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab_i.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/java-sources-proto-map.tab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/java-sources-proto-map.tab.keystream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/java-sources-proto-map.tab.keystream.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/java-sources-proto-map.tab.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/java-sources-proto-map.tab.values.at" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/java-sources-proto-map.tab_i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/java-sources-proto-map.tab_i.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab.keystream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab.keystream.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab.values.at" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab_i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab_i.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab.keystream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab.keystream.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab.values.at" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab_i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab_i.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/build/kotlin/compileKotlin/cacheable/caches-jvm/lookups/counters.tab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/build/kotlin/compileKotlin/cacheable/caches-jvm/lookups/file-to-id.tab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/build/kotlin/compileKotlin/cacheable/caches-jvm/lookups/file-to-id.tab.keystream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/build/kotlin/compileKotlin/cacheable/caches-jvm/lookups/file-to-id.tab.keystream.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/build/kotlin/compileKotlin/cacheable/caches-jvm/lookups/file-to-id.tab.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/build/kotlin/compileKotlin/cacheable/caches-jvm/lookups/file-to-id.tab.values.at" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/build/kotlin/compileKotlin/cacheable/caches-jvm/lookups/file-to-id.tab_i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/build/kotlin/compileKotlin/cacheable/caches-jvm/lookups/file-to-id.tab_i.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/build/kotlin/compileKotlin/cacheable/caches-jvm/lookups/id-to-file.tab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/build/kotlin/compileKotlin/cacheable/caches-jvm/lookups/id-to-file.tab.keystream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/build/kotlin/compileKotlin/cacheable/caches-jvm/lookups/id-to-file.tab.keystream.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/build/kotlin/compileKotlin/cacheable/caches-jvm/lookups/id-to-file.tab.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/build/kotlin/compileKotlin/cacheable/caches-jvm/lookups/id-to-file.tab.values.at" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/build/kotlin/compileKotlin/cacheable/caches-jvm/lookups/lookups.tab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/build/kotlin/compileKotlin/cacheable/caches-jvm/lookups/lookups.tab.keystream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/build/kotlin/compileKotlin/cacheable/caches-jvm/lookups/lookups.tab.keystream.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/build/kotlin/compileKotlin/cacheable/caches-jvm/lookups/lookups.tab.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/build/kotlin/compileKotlin/cacheable/caches-jvm/lookups/lookups.tab.values.at" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/build/kotlin/compileKotlin/cacheable/caches-jvm/lookups/lookups.tab_i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/build/kotlin/compileKotlin/cacheable/caches-jvm/lookups/lookups.tab_i.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/build/kotlin/compileKotlin/cacheable/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/build/kotlin/compileKotlin/local-state/build-history.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/build/kotlin/compileTestKotlin/cacheable/caches-jvm/inputs/source-to-output.tab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/build/kotlin/compileTestKotlin/cacheable/caches-jvm/inputs/source-to-output.tab.keystream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/build/kotlin/compileTestKotlin/cacheable/caches-jvm/inputs/source-to-output.tab.keystream.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/build/kotlin/compileTestKotlin/cacheable/caches-jvm/inputs/source-to-output.tab.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/build/kotlin/compileTestKotlin/cacheable/caches-jvm/inputs/source-to-output.tab.values.at" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/build/kotlin/compileTestKotlin/cacheable/caches-jvm/inputs/source-to-output.tab_i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/build/kotlin/compileTestKotlin/cacheable/caches-jvm/inputs/source-to-output.tab_i.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/build/kotlin/compileTestKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/build/kotlin/compileTestKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab.keystream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/build/kotlin/compileTestKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab.keystream.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/build/kotlin/compileTestKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/build/kotlin/compileTestKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab.values.at" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/build/kotlin/compileTestKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab_i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/build/kotlin/compileTestKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab_i.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/build/kotlin/compileTestKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/build/kotlin/compileTestKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.keystream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/build/kotlin/compileTestKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.keystream.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/build/kotlin/compileTestKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/build/kotlin/compileTestKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.values.at" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/build/kotlin/compileTestKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab_i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/build/kotlin/compileTestKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab_i.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/build/kotlin/compileTestKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/build/kotlin/compileTestKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab.keystream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/build/kotlin/compileTestKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab.keystream.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/build/kotlin/compileTestKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/build/kotlin/compileTestKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab.values.at" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/build/kotlin/compileTestKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab_i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/build/kotlin/compileTestKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab_i.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/build/kotlin/compileTestKotlin/cacheable/caches-jvm/jvm/kotlin/java-sources-proto-map.tab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/build/kotlin/compileTestKotlin/cacheable/caches-jvm/jvm/kotlin/java-sources-proto-map.tab.keystream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/build/kotlin/compileTestKotlin/cacheable/caches-jvm/jvm/kotlin/java-sources-proto-map.tab.keystream.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/build/kotlin/compileTestKotlin/cacheable/caches-jvm/jvm/kotlin/java-sources-proto-map.tab.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/build/kotlin/compileTestKotlin/cacheable/caches-jvm/jvm/kotlin/java-sources-proto-map.tab.values.at" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/build/kotlin/compileTestKotlin/cacheable/caches-jvm/jvm/kotlin/java-sources-proto-map.tab_i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/build/kotlin/compileTestKotlin/cacheable/caches-jvm/jvm/kotlin/java-sources-proto-map.tab_i.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/build/kotlin/compileTestKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/build/kotlin/compileTestKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab.keystream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/build/kotlin/compileTestKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab.keystream.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/build/kotlin/compileTestKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/build/kotlin/compileTestKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab.values.at" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/build/kotlin/compileTestKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab_i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/build/kotlin/compileTestKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab_i.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/build/kotlin/compileTestKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/build/kotlin/compileTestKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab.keystream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/build/kotlin/compileTestKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab.keystream.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/build/kotlin/compileTestKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/build/kotlin/compileTestKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab.values.at" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/build/kotlin/compileTestKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab_i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/build/kotlin/compileTestKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab_i.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/build/kotlin/compileTestKotlin/cacheable/caches-jvm/jvm/kotlin/subtypes.tab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/build/kotlin/compileTestKotlin/cacheable/caches-jvm/jvm/kotlin/subtypes.tab.keystream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/build/kotlin/compileTestKotlin/cacheable/caches-jvm/jvm/kotlin/subtypes.tab.keystream.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/build/kotlin/compileTestKotlin/cacheable/caches-jvm/jvm/kotlin/subtypes.tab.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/build/kotlin/compileTestKotlin/cacheable/caches-jvm/jvm/kotlin/subtypes.tab.values.at" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/build/kotlin/compileTestKotlin/cacheable/caches-jvm/jvm/kotlin/subtypes.tab_i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/build/kotlin/compileTestKotlin/cacheable/caches-jvm/jvm/kotlin/subtypes.tab_i.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/build/kotlin/compileTestKotlin/cacheable/caches-jvm/jvm/kotlin/supertypes.tab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/build/kotlin/compileTestKotlin/cacheable/caches-jvm/jvm/kotlin/supertypes.tab.keystream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/build/kotlin/compileTestKotlin/cacheable/caches-jvm/jvm/kotlin/supertypes.tab.keystream.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/build/kotlin/compileTestKotlin/cacheable/caches-jvm/jvm/kotlin/supertypes.tab.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/build/kotlin/compileTestKotlin/cacheable/caches-jvm/jvm/kotlin/supertypes.tab.values.at" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/build/kotlin/compileTestKotlin/cacheable/caches-jvm/jvm/kotlin/supertypes.tab_i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/build/kotlin/compileTestKotlin/cacheable/caches-jvm/jvm/kotlin/supertypes.tab_i.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/build/kotlin/compileTestKotlin/cacheable/caches-jvm/lookups/counters.tab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/build/kotlin/compileTestKotlin/cacheable/caches-jvm/lookups/file-to-id.tab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/build/kotlin/compileTestKotlin/cacheable/caches-jvm/lookups/file-to-id.tab.keystream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/build/kotlin/compileTestKotlin/cacheable/caches-jvm/lookups/file-to-id.tab.keystream.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/build/kotlin/compileTestKotlin/cacheable/caches-jvm/lookups/file-to-id.tab.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/build/kotlin/compileTestKotlin/cacheable/caches-jvm/lookups/file-to-id.tab.values.at" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/build/kotlin/compileTestKotlin/cacheable/caches-jvm/lookups/file-to-id.tab_i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/build/kotlin/compileTestKotlin/cacheable/caches-jvm/lookups/file-to-id.tab_i.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/build/kotlin/compileTestKotlin/cacheable/caches-jvm/lookups/id-to-file.tab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/build/kotlin/compileTestKotlin/cacheable/caches-jvm/lookups/id-to-file.tab.keystream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/build/kotlin/compileTestKotlin/cacheable/caches-jvm/lookups/id-to-file.tab.keystream.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/build/kotlin/compileTestKotlin/cacheable/caches-jvm/lookups/id-to-file.tab.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/build/kotlin/compileTestKotlin/cacheable/caches-jvm/lookups/id-to-file.tab.values.at" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/build/kotlin/compileTestKotlin/cacheable/caches-jvm/lookups/lookups.tab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/build/kotlin/compileTestKotlin/cacheable/caches-jvm/lookups/lookups.tab.keystream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/build/kotlin/compileTestKotlin/cacheable/caches-jvm/lookups/lookups.tab.keystream.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/build/kotlin/compileTestKotlin/cacheable/caches-jvm/lookups/lookups.tab.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/build/kotlin/compileTestKotlin/cacheable/caches-jvm/lookups/lookups.tab.values.at" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/build/kotlin/compileTestKotlin/cacheable/caches-jvm/lookups/lookups.tab_i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/build/kotlin/compileTestKotlin/cacheable/caches-jvm/lookups/lookups.tab_i.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/build/kotlin/compileTestKotlin/cacheable/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/build/kotlin/compileTestKotlin/local-state/build-history.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/build/libs/Tarea1-CC3S2-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/build/reports/tests/test/classes/test.collective.SimpleAgedCacheTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/build/reports/tests/test/css/base-style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/build/reports/tests/test/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/build/reports/tests/test/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/build/reports/tests/test/js/report.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/build/reports/tests/test/packages/test.collective.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/build/test-results/test/TEST-test.collective.SimpleAgedCacheTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/build/test-results/test/binary/output.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/build/test-results/test/binary/output.bin.idx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/build/test-results/test/binary/results.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/build/tmp/compileTestJava/previous-compilation-data.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/build/tmp/jar/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/src/main/java/io/collective/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/src/main/java/io/collective/SimpleAgedCache.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/src/main/java/io/collective/TestClock.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/src/main/kotlin/io/collective/SimpleAgedKache.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/src/test/java/test/collective/SimpleAgedCacheTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/Tarea1-CC3S2/src/test/kotlin/test/collective/SimpleAgedKacheTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/image-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/image-10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/image-11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/image-12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/image-13.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/image-14.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/image-15.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/image-16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/image-17.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/image-18.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/image-19.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/image-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/image-20.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/image-21.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/image-22.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/image-23.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/image-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/image-4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/image-5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/image-6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/image-7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/image-8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/image-9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/image.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio2/LuisAzana2.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/5/05efc8b1657769a27696d478ded1e95f38737233" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/e/9e82270f5f1c944ed1d0050a043a00a99d990759" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/6/c6673667c4088c6fec3f5ec95661620e8718e282" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/0/d005bb88fe3cdd737ca0b6d4441dd079230804bd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/9/e906b13324eeb7ca2b1fb02f5cb762f049143ef5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/0/f07866736216be0ee2aba49e392191aeae700a35" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/0/5/05efc8b1657769a27696d478ded1e95f38737233" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/9/e/9e82270f5f1c944ed1d0050a043a00a99d990759" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/c/6/c6673667c4088c6fec3f5ec95661620e8718e282" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/d/0/d005bb88fe3cdd737ca0b6d4441dd079230804bd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/e/9/e906b13324eeb7ca2b1fb02f5cb762f049143ef5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/f/0/f07866736216be0ee2aba49e392191aeae700a35" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/com/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/skeleton/RunTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/skeleton/Stepdefs.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/Test.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LuisAzana3.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PracticaCalificada1-CC3S2.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Semana6/Actividad7-AnalisisEstatico/.gradle/7.4/checksums/checksums.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Semana6/Actividad7-AnalisisEstatico/.gradle/7.4/checksums/md5-checksums.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Semana6/Actividad7-AnalisisEstatico/.gradle/7.4/checksums/sha1-checksums.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Semana6/Actividad7-AnalisisEstatico/.gradle/7.4/dependencies-accessors/dependencies-accessors.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Semana6/Actividad7-AnalisisEstatico/.gradle/7.4/dependencies-accessors/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Semana6/Actividad7-AnalisisEstatico/.gradle/7.4/executionHistory/executionHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Semana6/Actividad7-AnalisisEstatico/.gradle/7.4/executionHistory/executionHistory.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Semana6/Actividad7-AnalisisEstatico/.gradle/7.4/fileChanges/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Semana6/Actividad7-AnalisisEstatico/.gradle/7.4/fileHashes/fileHashes.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Semana6/Actividad7-AnalisisEstatico/.gradle/7.4/fileHashes/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Semana6/Actividad7-AnalisisEstatico/.gradle/7.4/fileHashes/resourceHashesCache.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Semana6/Actividad7-AnalisisEstatico/.gradle/7.4/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Semana6/Actividad7-AnalisisEstatico/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Semana6/Actividad7-AnalisisEstatico/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Semana6/Actividad7-AnalisisEstatico/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Semana6/Actividad7-AnalisisEstatico/.gradle/file-system.probe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Semana6/Actividad7-AnalisisEstatico/.gradle/vcs-1/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Semana6/Actividad7-AnalisisEstatico/.gradle/vcsWorkingDirs/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Semana6/Actividad7-AnalisisEstatico/.gradle/workspace-id.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Semana6/Actividad7-AnalisisEstatico/.gradle/workspace-id.txt.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Semana6/Actividad7-AnalisisEstatico/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Semana6/Actividad7-AnalisisEstatico/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Semana6/Actividad7-AnalisisEstatico/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Semana6/Actividad7-AnalisisEstatico/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Semana6/Actividad7-AnalisisEstatico/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Semana6/Actividad7-AnalisisEstatico/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Semana6/Actividad7-AnalisisEstatico/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Semana6/Actividad7-AnalisisEstatico/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Semana6/Actividad7-AnalisisEstatico/.idea/sonarlint/issuestore/0/5/05efc8b1657769a27696d478ded1e95f38737233" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Semana6/Actividad7-AnalisisEstatico/.idea/sonarlint/issuestore/1/2/121f3fdf85d70191183e5458efef16b8418ddbd0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Semana6/Actividad7-AnalisisEstatico/.idea/sonarlint/issuestore/1/5/159522dbe662d3c95a8704fa0c8c6223d22d2bf7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Semana6/Actividad7-AnalisisEstatico/.idea/sonarlint/issuestore/2/a/2a45a911a8f1836b0b6c5b758962572012d8f8c3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Semana6/Actividad7-AnalisisEstatico/.idea/sonarlint/issuestore/3/f/3fa74c6d305258dc9037602e199573d7fdecccea" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Semana6/Actividad7-AnalisisEstatico/.idea/sonarlint/issuestore/4/3/43c05ff554643c38c57c583a7c5ad41a6f92b4b3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Semana6/Actividad7-AnalisisEstatico/.idea/sonarlint/issuestore/4/8/48c794012c96c3fa490138d12f6fb1c08cdcaf17" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Semana6/Actividad7-AnalisisEstatico/.idea/sonarlint/issuestore/5/b/5bbfa66edb4db3c7c33c5181f43510990d3307f9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Semana6/Actividad7-AnalisisEstatico/.idea/sonarlint/issuestore/a/a/aa48946b07a2658d7069f16c505c3a587ee118d0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Semana6/Actividad7-AnalisisEstatico/.idea/sonarlint/issuestore/b/0/b0426a68a0d8e8b04e1207fef01197d92d91fa20" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Semana6/Actividad7-AnalisisEstatico/.idea/sonarlint/issuestore/d/c/dc94626efd2e52d980c565668bf0281e79291304" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Semana6/Actividad7-AnalisisEstatico/.idea/sonarlint/issuestore/f/0/f07866736216be0ee2aba49e392191aeae700a35" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Semana6/Actividad7-AnalisisEstatico/.idea/sonarlint/issuestore/index.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Semana6/Actividad7-AnalisisEstatico/.idea/sonarlint/securityhotspotstore/0/5/05efc8b1657769a27696d478ded1e95f38737233" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Semana6/Actividad7-AnalisisEstatico/.idea/sonarlint/securityhotspotstore/1/2/121f3fdf85d70191183e5458efef16b8418ddbd0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Semana6/Actividad7-AnalisisEstatico/.idea/sonarlint/securityhotspotstore/1/5/159522dbe662d3c95a8704fa0c8c6223d22d2bf7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Semana6/Actividad7-AnalisisEstatico/.idea/sonarlint/securityhotspotstore/2/a/2a45a911a8f1836b0b6c5b758962572012d8f8c3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Semana6/Actividad7-AnalisisEstatico/.idea/sonarlint/securityhotspotstore/3/f/3fa74c6d305258dc9037602e199573d7fdecccea" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Semana6/Actividad7-AnalisisEstatico/.idea/sonarlint/securityhotspotstore/4/3/43c05ff554643c38c57c583a7c5ad41a6f92b4b3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Semana6/Actividad7-AnalisisEstatico/.idea/sonarlint/securityhotspotstore/4/8/48c794012c96c3fa490138d12f6fb1c08cdcaf17" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Semana6/Actividad7-AnalisisEstatico/.idea/sonarlint/securityhotspotstore/5/b/5bbfa66edb4db3c7c33c5181f43510990d3307f9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Semana6/Actividad7-AnalisisEstatico/.idea/sonarlint/securityhotspotstore/a/a/aa48946b07a2658d7069f16c505c3a587ee118d0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Semana6/Actividad7-AnalisisEstatico/.idea/sonarlint/securityhotspotstore/b/0/b0426a68a0d8e8b04e1207fef01197d92d91fa20" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Semana6/Actividad7-AnalisisEstatico/.idea/sonarlint/securityhotspotstore/d/c/dc94626efd2e52d980c565668bf0281e79291304" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Semana6/Actividad7-AnalisisEstatico/.idea/sonarlint/securityhotspotstore/f/0/f07866736216be0ee2aba49e392191aeae700a35" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Semana6/Actividad7-AnalisisEstatico/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Semana6/Actividad7-AnalisisEstatico/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Semana6/Actividad7-AnalisisEstatico/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Semana6/Actividad7-AnalisisEstatico/build/classes/java/main/Library.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Semana6/Actividad7-AnalisisEstatico/build/classes/java/main/microwave/DisplayController$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Semana6/Actividad7-AnalisisEstatico/build/classes/java/main/microwave/DisplayController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Semana6/Actividad7-AnalisisEstatico/build/classes/java/main/microwave/Microwave.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Semana6/Actividad7-AnalisisEstatico/build/classes/java/main/microwave/ModeController$Mode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Semana6/Actividad7-AnalisisEstatico/build/classes/java/main/microwave/ModeController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Semana6/Actividad7-AnalisisEstatico/build/classes/java/main/microwave/Preset.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Semana6/Actividad7-AnalisisEstatico/build/classes/java/test/LibraryTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Semana6/Actividad7-AnalisisEstatico/build/classes/java/test/microwave/RunCukesTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Semana6/Actividad7-AnalisisEstatico/build/classes/java/test/microwave/Stepdefs.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Semana6/Actividad7-AnalisisEstatico/build/resources/test/microwave/Microwave.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Semana6/Actividad7-AnalisisEstatico/build/resources/test/microwave/extra.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Semana6/Actividad7-AnalisisEstatico/build/sonar/.sonar_lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Semana6/Actividad7-AnalisisEstatico/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Semana6/Actividad7-AnalisisEstatico/build/tmp/compileTestJava/previous-compilation-data.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Semana6/Actividad7-AnalisisEstatico/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Semana6/Actividad7-AnalisisEstatico/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Semana6/Actividad7-AnalisisEstatico/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Semana6/Actividad7-AnalisisEstatico/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Semana6/Actividad7-AnalisisEstatico/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Semana6/Actividad7-AnalisisEstatico/src/main/java/Library.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Semana6/Actividad7-AnalisisEstatico/src/main/java/microwave/DisplayController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Semana6/Actividad7-AnalisisEstatico/src/main/java/microwave/Microwave.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Semana6/Actividad7-AnalisisEstatico/src/main/java/microwave/ModeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Semana6/Actividad7-AnalisisEstatico/src/main/java/microwave/Preset.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Semana6/Actividad7-AnalisisEstatico/src/test/java/LibraryTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Semana6/Actividad7-AnalisisEstatico/src/test/java/microwave/RunCukesTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Semana6/Actividad7-AnalisisEstatico/src/test/java/microwave/Stepdefs.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Semana6/Actividad7-AnalisisEstatico/src/test/resources/microwave/Microwave.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Semana6/Actividad7-AnalisisEstatico/src/test/resources/microwave/extra.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../semana1/ActividadJUNIT/.gradle/8.4/checksums/checksums.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../semana1/ActividadJUNIT/.gradle/8.4/dependencies-accessors/dependencies-accessors.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../semana1/ActividadJUNIT/.gradle/8.4/dependencies-accessors/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../semana1/ActividadJUNIT/.gradle/8.4/executionHistory/executionHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../semana1/ActividadJUNIT/.gradle/8.4/executionHistory/executionHistory.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../semana1/ActividadJUNIT/.gradle/8.4/fileChanges/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../semana1/ActividadJUNIT/.gradle/8.4/fileHashes/fileHashes.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../semana1/ActividadJUNIT/.gradle/8.4/fileHashes/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../semana1/ActividadJUNIT/.gradle/8.4/fileHashes/resourceHashesCache.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../semana1/ActividadJUNIT/.gradle/8.4/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../semana1/ActividadJUNIT/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../semana1/ActividadJUNIT/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../semana1/ActividadJUNIT/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../semana1/ActividadJUNIT/.gradle/file-system.probe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../semana1/ActividadJUNIT/.gradle/vcs-1/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../semana1/ActividadJUNIT/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../semana1/ActividadJUNIT/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../semana1/ActividadJUNIT/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../semana1/ActividadJUNIT/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../semana1/ActividadJUNIT/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../semana1/ActividadJUNIT/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../semana1/ActividadJUNIT/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../semana1/ActividadJUNIT/Test Results - MoneyIATest_cosntructorShouldThrowIAForInvalidAmount.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../semana1/ActividadJUNIT/Test Results - MoneyOneParamAnnotationTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../semana1/ActividadJUNIT/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../semana1/ActividadJUNIT/build/classes/java/main/org/example/Address.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../semana1/ActividadJUNIT/build/classes/java/main/org/example/Client.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../semana1/ActividadJUNIT/build/classes/java/main/org/example/Money.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../semana1/ActividadJUNIT/build/classes/java/test/org/example/ClientTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../semana1/ActividadJUNIT/build/classes/java/test/org/example/MoneyIATest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../semana1/ActividadJUNIT/build/classes/java/test/org/example/MoneyManyParamsAnnotationTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../semana1/ActividadJUNIT/build/classes/java/test/org/example/MoneyOneParamAnnotationTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../semana1/ActividadJUNIT/build/classes/java/test/org/example/MoneyTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../semana1/ActividadJUNIT/build/reports/tests/test/classes/org.example.ClientTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../semana1/ActividadJUNIT/build/reports/tests/test/classes/org.example.MoneyIATest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../semana1/ActividadJUNIT/build/reports/tests/test/classes/org.example.MoneyManyParamsAnnotationTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../semana1/ActividadJUNIT/build/reports/tests/test/classes/org.example.MoneyOneParamAnnotationTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../semana1/ActividadJUNIT/build/reports/tests/test/classes/org.example.MoneyTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../semana1/ActividadJUNIT/build/reports/tests/test/css/base-style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../semana1/ActividadJUNIT/build/reports/tests/test/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../semana1/ActividadJUNIT/build/reports/tests/test/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../semana1/ActividadJUNIT/build/reports/tests/test/js/report.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../semana1/ActividadJUNIT/build/reports/tests/test/packages/org.example.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../semana1/ActividadJUNIT/build/test-results/test/TEST-org.example.ClientTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../semana1/ActividadJUNIT/build/test-results/test/TEST-org.example.MoneyIATest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../semana1/ActividadJUNIT/build/test-results/test/TEST-org.example.MoneyManyParamsAnnotationTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../semana1/ActividadJUNIT/build/test-results/test/TEST-org.example.MoneyOneParamAnnotationTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../semana1/ActividadJUNIT/build/test-results/test/TEST-org.example.MoneyTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../semana1/ActividadJUNIT/build/test-results/test/binary/output.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../semana1/ActividadJUNIT/build/test-results/test/binary/output.bin.idx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../semana1/ActividadJUNIT/build/test-results/test/binary/results.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../semana1/ActividadJUNIT/build/tmp/compileJava/compileTransaction/stash-dir/Money_2.class.uniqueId0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../semana1/ActividadJUNIT/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../semana1/ActividadJUNIT/build/tmp/compileTestJava/compileTransaction/stash-dir/MoneyOneParamAnnotationTest.class.uniqueId0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../semana1/ActividadJUNIT/build/tmp/compileTestJava/previous-compilation-data.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../semana1/ActividadJUNIT/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../semana1/ActividadJUNIT/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../semana1/ActividadJUNIT/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../semana1/ActividadJUNIT/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../semana1/ActividadJUNIT/lib/assertj-core-3.23.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../semana1/ActividadJUNIT/lib/byte-buddy-1.12.10.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../semana1/ActividadJUNIT/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../semana1/ActividadJUNIT/src/main/java/org/example/Address.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../semana1/ActividadJUNIT/src/main/java/org/example/Client.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../semana1/ActividadJUNIT/src/main/java/org/example/Money.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../semana1/ActividadJUNIT/src/test/java/org/example/ClientTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../semana1/ActividadJUNIT/src/test/java/org/example/MoneyIATest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../semana1/ActividadJUNIT/src/test/java/org/example/MoneyManyParamsAnnotationTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../semana1/ActividadJUNIT/src/test/java/org/example/MoneyOneParamAnnotationTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../semana1/ActividadJUNIT/src/test/java/org/example/MoneyTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../semana1/ActividadPrimeraPruebaJUNIT5.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../semana1/WordGuess/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../semana1/WordGuess/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../semana1/WordGuess/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../semana1/WordGuess/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../semana1/WordGuess/.idea/sonarlint/issuestore/0/b/0ba1b9c7a4878802f938e331cc2d8a042087ec6b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../semana1/WordGuess/.idea/sonarlint/issuestore/3/3/334f78de0dd00a19eea37f6a408150c45f849c4a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../semana1/WordGuess/.idea/sonarlint/issuestore/5/f/5fb3906e1dcc28a17f4d163bb2520467bc1624bd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../semana1/WordGuess/.idea/sonarlint/issuestore/6/b/6b53f5a58a3a5508cad30285d52f55c1306a3c56" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../semana1/WordGuess/.idea/sonarlint/issuestore/7/7/77839dfe222f798b3ade16eace95beda0e4ef794" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../semana1/WordGuess/.idea/sonarlint/issuestore/e/0/e02c6c370eadab3c50075dfcb49714e6d706ab08" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../semana1/WordGuess/.idea/sonarlint/issuestore/e/2/e25853a83e0a24e0ca1b4e6f5dc0af32be926e12" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../semana1/WordGuess/.idea/sonarlint/issuestore/f/0/f07866736216be0ee2aba49e392191aeae700a35" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../semana1/WordGuess/.idea/sonarlint/issuestore/f/d/fdba169f796196d1ff0eab46dbcb6a94d12c52b3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../semana1/WordGuess/.idea/sonarlint/issuestore/index.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../semana1/WordGuess/.idea/sonarlint/securityhotspotstore/0/b/0ba1b9c7a4878802f938e331cc2d8a042087ec6b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../semana1/WordGuess/.idea/sonarlint/securityhotspotstore/3/3/334f78de0dd00a19eea37f6a408150c45f849c4a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../semana1/WordGuess/.idea/sonarlint/securityhotspotstore/5/f/5fb3906e1dcc28a17f4d163bb2520467bc1624bd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../semana1/WordGuess/.idea/sonarlint/securityhotspotstore/6/b/6b53f5a58a3a5508cad30285d52f55c1306a3c56" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../semana1/WordGuess/.idea/sonarlint/securityhotspotstore/7/7/77839dfe222f798b3ade16eace95beda0e4ef794" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../semana1/WordGuess/.idea/sonarlint/securityhotspotstore/e/0/e02c6c370eadab3c50075dfcb49714e6d706ab08" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../semana1/WordGuess/.idea/sonarlint/securityhotspotstore/e/2/e25853a83e0a24e0ca1b4e6f5dc0af32be926e12" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../semana1/WordGuess/.idea/sonarlint/securityhotspotstore/f/0/f07866736216be0ee2aba49e392191aeae700a35" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../semana1/WordGuess/.idea/sonarlint/securityhotspotstore/f/d/fdba169f796196d1ff0eab46dbcb6a94d12c52b3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../semana1/WordGuess/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../semana1/WordGuess/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../semana1/WordGuess/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../semana1/WordGuess/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../semana1/WordGuess/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../semana1/WordGuess/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../semana1/WordGuess/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../semana1/WordGuess/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../semana1/WordGuess/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../semana1/WordGuess/src/main/java/org/example/Letter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../semana1/WordGuess/src/main/java/org/example/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../semana1/WordGuess/src/main/java/org/example/Score.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../semana1/WordGuess/src/main/java/org/example/Word.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../semana1/WordGuess/src/test/java/org/example/RunWordguessTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../semana1/WordGuess/src/test/java/org/example/WordTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../semana1/WordGuess/src/test/java/org/example/WordTestDBB2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../semana1/WordGuess/src/test/resources/prueba.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../semana2/Actividad3/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../semana2/Actividad3/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../semana2/Actividad3/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../semana2/Actividad3/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../semana2/Actividad3/.idea/sonarlint/issuestore/0/5/05efc8b1657769a27696d478ded1e95f38737233" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../semana2/Actividad3/.idea/sonarlint/issuestore/0/b/0ba1b9c7a4878802f938e331cc2d8a042087ec6b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../semana2/Actividad3/.idea/sonarlint/issuestore/2/0/20d8b0b10af1ac97ede792a095d7536aab75a269" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../semana2/Actividad3/.idea/sonarlint/issuestore/d/d/ddf9d3f44eebbd90607904161f037b4aeea53ec5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../semana2/Actividad3/.idea/sonarlint/issuestore/f/0/f07866736216be0ee2aba49e392191aeae700a35" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../semana2/Actividad3/.idea/sonarlint/issuestore/f/0/f0b52ae48f6a5856eca6b8ef21ce640f1c74702b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../semana2/Actividad3/.idea/sonarlint/issuestore/index.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../semana2/Actividad3/.idea/sonarlint/securityhotspotstore/0/5/05efc8b1657769a27696d478ded1e95f38737233" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../semana2/Actividad3/.idea/sonarlint/securityhotspotstore/0/b/0ba1b9c7a4878802f938e331cc2d8a042087ec6b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../semana2/Actividad3/.idea/sonarlint/securityhotspotstore/2/0/20d8b0b10af1ac97ede792a095d7536aab75a269" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../semana2/Actividad3/.idea/sonarlint/securityhotspotstore/d/d/ddf9d3f44eebbd90607904161f037b4aeea53ec5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../semana2/Actividad3/.idea/sonarlint/securityhotspotstore/f/0/f07866736216be0ee2aba49e392191aeae700a35" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../semana2/Actividad3/.idea/sonarlint/securityhotspotstore/f/0/f0b52ae48f6a5856eca6b8ef21ce640f1c74702b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../semana2/Actividad3/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../semana2/Actividad3/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../semana2/Actividad3/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../semana2/Actividad3/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../semana2/Actividad3/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../semana2/Actividad3/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../semana2/Actividad3/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../semana2/Actividad3/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../semana2/Actividad3/src/main/java/org/example/Calculator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../semana2/Actividad3/src/main/java/org/example/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../semana2/Actividad3/src/main/java/org/example/NegativeNumberException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../semana2/Actividad3/src/test/java/org/example/CalculatorTest.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Ejercicio3" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2g9hoZgfhiLfce9HSAm8z3uCGrG" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Cucumber Java.Feature: Test.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Build Ejercicio3.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Ejercicio3.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.RunTest.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;/home/luis/Desktop/6to_ciclo/Desarrollo/Desarrollo_Personal_SSH/Desarrollo-Software/PC1_Solucion/PracticaCalificada1-CC3S2/Ejercicio3/Ejercicio3/src/main/java/org/example/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/resources" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Feature: Test" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/Test.feature" />
+      <option name="GLUE" value="skeleton" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="Ejercicio3.test" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: Test" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Cucumber Java.Feature: Test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4317e5ad-606c-46d9-b2bf-887cfe169b91" name="Changes" comment="" />
+      <created>1715115876743</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1715115876743</updated>
+      <workItem from="1715115877798" duration="3666000" />
+      <workItem from="1715121197673" duration="7261000" />
+      <workItem from="1715135601115" duration="1482000" />
+      <workItem from="1715137661195" duration="325000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
