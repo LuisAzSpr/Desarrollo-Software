@@ -1,0 +1,20 @@
+
+¬
+java:S1319"iThe type of "questions" should be an interface such as "List" rather than the implementation "ArrayList".(‘Ïàô8¬ôŠÆõ1J$85c82aea-0596-475a-b665-62d9f983ceff
+¶
+java:S1319"sThe type of "respuestasCorrectas" should be an interface such as "List" rather than the implementation "ArrayList".(‘Ïàô8×º‹Æõ1J$28e388b5-df3c-418d-a816-44ae44ae30c5
+Ä
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(é‚š8Ò‘ŠÆõ1J$040fb1ec-86db-4532-9b7c-bd513965831a
+Œ
+java:S1172"IRemove these unused method parameters "questions", "respuestasCorrectas".(‘Ïàô8¾ôŠÆõ1J$deb5deaf-c81f-43df-b383-a99877bf4433
+q
+java:S1068".Remove this unused "puntuacion" private field.(±¾¨Ë8Ü‘ŠÆõ1J$88006b82-226f-4c1f-b30c-ab900c2e2f10
+p
+java:S1068"-Remove this unused "numRondas" private field.(½ß¨ó8İ‘ŠÆõ1J$17e24128-b458-41d3-a514-4d53f9c3b922
+t
+java:S1068",Remove this unused "juegoFin" private field.(‘÷Öèÿÿÿÿÿ8Ş‘ŠÆõ1J$e7d10ba7-cba0-467c-a9b1-a0e900f89d73
+z
+java:S1068
+"7Remove this unused "respuestasCorrectas" private field.(Ø§¡ç8Ş‘ŠÆõ1J$7753e285-e820-4cd2-b1f1-76012b42d371
+p
+java:S1068"-Remove this unused "questions" private field.(Ï£÷±8ß‘ŠÆõ1J$d2be3169-413d-4966-b789-3834f1b2a829
