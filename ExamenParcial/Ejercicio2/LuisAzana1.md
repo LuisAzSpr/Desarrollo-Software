@@ -197,20 +197,43 @@ Podemos crear un metodo ImprimirResults que imprima los resultados en consola de
 
 ## Zona de preguntas
 
+----------------------
+
 1. ¿Cuáles son los elementos clave que se deben considerar al diseñar un juego de adivinanza de palabras como "Wordz"? ¿Cómo influyen los sistemas de retroalimentación en la experiencia del jugador en juegos de trivia o adivinanzas?
+
+Los elementos claves seria la arquitectura que se va a usar, el publico objetivo (quienes van a utilizar la aplicacion), como jugadores de wordz, etc, Los requisitos del publico objetivo.
+
+La retroalimentacion permite que el usuario final (jugador de wordz), pueda obtener el producto que quiere, ya que puede estar dando constantemente comentarios sobre como le parece el estado del producto.
+
 ----------------------
 
 
 2. Describe cómo el principio de "feedback continuo" en las metodologías ágiles podría aplicarse en el desarrollo del juego "Wordz".
+
+El feedback continuo ayudaria a diseñar una mejor aplicacion haciendo que los jugadores puedan probar una parte del juego o puedan aportar opiniones (capturadas como requisitos),como por ejemplo:
+
+- Como jugador de Wordz me gustaria ver los resultados en cada letra para determinar que tan lejos estoy de la palabra a adivinar.
+
+--------------------------
+
+3. ¿Cuáles son algunas características nuevas de JUnit 5 que lo hacen adecuado para pruebas unitarias en proyectos Java modernos? ¿Cómo se podría diseñar una suite de pruebas unitarias para validar la lógica de puntuación en "Wordz"?
+
+JUnit5 permite poder usar pruebas parametrizadas, lo cual puede hacer que nuestro codigo sea mas corto y facil de leer evaluando al mismo tiempo multiples posibilidades.
+
+Para validar la puntuacion podriamos usar un test que dado una palabra correcta y una lista de palabras de adivinanza, de tal forma que si la palabra correcta se encuentra en la posicion i de la lista, entonces el resultado seria 6-i (ya que se tienen 6 intentos) y si no se encuentra debe ser 0, por lo que deberiamos implementar un assert que verifique ese puntaje correcto.
+
 ----------------------
 
+4. ¿Por qué es importante la refactorización en el desarrollo continuo de un juego y cómo puede afectar la mantenibilidad del código? Proporciona un ejemplo de cómo podrías refactorizar un método complejo en el juego "Wordz" para mejorar la claridad y eficiencia.
 
-3. ¿Cuáles son algunas características nuevas de JUnit 5 que lo hacen adecuado para pruebas
-unitarias en proyectos Java modernos? ¿Cómo se podría diseñar una suite de pruebas
-unitarias para validar la lógica de puntuación en "Wordz"?
-----------------------
+Como vimos anteriormente teniamos este metodo ...
 
-4. ¿Por qué es importante la refactorización en el desarrollo continuo de un juego y cómo
-puede afectar la mantenibilidad del código? Proporciona un ejemplo de cómo podrías
-refactorizar un método complejo en el juego "Wordz" para mejorar la claridad y eficiencia.
+![alt text](image-9.png)
+
+que fue refactorizar de esta forma...
+
+que como podemos ver es mucho mas claro y legible
+
+![alt text](image-10.png)
+
 ----------------------
