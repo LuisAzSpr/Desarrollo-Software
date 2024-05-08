@@ -134,7 +134,7 @@ Podemos ver que ahora si pasa!!
 
 Podemos agregar la prueba del ciclo anterior para ver que todo funciona correctamente (nada se ha roto)...
 
-![alt text](image.png)
+![alt text](Imagenes2/image.png)
 
  <span style="color:blue;">3. Refactor</span>
 
