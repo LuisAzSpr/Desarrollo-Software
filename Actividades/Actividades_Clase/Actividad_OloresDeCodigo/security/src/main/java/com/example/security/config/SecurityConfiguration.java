@@ -1,5 +1,6 @@
 package com.example.security.config;
 
+import com.example.security.repository.user.Role;
 import lombok.RequiredArgsConstructor;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -25,17 +26,18 @@ public class SecurityConfiguration {
                 .csrf()
                 .disable()
                 .authorizeHttpRequests()
-                .requestMatchers("/api/v1/auth/**")
-                .permitAll() // permitimos todos las solicitudes a las rutas que empiecen con api/v1/auth/...
-                .anyRequest() // cualquier otra tiene que ser autenticada
-                .authenticated()
+                .requestMatchers("/api/v1/auth/**").permitAll() // permitimos todos las solicitudes a las rutas que empiecen con api/v1/auth/...
+                .requestMatchers("/api/v1/admin/**").hasRole("ADMIN")
+                .requestMatchers("/api/v1/user/**").hasRole("USER")
+                .anyRequest()
+                .authenticated() // cualquier otra tiene que ser autenticada
                 .and()
                 .sessionManagement()
                 .sessionCreationPolicy(SessionCreationPolicy.STATELESS)
                 .and()
                 .authenticationProvider(authenticationProvider)
                 .addFilterBefore(jwtAuthFilter, UsernamePasswordAuthenticationFilter.class); // se utiliza el contexto de s
-
         return http.build();
     }
 }
+

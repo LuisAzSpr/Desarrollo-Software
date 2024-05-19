@@ -1,7 +1,7 @@
 package com.example.security.repository.user;
 
 
-import com.example.security.repository.user.Role;
+import com.example.security.repository.sale.Sale;
 import jakarta.persistence.*;
 import jakarta.validation.constraints.Email;
 import lombok.AllArgsConstructor;
@@ -25,7 +25,7 @@ import java.util.List;
 public class User implements UserDetails {
 
     @Id
-    @GeneratedValue
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
 
     @Column(unique = true)
@@ -42,6 +42,9 @@ public class User implements UserDetails {
 
     @Enumerated(EnumType.STRING)
     private Role role;
+
+    @OneToMany(mappedBy = "user", cascade = CascadeType.ALL)
+    private List<Sale> sales;
 
     @Override
     public Collection<? extends GrantedAuthority> getAuthorities() {

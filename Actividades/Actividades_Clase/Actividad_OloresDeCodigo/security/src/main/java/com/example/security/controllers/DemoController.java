@@ -13,14 +13,14 @@ import org.springframework.web.bind.annotation.RestController;
 // endpoints protegidos
 @RestController
 @RequiredArgsConstructor
-@RequestMapping("/api/v1/demo-controller")
+@RequestMapping("/api/v1/user")
 public class DemoController {
 
     private final LogOut logOut;
 
     @GetMapping("/hello")
     public ResponseEntity<String>hello(HttpServletRequest request){
-        return ResponseEntity.ok("buenas .... ");
+    return ResponseEntity.ok("buenas .... ");
     }
 
     @PostMapping("/logout") // para cerrar sesion

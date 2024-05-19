@@ -7,8 +7,8 @@ import com.example.security.repository.token.TokenRepository;
 import com.example.security.repository.user.User;
 
 import com.example.security.repository.user.UserRepository;
-import com.example.security.requests.AuthenticationRequest;
-import com.example.security.requests.AuthenticationResponse;
+import com.example.security.requests.sessionrequests.AuthenticationRequest;
+import com.example.security.requests.sessionrequests.AuthenticationResponse;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;

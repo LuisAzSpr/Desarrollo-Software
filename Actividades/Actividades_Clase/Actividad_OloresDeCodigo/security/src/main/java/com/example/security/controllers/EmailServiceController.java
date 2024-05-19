@@ -4,17 +4,19 @@ package com.example.security.controllers;
 import com.example.security.messages.emailmessage.SendEmail;
 import com.example.security.messages.emailmessage.sendemails.SendEmailBuy;
 import com.example.security.messages.emailmessage.sendemails.SendEmailConfirm;
-import com.example.security.requests.Message;
+import com.example.security.requests.sessionrequests.Message;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.mail.javamail.JavaMailSender;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import com.example.security.repository.user.UserRepository;
 
 @RestController
+@RequestMapping("/api/v1/user/email")
 public class EmailServiceController {
 
     @Autowired

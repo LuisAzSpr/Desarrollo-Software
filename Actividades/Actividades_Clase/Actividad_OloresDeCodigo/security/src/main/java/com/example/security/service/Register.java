@@ -10,8 +10,8 @@ import com.example.security.repository.token.TokenRepository;
 import com.example.security.repository.user.Role;
 import com.example.security.repository.user.User;
 import com.example.security.repository.user.UserRepository;
-import com.example.security.requests.AuthenticationResponse;
-import com.example.security.requests.RegisterRequest;
+import com.example.security.requests.sessionrequests.AuthenticationResponse;
+import com.example.security.requests.sessionrequests.RegisterRequest;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
@@ -38,7 +38,7 @@ public class Register {
                 .email(request.getEmail())
                 .number(request.getNumber())
                 .password(passwordEncoder.encode(request.getPassword())) // codifica la contrasena
-                .role(Role.USER)
+                .role(Role.ROLE_USER)
                 .build();
         repository.save(user);
         String jwtToken = procesarToken(user);

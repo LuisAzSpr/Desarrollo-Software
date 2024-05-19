@@ -1,4 +1,7 @@
 package com.example.security.repository.sale;
 
-public class SaleRepository {
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface SaleRepository extends JpaRepository<Sale,Integer> {
+
 }

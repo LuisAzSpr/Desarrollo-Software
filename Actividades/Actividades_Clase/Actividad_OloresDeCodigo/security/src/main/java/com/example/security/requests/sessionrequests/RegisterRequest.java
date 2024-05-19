@@ -1,4 +1,4 @@
-package com.example.security.requests;
+package com.example.security.requests.sessionrequests;
 
 
 import lombok.AllArgsConstructor;

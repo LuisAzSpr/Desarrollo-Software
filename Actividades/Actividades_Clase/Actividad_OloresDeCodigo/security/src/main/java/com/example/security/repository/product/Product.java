@@ -14,23 +14,32 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @Entity
 @Table(name="products")
-public class ProductEntity {
+public class Product {
 
     @Id
-    @GeneratedValue
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "id")
     private Integer id;
 
-    @Column(unique = true)
-    private String productName;
+    @Column(unique = true,name="productname")
+    private String productname;
 
+    @Column(name="description")
+    private String description;
+
+    @Column(name="url")
+    private String url;
+
+    @Column(name="price")
     @NotNull
     @Positive
     private float price;
 
+    @Column(name="number")
     @NotNull
     @Positive
     private int number;
 
-    @NotNull
+    @Column(name="type")
     private Type typeOfProduct;
 }

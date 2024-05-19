@@ -1,6 +1,6 @@
 package com.example.security.repository.sale;
 
-import com.example.security.repository.product.ProductEntity;
+import com.example.security.repository.product.Product;
 import com.example.security.repository.user.User;
 import jakarta.persistence.*;
 import jakarta.validation.constraints.NotNull;
@@ -11,6 +11,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import java.time.LocalDateTime;
+import java.util.List;
 
 @Data
 @Builder
@@ -18,19 +19,23 @@ import java.time.LocalDateTime;
 @AllArgsConstructor
 @Entity
 @Table(name="sales")
-public class SaleEntity {
+public class Sale {
 
     @Id
-    @GeneratedValue
-    private int id;
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Integer id;
 
     @ManyToOne
     @JoinColumn(name = "user_id", nullable = false)
     private User user;
 
-    @ManyToOne
-    @JoinColumn(name = "product_id", nullable = false)
-    private ProductEntity product;
+    @ManyToMany
+    @JoinTable(
+            name = "sales_products",
+            joinColumns = @JoinColumn(name = "sale_id"),
+            inverseJoinColumns = @JoinColumn(name = "product_id")
+    )
+    private List<Product> productos;
 
     @NotNull
     @Positive

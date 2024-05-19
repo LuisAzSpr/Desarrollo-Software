@@ -1,7 +1,7 @@
 package com.example.security.config;
 
 import com.example.security.repository.user.UserRepository;
-import lombok.RequiredArgsConstructor;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.authentication.AuthenticationManager;
@@ -14,10 +14,10 @@ import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 
 @Configuration
-@RequiredArgsConstructor
 public class ApplicationConfig {
 
-    private final UserRepository repository;
+    @Autowired
+    private UserRepository repository;
 
     // verifica si el usuario se encuentra en la base de datos
     @Bean
