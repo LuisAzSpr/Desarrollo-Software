@@ -1,57 +1,52 @@
 package com.example.security.controllers;
 
 
-import com.example.security.Repository.User;
-import com.example.security.Repository.UserRepository;
-import com.example.security.Requests.Message;
-import com.example.security.Service.FormatValidatorService;
-import lombok.AllArgsConstructor;
+import com.example.security.messages.emailmessage.SendEmail;
+import com.example.security.messages.emailmessage.sendemails.SendEmailBuy;
+import com.example.security.messages.emailmessage.sendemails.SendEmailConfirm;
+import com.example.security.requests.Message;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.mail.SimpleMailMessage;
 import org.springframework.mail.javamail.JavaMailSender;
-import org.springframework.security.core.context.SecurityContextHolder;
-import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
-import org.springframework.security.core.Authentication;
+import com.example.security.repository.user.UserRepository;
 
-@AllArgsConstructor
 @RestController
 public class EmailServiceController {
 
-    private JavaMailSender mail;
+    @Autowired
+    private JavaMailSender javaMailSender;
+    @Autowired
+    private UserRepository userRepository;
+    private SendEmail sendEmail;
 
-    private final UserDetailsService userDetailsService;
-    private final UserRepository userRepository;
-    private final FormatValidatorService validatorService = new FormatValidatorService();
-
-    @PostMapping("/sendEmail")
-    public ResponseEntity<String> sendEmail(@RequestBody Message message) {
-        String userEmail = "";
+    @PostMapping("/sendEmailBuy")
+    public ResponseEntity<String> sendingEmailBuy(@RequestBody Message message) {
         try{
-            Authentication authentication = SecurityContextHolder.getContext().getAuthentication();
-            String username = authentication.getName();
-            User user = userRepository.findByUsername(username).orElseThrow(null);
-            userEmail  = user.getEmail();
-            SimpleMailMessage email = new SimpleMailMessage();
-            String messageBody  = message.getMessageBody();
-            System.out.println(messageBody);
-            email.setTo(userEmail);
-            email.setFrom("luisazanavega@outlook.es");
-            email.setSubject("Mensaje de prueba");
-            email.setText(messageBody);
-            System.out.println("Textooo: "+email.getText());
-            mail.send(email);
-            return new ResponseEntity<>("Email sent successfully to " + userEmail,
+            sendEmail = new SendEmailBuy(javaMailSender,userRepository);
+            sendEmail.sendingEmail();
+            return new ResponseEntity<>("Email sent successfully",
                     HttpStatus.OK);
         }catch(Exception e){
-            System.out.println(e.getMessage());
-            return new ResponseEntity<>("Failed to send email to " + userEmail,
-                    HttpStatus.OK);
+            return new ResponseEntity<>("Failed to send email "+e.getMessage(),
+                    HttpStatus.NOT_FOUND);
         }
+    }
 
+    @PostMapping("/sendEmailConfirm")
+    public ResponseEntity<String> sendingEmailConfirm(@RequestBody Message message) {
+        try{
+            sendEmail = new SendEmailConfirm(javaMailSender,userRepository);
+            sendEmail.sendingEmail();
+            return new ResponseEntity<>("Email sent successfully",
+                    HttpStatus.OK);
+        }catch(Exception e){
+            return new ResponseEntity<>("Failed to send email to ",
+                    HttpStatus.NOT_FOUND);
+        }
     }
 
 }

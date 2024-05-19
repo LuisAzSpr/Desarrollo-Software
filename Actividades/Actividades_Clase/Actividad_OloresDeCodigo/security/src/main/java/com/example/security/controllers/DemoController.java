@@ -1,6 +1,6 @@
 package com.example.security.controllers;
 
-import com.example.security.Service.AuthenticationService;
+import com.example.security.service.LogOut;
 import jakarta.servlet.http.HttpServletRequest;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/api/v1/demo-controller")
 public class DemoController {
 
-    private final AuthenticationService service;
+    private final LogOut logOut;
 
     @GetMapping("/hello")
     public ResponseEntity<String>hello(HttpServletRequest request){
@@ -25,7 +25,7 @@ public class DemoController {
 
     @PostMapping("/logout") // para cerrar sesion
     public ResponseEntity<String> logout(HttpServletRequest request){
-        return ResponseEntity.ok(service.logOut(request));
+        return ResponseEntity.ok(logOut.logOut(request));
     }
 
 }

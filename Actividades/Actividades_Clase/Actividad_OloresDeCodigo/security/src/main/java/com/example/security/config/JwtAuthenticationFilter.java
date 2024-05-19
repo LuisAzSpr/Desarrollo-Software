@@ -1,6 +1,6 @@
 package com.example.security.config;
 
-import com.example.security.Service.JwtService;
+import com.example.security.service.JwtService;
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServletRequest;
@@ -14,7 +14,6 @@ import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.web.authentication.WebAuthenticationDetailsSource;
 import org.springframework.stereotype.Component;
 import org.springframework.web.filter.OncePerRequestFilter;
-
 import java.io.IOException;
 
 
@@ -41,34 +40,52 @@ public class JwtAuthenticationFilter extends OncePerRequestFilter {
             final String username;
 
             // verifica si la cabecera es no nula y si es no nula verifica si empieza con Bearer (campo usado para un jwt)
-            if(authHeader==null || !authHeader.startsWith("Bearer ")){
+            if(cabeceraNoValida(authHeader)){
                 // si no es asi solo retornamos
                 filterChain.doFilter(request,response);
                 return;
             }
-            // si cumple con los condiciones anteriores quiere decir que existe un token, por lo que lo extraemos
+
             jwt = authHeader.substring(7);
-            // extrae el nombre de usuario del token
             username = jwtService.extractUsername(jwt);
+
             //verifica que el usuario sea no nulo y no exista un contexto de seguridad
-            if(username!=null && SecurityContextHolder.getContext().getAuthentication()==null){
+            if(validarContextoSeguridad(username)){
                 UserDetails userDetails = this.userDetailsService.loadUserByUsername(username);
-                if(jwtService.isTokenValid(jwt,userDetails)){
-                    //  establece un contexto de seguridad para el usuario
-                    UsernamePasswordAuthenticationToken authToken = new UsernamePasswordAuthenticationToken(
-                            userDetails,
-                            null,
-                            userDetails.getAuthorities()
-                    );
-                    // guarda los detalles de la authenticacion en authToken
-                    authToken.setDetails(
-                            new WebAuthenticationDetailsSource().buildDetails(request)
-                    );
-                    // guarda el contexto de seguridad de ese usuario
-                     SecurityContextHolder.getContext().setAuthentication(authToken);
+                if(jwtService.isTokenValid(jwt,userDetails)) { // si el token es valido se establece el contexto de seguridad
+                    establecerContextoDeSeguridad(request,userDetails);
                 }
             }
             filterChain.doFilter(request,response);
     }
+
+
+    private boolean cabeceraNoValida(String authHeader){
+        return authHeader==null ||
+                !authHeader.startsWith("Bearer ");
+    }
+
+    private boolean validarContextoSeguridad(String username){
+        return username!=null &&
+                SecurityContextHolder.getContext().getAuthentication()==null;
+    }
+
+
+    private void establecerContextoDeSeguridad(@NonNull HttpServletRequest request,UserDetails userDetails){
+        //  establece un contexto de seguridad para el usuario
+        UsernamePasswordAuthenticationToken authenticationToken = new UsernamePasswordAuthenticationToken(
+                userDetails,
+                null,
+                userDetails.getAuthorities()
+        );
+        // guarda los detalles de la authenticacion en authToken
+        authenticationToken.setDetails(
+                new WebAuthenticationDetailsSource().buildDetails(request)
+        );
+        // guarda el contexto de seguridad de ese usuario
+        SecurityContextHolder.getContext().setAuthentication(authenticationToken);
+    }
+
+
 
 }
