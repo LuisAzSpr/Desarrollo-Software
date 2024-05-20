@@ -28,7 +28,7 @@ public class Main {
         q2.agregarRespuestas(respuestas);
         q3.agregarRespuestas(respuestas);
 
-        // agregamos cada  question a cada pregunta 
+        // agregamos cada  question a cada pregunta
         questions.add(q1);
         questions.add(q2);
         questions.add(q3);

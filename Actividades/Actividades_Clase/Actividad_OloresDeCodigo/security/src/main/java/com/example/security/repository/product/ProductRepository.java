@@ -9,27 +9,44 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Optional;
 
 @Repository
-public class ProductRepository {
-
+public class ProductRepository{
     private JdbcTemplate template;
-    private static Integer id = 0;
-
     @Autowired
     public ProductRepository(JdbcTemplate template){this.template = template;}
 
     public void save(Product product) {
-        String sql = "INSERT INTO products (id,productname, description, url, price, number,type) VALUES (?,?,?,?,?,?,?)";
+        String sql = "INSERT INTO products (productname, description, url, price, number,type) VALUES (?,?,?,?,?,?)";
         try {
-            template.update(sql,id,product.getProductname(), product.getDescription(), product.getUrl(), product.getPrice(),
+            template.update(sql,product.getProductname(), product.getDescription(), product.getUrl(), product.getPrice(),
                     product.getNumber(),product.getTypeOfProduct().ordinal());
-            id++;
         } catch (DataAccessException e) {
-            // Registrar el error
-            System.err.println("Error al ejecutar la sentencia SQL: " + e.getMessage());
             e.printStackTrace();
-            throw e; // Re-lanzar la excepción si es necesario
+            throw e;
+        }
+    }
+
+    public void update(Product product){
+        String sql = "UPDATE products SET productname = ?, description = ?, url = ?, price = ?, number = ?, type = ? WHERE id = ?";
+        try{
+            template.update(sql,product.getProductname(),product.getDescription(),product.getUrl(),product.getPrice(),
+                    product.getNumber(),product.getTypeOfProduct(),product.getId());
+        }
+        catch(DataAccessException e){
+            e.printStackTrace();
+            throw e;
+        }
+    }
+
+    public void delete(Integer idProduct){
+        String sql = "DELETE FROM products WHERE id = ?";
+        try{
+            template.update(sql,idProduct);
+        }catch (DataAccessException e){
+            e.printStackTrace();
+            throw e;
         }
     }
 
@@ -40,23 +57,22 @@ public class ProductRepository {
             RowMapper<Product> productRowMapper = new ProductMapper();
             products = template.query(sql, productRowMapper);
         }catch (DataAccessException e) {
-            // Registrar el error
-            System.err.println("Error al ejecutar la sentencia SQL: " + e.getMessage());
             e.printStackTrace();
-            throw e; // Re-lanzar la excepción si es necesario
+            throw e;
         }
         return products;
     }
 
-    public List<Product> findAllTypeOfProducto(Type typeOfProduct){
-        List<Product> selectedProducts = new ArrayList<>();
-        List<Product> products = findAll();
-        for(Product product:products){
-            if(product.getTypeOfProduct().equals(typeOfProduct)){
-                selectedProducts.add(product);
-            }
-        }
-        return selectedProducts;
+    // encuentra producto por id
+    public Optional<Product> findById(Integer id){
+        String sql = "SELECT * FROM products WHERE id=?";
+        return template.query(sql,new ProductMapper(),id).stream().findFirst();
+    }
+
+    // encuentra por nombre
+    public Optional<Product> findByName(String productname){
+        String sql = "SELECT * FROM products WHERE productname=?";
+        return template.query(sql,new ProductMapper(),productname).stream().findFirst();
     }
 
     // mapea una fila de una tabla (en este caso la tabla productos) a un
@@ -65,6 +81,7 @@ public class ProductRepository {
         @Override
         public Product mapRow(ResultSet rs, int rowNum) throws SQLException {
             return Product.builder()
+                    .id(rs.getInt("id"))
                     .productname(rs.getString("productname"))
                     .description(rs.getString("description"))
                     .url(rs.getString("url"))

@@ -1,0 +1,9 @@
+
+ˆ
+java:S1192H"FDefine a constant instead of duplicating this literal "salas" 3 times.(ù£Ş>8ğ¥í¸ù1J$2e4415cc-de65-467e-8f6a-dc6598744cca
+˜
+java:S11493"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(ƒÿƒ—ùÿÿÿÿ8¦í¸ù1J$e11d248c-087e-46c7-9120-93c3b8ffeed8
+˜
+java:S11493"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(ƒÿƒ—ùÿÿÿÿ8‘¦í¸ù1J$400bbde9-8a97-4f99-968e-750907006e2f
+r	java:S106M"+Replace this use of System.out by a logger.(ß·¦¤ıÿÿÿÿ8š¦í¸ù1J$02b5caa5-0705-4356-88dd-485150b31268
+}	java:S125T"<This block of commented-out lines of code should be removed.(ù£Ş>8š¦í¸ù1J$4d44b4c3-cca0-4a0a-9ee2-be2bddd497ea

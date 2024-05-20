@@ -26,36 +26,6 @@ public class AuthenticationController {
     private UserRepository userRepository;
     private final PasswordEncoder passwordEncoder;
 
-    @PostMapping("/Add")
-    public ResponseEntity<String> agregarUsuario(HttpServletRequest request){
-        try{
-            userRepository.save(User.builder().username("LuisAzSpr").email("Luisazanavega@gmail.com").password("LuisAzSpr123").role(Role.ROLE_USER).build());
-            return ResponseEntity.ok("Agregado");
-        }
-        catch(Exception e){
-            System.out.println(e.getMessage()+"\n"+e.getClass());
-            return ResponseEntity.ok(e.getClass()+"\n"+e.getMessage());
-        }
-
-    }
-
-    @PostMapping("/inicializar")
-    public ResponseEntity<String> inicializando(HttpServletRequest request){
-        try{
-            userRepository.save(User.builder()
-                    .email("luisazanavega@gmail.com")
-                    .username("LuisAzSpr")
-                    .password(passwordEncoder.encode("LuisAzSpr123"))
-                    .role(Role.ROLE_ADMIN)
-                    .number("934354321")
-                    .build());
-            return ResponseEntity.ok("Se registro al admin inicial correctamente");
-        }
-        catch (Exception e){
-            return ResponseEntity.ok("NO se pudo registrar al admin inicial correctamente "+e.getMessage());
-        }
-    }
-
     @PostMapping("/register") // registrarse
     public ResponseEntity<AuthenticationResponse> register(
             @RequestBody RegisterRequest request

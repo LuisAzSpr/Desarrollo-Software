@@ -26,7 +26,7 @@ public class AdminController {
         }
     }
 
-    @GetMapping("/listar")
+    @GetMapping("/list")
     public ResponseEntity<List<Product>> addNewProduct(){
         try{
             return ResponseEntity.ok(productRepository.findAll());
@@ -36,11 +36,16 @@ public class AdminController {
         }
     }
 
-    /*
-    @PostMapping("/addProduct")
-    public ResponseEntity<Integer> addProduct(@RequestBody Integer integer){
-
-    }*/
+    @GetMapping("/getProduct")
+    public ResponseEntity<Product> obtenerProducto(@RequestParam Integer id){
+        try{
+            return ResponseEntity.ok(productRepository.findById(id).
+                    orElseThrow(()->new Exception("Not found user with this id")));
+        }catch (Exception e){
+            System.out.println(e.getClass()+"\n"+e.getMessage()+"\n"+e.getCause());
+            return ResponseEntity.ok(null);
+        }
+    }
 
 
 }

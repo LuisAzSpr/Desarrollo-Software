@@ -59,7 +59,7 @@ La siguiente refactorizacion seria convertir position en una variable de instanc
 
 Ahora una parte importante en cada paso de refactorizacion anterior es verificar si todo continua en verde despues de realizar cada refactorizacion, si no hemos roto algo a la hora de refactorizar, por lo que corramos de nuevo las pruebas y verifiquemos...
 
-En efecto... podemos ver que siguen en verde!! y ahora tenemos un codigo mas limpio por lo que podemos decir que estamos en azul:) ...
+En efecto... podemos ver que siguen en verde!! y ahora tenemos un codigo mas limpio :) ...
 
 ![alt text](Imagenes/image-11.png)
 
@@ -132,7 +132,7 @@ Podemos ver que ahora si pasa!!
 
 
 
- <span style="color:blue;">3. BLUE</span>
+ <span style="color:blue;">3. Refactor</span>
 
 
 Una vez hemos hecho que todas las pruebas pasen, toca refactorizar un poco...
@@ -152,7 +152,7 @@ Al final nuestro codigo de prueba se encuentra asi...
 
 Ahora toca verificar que todo sigue en verde y no hayamos roto nada ...
 
-Sigue en verde!! (estamos en azul)
+Sigue en verde!!
 
 ![alt text](Imagenes/image-28.png)
 

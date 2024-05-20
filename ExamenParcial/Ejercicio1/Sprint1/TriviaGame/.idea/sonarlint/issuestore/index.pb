@@ -3,8 +3,6 @@
 build.gradle,f/0/f07866736216be0ee2aba49e392191aeae700a35
 S
 #src/main/java/org/example/Main.java,0/b/0ba1b9c7a4878802f938e331cc2d8a042087ec6b
-T
-$src/main/java/org/example/Quizz.java,1/6/1647c76ae0d9a2fba308e6308fc08251b06ad18c
 S
 #src/main/java/org/example/Quiz.java,b/d/bd7977f8da577e6ed2bd16199cf63e9f3282140b
 U
