@@ -2,17 +2,17 @@
 
 Podemos notar que existen 2 atributos, ademas podemos apreciar que cada metodo de esta clase solo usa un atributo de la misma, por lo que considerando eso, deberia existir un LCOM4 = 2, (numero de componentes conectadas)
 
-![alt text](image.png)
+![alt text](Imagenes/image.png)
 
 Comprobemos esto mediante la clase que hemos implementado
 
 
-![alt text](image-2.png)
-![alt text](image-1.png)
+![alt text](Imagenes/image-2.png)
+![alt text](Imagenes/image-1.png)
 
 Como el **LCOM4 = 2**, podemos separar esta clase en 2 clases de tal forma aumentamos la cohesion en nuestro codigo.
 
-![alt text](image-3.png)
+![alt text](Imagenes/image-3.png)
 
 #### Podemos notar que hay dos grupo de metodos:
 
@@ -24,22 +24,22 @@ Como el **LCOM4 = 2**, podemos separar esta clase en 2 clases de tal forma aumen
 
 1. **Una que se encargue del manejo de salas**
 
-![alt text](image-4.png)
+![alt text](Imagenes/image-4.png)
 
 Veamos ahora su LCOM4 
 
-![alt text](image-9.png)
-![alt text](image-8.png)
+![alt text](Imagenes/image-9.png)
+![alt text](Imagenes/image-8.png)
 
 
 2. **Una que se encargue del manejo de peliculas**
 
-![alt text](image-5.png)
+![alt text](Imagenes/image-5.png)
 
 Veamos ahora su LCOM4 
 
-![alt text](image-6.png)
-![alt text](image-7.png)
+![alt text](Imagenes/image-6.png)
+![alt text](Imagenes/image-7.png)
 
 
 # Actividad Metricas de calidad II
