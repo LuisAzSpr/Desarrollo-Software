@@ -1,0 +1,17 @@
+
+m
+java:S1301$"KReplace this "switch" statement by "if" statements to increase readability.(¶ŸİÔùÿÿÿÿ8›àßğù1
+G	java:S106"+Replace this use of System.out by a logger.(“ğÿé8§àßğù1
+]
+java:S1854"";Remove this useless assignment to local variable "scanner".(ù ƒ‘üÿÿÿÿ8©àßğù1
+V
+java:S1854)"9Remove this useless assignment to local variable "width".(ãÏÆ´8©àßğù1
+W
+java:S1854*":Remove this useless assignment to local variable "height".(Ê×ÊÎ8©àßğù1
+N
+java:S1481"",Remove this unused "scanner" local variable.(ù ƒ‘üÿÿÿÿ8ªàßğù1
+C	java:S131$""Add a default case to this switch.(¶ŸİÔùÿÿÿÿ8«àßğù1
+G
+java:S1481)"*Remove this unused "width" local variable.(ãÏÆ´8¬àßğù1
+H
+java:S1481*"+Remove this unused "height" local variable.(Ê×ÊÎ8­àßğù1
