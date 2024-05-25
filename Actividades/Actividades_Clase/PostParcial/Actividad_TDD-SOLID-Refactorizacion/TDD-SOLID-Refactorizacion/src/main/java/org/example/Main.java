@@ -16,39 +16,42 @@ public class Main {
         Graphics g = new ConsoleGraphics();
         Shapes shapes = new Shapes(g);
         Scanner scanner = new Scanner(System.in);
+        Shape shape = null;
         String tipo = "";
         do{
             System.out.print("Ingrese el tipo de figura: ");
             tipo = scanner.nextLine();
+            System.out.print("Ingrese sus parametros: ");
             String parametros = scanner.nextLine();
-            Shape shape = mapear(tipo,parametros);
+            shape = mapear(tipo,parametros);
             shapes.setShape(shape);
-        }while(!tipo.equals("end"));
-
-
+            shapes.draw();
+            System.out.println("\n");
+        }while(shape!=null);
         shapes.draw();
-
     }
 
+
     private static Shape mapear(String tipo,String parametros){
-        Scanner scanner = new Scanner(System.in);
         try{
             switch (tipo){
                 case "Circle":
                     int radius = Integer.parseInt(parametros);
                     return new Circle(radius);
                 case "Rectangle":
-                    int width =  parametros.indexOf(0);
-                    int height  = Integer.parseInt(parametros.indexOf(2));
-
-
-
+                    int width =  parametros.charAt(0) - 48;
+                    int height  = parametros.charAt(2) - 48;
+                    return new Rectangle(width,height);
+                case "TextBox":
+                    return new TextBox(parametros);
+                case "end":
+                    return null;
+                default:
+                    throw new ClassNotFoundException("No se encontro la clase de forma");
             }
         }
         catch(Exception e){
             throw new IllegalArgumentException("Incorrect parameters");
         }
-
-        return null;
     }
 }

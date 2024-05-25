@@ -153,3 +153,7 @@ DISEÑO EXTENSIBLE
 
 Ayuda a agregar nuevas funciones perio sin cambiar el codigo en si. Esto suena como una imposibilidad,pero se da de la combinacion de DIP con LSP.
 
+
+### nota
+
+    LOS EJERCICIOS SE ENCUENTRAN EN EL ARCHIVO tareas.md

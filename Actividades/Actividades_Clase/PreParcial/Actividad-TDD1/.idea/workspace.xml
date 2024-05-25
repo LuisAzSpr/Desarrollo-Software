@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="431b895d-f246-4476-8c6c-b5f948602cc7" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../PostParcial/ActividadPruebasEstructurales/PruebasEstructurales/src/main/java/org/example/CountWords.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PostParcial/ActividadPruebasEstructurales/PruebasEstructurales/src/test/java/org/example/CountWordsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PostParcial/Seguridad-Desarrollo-Software/ActividadSeguridad/src/main/java/org/example/StructureAttack/AttackTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PostParcial/Seguridad-Desarrollo-Software/ActividadSeguridad/src/main/java/org/example/StructureAttack/AttackTreeNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PostParcial/Seguridad-Desarrollo-Software/ActividadSeguridad/src/main/java/org/example/User/Permission.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PostParcial/Seguridad-Desarrollo-Software/ActividadSeguridad/src/main/java/org/example/User/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PostParcial/Seguridad-Desarrollo-Software/ActividadSeguridad/src/main/java/org/example/User/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PostParcial/Actividad_TDD-SOLID-Refactorizacion/TDD-SOLID-Refactorizacion/.idea/sonarlint/issuestore/0/b/0ba1b9c7a4878802f938e331cc2d8a042087ec6b" beforeDir="false" afterPath="$PROJECT_DIR$/../../PostParcial/Actividad_TDD-SOLID-Refactorizacion/TDD-SOLID-Refactorizacion/.idea/sonarlint/issuestore/0/b/0ba1b9c7a4878802f938e331cc2d8a042087ec6b" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PostParcial/Actividad_TDD-SOLID-Refactorizacion/TDD-SOLID-Refactorizacion/.idea/sonarlint/issuestore/0/b/0bd8f9b91beae99d9e360562de1e718b698d5604" beforeDir="false" afterPath="$PROJECT_DIR$/../../PostParcial/Actividad_TDD-SOLID-Refactorizacion/TDD-SOLID-Refactorizacion/.idea/sonarlint/issuestore/0/b/0bd8f9b91beae99d9e360562de1e718b698d5604" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PostParcial/Actividad_TDD-SOLID-Refactorizacion/TDD-SOLID-Refactorizacion/.idea/sonarlint/issuestore/2/8/28cb5aab89eaaebe789f97bd2a9941070c6b8002" beforeDir="false" afterPath="$PROJECT_DIR$/../../PostParcial/Actividad_TDD-SOLID-Refactorizacion/TDD-SOLID-Refactorizacion/.idea/sonarlint/issuestore/2/8/28cb5aab89eaaebe789f97bd2a9941070c6b8002" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PostParcial/Actividad_TDD-SOLID-Refactorizacion/TDD-SOLID-Refactorizacion/.idea/sonarlint/issuestore/6/1/619cfc6e502e90d794f5d1366f52167f1886093d" beforeDir="false" afterPath="$PROJECT_DIR$/../../PostParcial/Actividad_TDD-SOLID-Refactorizacion/TDD-SOLID-Refactorizacion/.idea/sonarlint/issuestore/6/1/619cfc6e502e90d794f5d1366f52167f1886093d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PostParcial/Actividad_TDD-SOLID-Refactorizacion/TDD-SOLID-Refactorizacion/.idea/sonarlint/issuestore/a/2/a2b90fc5d918b765265dff8297a67b93bb65d381" beforeDir="false" afterPath="$PROJECT_DIR$/../../PostParcial/Actividad_TDD-SOLID-Refactorizacion/TDD-SOLID-Refactorizacion/.idea/sonarlint/issuestore/a/2/a2b90fc5d918b765265dff8297a67b93bb65d381" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PostParcial/Actividad_TDD-SOLID-Refactorizacion/TDD-SOLID-Refactorizacion/.idea/sonarlint/issuestore/b/b/bbb0af5a81b85074076f51b6775f197080339c46" beforeDir="false" afterPath="$PROJECT_DIR$/../../PostParcial/Actividad_TDD-SOLID-Refactorizacion/TDD-SOLID-Refactorizacion/.idea/sonarlint/issuestore/b/b/bbb0af5a81b85074076f51b6775f197080339c46" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PostParcial/Actividad_TDD-SOLID-Refactorizacion/TDD-SOLID-Refactorizacion/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../PostParcial/Actividad_TDD-SOLID-Refactorizacion/TDD-SOLID-Refactorizacion/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PostParcial/Actividad_TDD-SOLID-Refactorizacion/TDD-SOLID-Refactorizacion/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../PostParcial/Actividad_TDD-SOLID-Refactorizacion/TDD-SOLID-Refactorizacion/src/main/java/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PostParcial/Actividad_TDD-SOLID-Refactorizacion/TDD-SOLID-Refactorizacion/src/main/java/org/example/Shapes.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../PostParcial/Actividad_TDD-SOLID-Refactorizacion/TDD-SOLID-Refactorizacion/src/main/java/org/example/Shapes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PostParcial/Actividad_TDD-SOLID-Refactorizacion/TDD-SOLID-Refactorizacion/src/main/java/org/example/graphics/ConsoleGraphics.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../PostParcial/Actividad_TDD-SOLID-Refactorizacion/TDD-SOLID-Refactorizacion/src/main/java/org/example/graphics/ConsoleGraphics.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PostParcial/Actividad_TDD-SOLID-Refactorizacion/TDD-SOLID-Refactorizacion/src/main/java/org/example/shapes/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../PostParcial/Actividad_TDD-SOLID-Refactorizacion/TDD-SOLID-Refactorizacion/src/main/java/org/example/shapes/Circle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PostParcial/Actividad_TDD-SOLID-Refactorizacion/Tareas.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../PostParcial/Actividad_TDD-SOLID-Refactorizacion/Tareas.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PostParcial/Actividad_TDD-SOLID-Refactorizacion/inf.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../PostParcial/Actividad_TDD-SOLID-Refactorizacion/inf.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../ExamenParcial/Ejercicio2/Sprint1/Wordz1/.idea/sonarlint/issuestore/0/7/07145b73a2c87a678fd2d64b6282a9ad59463588" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../ExamenParcial/Ejercicio2/Sprint1/Wordz1/.idea/sonarlint/issuestore/1/0/1038d19a43423098c0da0d9224f2ea4b5bd3480f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../ExamenParcial/Ejercicio2/Sprint1/Wordz1/.idea/sonarlint/issuestore/4/3/43b74f16ffa250c8fd756d13a257d142b1d523f3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../ExamenParcial/Ejercicio2/Sprint1/Wordz1/.idea/sonarlint/issuestore/e/e/ee9b6ca6f85ad6c63907cbacc1cb6d5c93edb2b4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../ExamenParcial/Ejercicio2/Sprint1/Wordz1/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../ExamenParcial/Ejercicio2/Sprint1/Wordz1/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../ExamenParcial/Ejercicio2/Sprint1/Wordz1/.idea/sonarlint/securityhotspotstore/0/7/07145b73a2c87a678fd2d64b6282a9ad59463588" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../ExamenParcial/Ejercicio2/Sprint1/Wordz1/.idea/sonarlint/securityhotspotstore/1/0/1038d19a43423098c0da0d9224f2ea4b5bd3480f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../ExamenParcial/Ejercicio2/Sprint1/Wordz1/.idea/sonarlint/securityhotspotstore/4/3/43b74f16ffa250c8fd756d13a257d142b1d523f3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../ExamenParcial/Ejercicio2/Sprint1/Wordz1/.idea/sonarlint/securityhotspotstore/e/e/ee9b6ca6f85ad6c63907cbacc1cb6d5c93edb2b4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../ExamenParcial/Ejercicio2/Sprint1/Wordz1/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../ExamenParcial/Ejercicio2/Sprint1/Wordz1/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 0
+}]]></component>
+  <component name="ProjectId" id="2gtJDxf2S0vhZKQLZqWPVVIlaFK" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/luis/Desktop/6to_ciclo/Desarrollo/Desarrollo_Personal_SSH/Desarrollo-Software/Actividades/Actividades_Repo/Actividad1-Testing/ActividadJUNIT",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="431b895d-f246-4476-8c6c-b5f948602cc7" name="Changes" comment="" />
+      <created>1716510824341</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1716510824341</updated>
+      <workItem from="1716510825392" duration="27000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

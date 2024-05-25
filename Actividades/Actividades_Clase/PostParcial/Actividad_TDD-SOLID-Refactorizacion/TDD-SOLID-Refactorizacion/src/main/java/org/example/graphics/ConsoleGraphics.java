@@ -18,7 +18,7 @@ public class ConsoleGraphics implements Graphics{
     }
     @Override
     public void drawCircle(int radius){
-        System.out.println("Dibujando un circulo");
+        System.out.println("Dibujando un circulo de radio: "+radius);
     }
 
 }

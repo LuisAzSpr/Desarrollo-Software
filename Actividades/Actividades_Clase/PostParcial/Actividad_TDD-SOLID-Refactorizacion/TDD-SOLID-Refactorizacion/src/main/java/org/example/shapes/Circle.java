@@ -1,6 +1,5 @@
 package org.example.shapes;
 
-import org.example.graphics.ConsoleGraphics;
 import org.example.graphics.Graphics;
 
 public class Circle implements Shape {

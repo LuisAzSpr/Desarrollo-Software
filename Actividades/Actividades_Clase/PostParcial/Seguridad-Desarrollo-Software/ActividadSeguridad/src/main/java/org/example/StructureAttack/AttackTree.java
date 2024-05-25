@@ -1,4 +1,5 @@
-package org.example;
+package org.example.StructureAttack;
+
 
 import java.util.ArrayList;
 import java.util.List;

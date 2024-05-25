@@ -14,23 +14,16 @@ public class Shapes {
     public void draw(){
         shape.draw(g); // strategy.execute()
     }
-
-
     private final List<Shape> allShapes = new ArrayList<>();
-
     public Shapes(Graphics g){
         this.g = g;
     }
-
     public void add(Shape s){
         allShapes.add(s);
     }
     //public void draw(){
     //        allShapes.forEach(shape->shape.draw(g));
     //}
-
-
-
 }
 
 

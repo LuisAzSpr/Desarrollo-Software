@@ -77,3 +77,10 @@ Veamos con implementar el patron Strategy
 
 ![alt text](Imagenes/image-29.png)
 
+Implementemos una clase main, para ver como es que un cliente puede hacer la simulacion de invocar a varios servicios. En este caso se ve que el codigo no necesita conocer cada implementacion concreta de la clase dibujar, solo "pide" la forma que quiere dibujar y shapes se encarga del resto.
+
+![alt text](image.png)
+
+Podemos ver la salida en consola...
+
+![alt text](image-2.png)
