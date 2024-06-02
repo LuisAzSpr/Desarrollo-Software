@@ -1,10 +1,0 @@
-
-`
-java:S5786
-"Remove this 'public' modifier.(†Í¤8¥ÖÁõ1J$c8dadacb-c163-4551-b5de-e7eddda38a4f
-\
-java:S5838*"Use isPositive() instead.(ñé—í8§ÖÁõ1J$2b97fbbb-bca1-42a8-91f0-e40de206fa95
-a
-java:S58383"Use isNegative() instead.(­İç¼üÿÿÿÿ8¨ÖÁõ1J$b3c3ebe2-7403-489e-8238-864217157f03
-X
-java:S5838;"Use isZero() instead.(Ïù‰º8¨ÖÁõ1J$02020b77-9cb7-4333-8950-156e26d61e54

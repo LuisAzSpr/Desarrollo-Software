@@ -327,7 +327,7 @@ inclump = true (indicamos que estamos dentro de un clump) y aumentamos la cantid
 
 - En la linea 3 verificamos si el numero anterior es diferente del actual, en ese caso se termina el clump, es decir, inClump=false.
 
-![alt text](image-1.png)
+![alt text](Imagenes/image2-1.png)
 
 Las pruebas son las siguientes y abarcan los 4 puntos:
 
@@ -336,15 +336,15 @@ Las pruebas son las siguientes y abarcan los 4 puntos:
 • T3: una matriz con un solo grupo de tres elementos en el medio (por ejemplo, [1,2,2,2,1]).
 • T4: una matriz con un solo elemento.
 
-![alt text](image-5.png)
+![alt text](Imagenes/image2-5.png)
 
 Vemos que se logra una captura del 100% lo que indica que todo nuestro codigo esta siendo probado.
 
 
 Las expresiones if(num==prevs) y else if(nums!=prev) indican si el numero previo es igual o no al numero actual, en este caso podemos ver que estas lineas estan cubiertas completamente por las pruebas.
 
-![alt text](image-2.png)
-![alt text](image-4.png)
+![alt text](Imanges/image2-2.png)
+![alt text](Imagenes/image2-4.png)
 
 Agregamos 3 pruebas mas T10, T11 y T12 
 
@@ -352,13 +352,13 @@ Agregamos 3 pruebas mas T10, T11 y T12
 • T11: la longitud de padStr es mayor que los espacios restantes en str.
 • T12: la longitud de padStr es más pequeña que los espacios restantes en str (esta prueba puede ser similar a T6).
 
-![alt text](image-6.png)
+![alt text](Imagenes/image2-6.png)
 
 
 Podemos ver que el informe es el mismo, se siguen abarcando el 100% de cobertura de codigo.
 
 Esto se debe a que ya con las primeras pruebas estabamos abarcando mas de un grupo, lo que hacia que se ejecutaran ambas condicionales y en general, todo el codigo, al agregar los ultimos 3 en donde se obtienen mas de 1 grupo abarcamos los casos ya abarcados en el primer conjunto de pruebas (los caso grupos>1). Es por esto que la cobertura del codigo antes era del 100% al igual que ahora.
 
-![alt text](image-7.png)
-![alt text](image-8.png)
+![alt text](Imagenes/image2-7.png)
+![alt text](Imagenes/image2-8.png)
 
