@@ -1,0 +1,46 @@
+plugins {
+    id 'java'
+    id 'jacoco'
+
+}
+
+group = 'org.example'
+version = '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+
+group = 'org.example'
+version = '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation platform('org.junit:junit-bom:5.10.0')
+    testImplementation 'org.junit.jupiter:junit-jupiter'
+
+    implementation platform('org.assertj:assertj-bom:3.25.3')
+    implementation 'org.assertj:assertj-core'
+
+    implementation platform('org.junit:junit-bom:5.11.0-M1')
+    implementation 'org.junit.jupiter:junit-jupiter'
+    implementation 'org.junit.platform:junit-platform-launcher'
+    implementation 'org.junit.vintage:junit-vintage-engine'
+
+    implementation platform('org.mockito:mockito-bom:5.11.0')
+    implementation 'org.mockito:mockito-core'
+    implementation 'org.mockito:mockito-junit-jupiter'
+
+}
+test {
+    useJUnitPlatform()
+}
+
+/*
+
+
+ */
