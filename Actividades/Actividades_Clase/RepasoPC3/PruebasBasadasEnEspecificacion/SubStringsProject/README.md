@@ -475,3 +475,6 @@ public static String[] regexSubstringsBetween(final String str, final String ope
 2. Asegúrate de que el método pase las mismas pruebas unitarias que substringsBetween.
 !['alt-text'](Imagenes/img_6.png)
 
+
+
+// ./gradlew clean test jacocoTestReport
