@@ -17,3 +17,5 @@ V
 &src/main/java/org/example/Salidas.java,6/f/6f85920ebbd7006688d927d4177adc58f752cff1
 T
 $src/main/java/org/example/Celda.java,3/5/35a8d7732bfb3d098343c7821145d56877781441
+T
+$src/test/java/example/JuegoTest.java,9/a/9a595aaecf5b2dd1f7679525192e5508426f3d7d

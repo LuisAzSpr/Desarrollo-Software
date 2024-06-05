@@ -33,7 +33,7 @@ public class Laberinto {
     public void colcarTesoros(){
         // Ahora pondremos en el mapa 3 tesoros y 3 trampas de manera aleatoria
         int contador = 0;
-        while(contador<4){ // creamos un while para que no se sobreescriban
+        while(contador<2){ // creamos un while para que no se sobreescriban
             int[] posicionTesoros = posicionAleatoria(); // posicion aleatoria para los tesoros
             int[] posicionTrampas = posicionAleatoria(); // posicion aleatoria para las trampas
             if(matriz[posicionTesoros[0]][posicionTesoros[1]].equals(".")
