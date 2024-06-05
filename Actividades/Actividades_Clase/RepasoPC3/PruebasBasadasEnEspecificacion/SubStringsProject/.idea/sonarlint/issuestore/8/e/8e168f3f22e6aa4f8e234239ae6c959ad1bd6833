@@ -1,0 +1,13 @@
+
+›	java:S135,"YReduce the total number of break and continue statements in this loop to use at most one.(£Ç²¤8ÁÍÈºş1J$b225b21c-e4b3-4552-82b7-fbf4e0d4c629
+‚
+java:S1118
+":Add a private constructor to hide the implicit public one.(Íë¹’ûÿÿÿÿ8ÑÅÒ²ş1J$08e0de85-52e3-4ff2-b72e-4c4babfa4f24
+i
+java:S1168"&Return an empty array instead of null.(¥¹ï8ÉÍÈºş1J$43a209cc-4142-4d5d-a83c-fa369da3fd1c
+i
+java:S1168C"&Return an empty array instead of null.(¥¹ï8ÌÍÈºş1J$320f7f09-ded2-49f5-a56e-0b049d8d4bbc
+i
+java:S1168M"&Return an empty array instead of null.(¥¹ï8¯ÎËºş1J$6626bc7c-cd74-483a-ba6b-efe60574f02f
+i
+java:S1168W"&Return an empty array instead of null.(¥¹ï8¯ÎËºş1J$ae86a242-db21-4fd4-9137-d08de0b1a8b8
