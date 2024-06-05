@@ -1,16 +1,12 @@
 
-
-java:S4973("<Strings and Boxed types should be compared using "equals()".(Öš´£8½¹¾Åş1J$f1c312ca-fbb3-43c6-80c7-adc59efcccac
-
-java:S4973+"<Strings and Boxed types should be compared using "equals()".(§ªé8½¹¾Åş1J$820c4537-c034-4c34-b693-a9ec65c4e616
 m
-java:S1197"*Move the array designators [] to the type.(ÏÔÜ¡8Ï¹¾Åş1J$ee09417d-1100-48b4-baa0-6e0bcb4f7fe2
+java:S1197"*Move the array designators [] to the type.(ÏÔÜ¡8Ï¹¾Åş1J$66b1ca31-74df-4130-8c76-f1cc1220476f
 r
-java:S1197"*Move the array designators [] to the type.(®Òÿşÿÿÿÿ8Ï¹¾Åş1J$13be6c57-90b8-4cdf-a0fe-67e5885ed785
-i	java:S131""Add a default case to this switch.(Ÿ¨–¸øÿÿÿÿ8Ğ¹¾Åş1J$ed6a4ec1-28f8-4769-8f59-b5d2440a9078
+java:S1197"*Move the array designators [] to the type.(®Òÿşÿÿÿÿ8Ï¹¾Åş1J$6bd28b13-f1e4-472d-ac09-31ae39cd12bd
+i	java:S131""Add a default case to this switch.(Ÿ¨–¸øÿÿÿÿ8Ğ¹¾Åş1J$86c6ff46-e723-447a-9f7f-4b14e4a54f97
 b
-java:S16594"Declare "y" on a separate line.(äÛÁ”8Ò¹¾Åş1J$087896bf-c57e-48bb-b621-b9ae7356d5f3
+java:S1659+"Declare "y" on a separate line.(äÛÁ”8Ò¹¾Åş1J$4127b502-7720-48b1-8ce8-14224d9d0260
 r
-java:S1197N"*Move the array designators [] to the type.(—Õ«òşÿÿÿÿ8Ô¹¾Åş1J$17203b44-83ce-42e7-80e7-0619071da7db
+java:S1197E"*Move the array designators [] to the type.(—Õ«òşÿÿÿÿ8Ô¹¾Åş1J$b6c7cea7-9766-4b16-98c8-708e3da486c7
 v
-java:S1144C"3Remove this unused private "existenTesoros" method.(š¯öæ8Ô¹¾Åş1J$791d0889-4fdf-4b6a-b53f-7ee5337af6a7
+java:S1144:"3Remove this unused private "existenTesoros" method.(š¯öæ8Ô¹¾Åş1J$5b163043-34be-44b7-98bc-7e43737b0ee6
