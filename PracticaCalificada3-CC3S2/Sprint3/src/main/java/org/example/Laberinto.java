@@ -9,6 +9,19 @@ public class Laberinto {
 
     public Laberinto(int size){
         this.size = size;
+        incializar();
+    }
+
+    public void incializar(){
+        inicializarEnVacio();
+        // Agregamos la posicion del jugador, que es aleatoria
+        int[] posicionJugador = posicionAleatoria();
+        matriz[posicionJugador[0]][posicionJugador[1]] = "P";
+
+        colcarTesoros();
+    }
+
+    public void inicializarEnVacio(){
         matriz = new String[size][size];
         // inicializamos con espacios vacios
         for(int i=0;i<size;i++){
@@ -16,11 +29,6 @@ public class Laberinto {
                 matriz[i][j] = ".";
             }
         }
-        // Agregamos la posicion del jugador, que es aleatoria
-        int[] posicionJugador = posicionAleatoria();
-        matriz[posicionJugador[0]][posicionJugador[1]] = "P";
-
-        colcarTesoros();
     }
 
     public void actualizarCelda(int[]posicionActual,int[]posicionFinal){

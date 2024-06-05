@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="65bad8fd-c7c1-4a8b-8960-e9a37fb07ed1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/JuegoTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Sprint3/src/test/java/example/JuegoTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Sprint3/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../Sprint3/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Sprint3/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../Sprint3/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sprint3/.idea/sonarlint/issuestore/3/0/3003bba828273cb57a2b8655e76982bf2e2f4878" beforeDir="false" afterPath="$PROJECT_DIR$/../Sprint3/.idea/sonarlint/issuestore/3/0/3003bba828273cb57a2b8655e76982bf2e2f4878" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Sprint3/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../Sprint3/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Sprint3/src/main/java/org/example/Laberinto.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Sprint3/src/main/java/org/example/Laberinto.java" afterDir="false" />
     </list>
@@ -99,7 +94,7 @@
       <updated>1717589473418</updated>
       <workItem from="1717589474474" duration="33000" />
       <workItem from="1717590403238" duration="5448000" />
-      <workItem from="1717596104648" duration="3949000" />
+      <workItem from="1717596104648" duration="4503000" />
     </task>
     <servers />
   </component>
