@@ -1,0 +1,14 @@
+
+l
+java:S1172")Remove this unused method parameter "cu".(Õåâ‹8Ñ“ñ‰þ1J$f637bf97-dab8-44ae-bdc9-16607c0f8c48
+}
+java:S1172":Remove these unused method parameters "suggestions", "cu".(ôñ³€8Ó“ñ‰þ1J$999e1a8b-8a8e-4400-8951-62de40262914
+ˆ
+java:S1612"@Replace this lambda with method reference 'System.out::println'.(²Êíðúÿÿÿÿ8Ô“ñ‰þ1J$6c79f28a-de01-457b-9ff2-ff218da6777e
+r	java:S106"+Replace this use of System.out by a logger.(²Êíðúÿÿÿÿ8Õ“ñ‰þ1J$7bcc26f1-cc8c-450d-86e0-04dc2f6591a0
+…
+java:S2094!"BRemove this empty class, write its code or make it an "interface".(¡ÙÙò8Ö“ñ‰þ1J$e8f8951b-ae39-43f0-bcb0-5f642c8b7069
+…
+java:S2094$"BRemove this empty class, write its code or make it an "interface".(®½ÒÖ8Ö“ñ‰þ1J$5c51e8af-1c6d-43fb-9916-a2ba862e52fc
+Z
+java:S1128"=Remove this unused import 'com.github.javaparser.JavaParser'.(¿”Ý¬8ýî‡Šþ1
