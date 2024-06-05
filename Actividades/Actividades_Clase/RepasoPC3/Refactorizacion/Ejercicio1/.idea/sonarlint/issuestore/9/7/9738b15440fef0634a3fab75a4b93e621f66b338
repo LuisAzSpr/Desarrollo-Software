@@ -1,0 +1,7 @@
+
+§
+java:S1319"kThe type of "departments" should be an interface such as "List" rather than the implementation "ArrayList".(Æÿ‡ÇJ$7e0b5682-fa2b-41a7-b0c8-ed9c59f30893
+f	java:S106"+Replace this use of System.out by a logger.(€‹ÝÇJ$3d03dadc-db0b-4390-bd03-75a21fd33265
+k	java:S106#"+Replace this use of System.out by a logger.(âÑýÂûÿÿÿÿJ$0a0833d4-9e31-464c-84a3-8438a863ef86
+k	java:S106("+Replace this use of System.out by a logger.(ƒüé¨øÿÿÿÿJ$d48ccc13-3b1d-4856-8d14-925af5ab6a4a
+ƒ	java:S125."<This block of commented-out lines of code should be removed.( Å´úÿÿÿÿ8ïíç­þ1J$f9cbe672-146b-4725-a8d6-bc8622a21a52
