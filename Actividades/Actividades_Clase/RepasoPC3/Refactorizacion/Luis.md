@@ -49,7 +49,3 @@ Imaginemos que tenemos una clase en un sistema de gestión de contenido que mane
 
 
 **Ejercicio 4:**
-
-
-
-

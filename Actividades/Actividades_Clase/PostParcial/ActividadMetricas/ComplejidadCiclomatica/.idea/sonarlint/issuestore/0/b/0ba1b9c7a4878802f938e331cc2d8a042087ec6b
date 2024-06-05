@@ -1,5 +1,5 @@
 
-@
-java:S3457	"%String contains no format specifiers.(Šªž„ýÿÿÿÿ
-E	java:S106	"+Replace this use of System.out by a logger.(Šªž„ýÿÿÿÿ
-E	java:S106"+Replace this use of System.out by a logger.(Ðö¶žüÿÿÿÿ
+f
+java:S3457	"%String contains no format specifiers.(Šªž„ýÿÿÿÿJ$55df9533-b5dd-49ce-a83c-e58787628083
+k	java:S106	"+Replace this use of System.out by a logger.(Šªž„ýÿÿÿÿJ$5892aa05-0eef-42d1-8098-80e2e3aac548
+k	java:S106"+Replace this use of System.out by a logger.(Ðö¶žüÿÿÿÿJ$153a8a5d-ab6f-402a-93a2-0343cf8471c0

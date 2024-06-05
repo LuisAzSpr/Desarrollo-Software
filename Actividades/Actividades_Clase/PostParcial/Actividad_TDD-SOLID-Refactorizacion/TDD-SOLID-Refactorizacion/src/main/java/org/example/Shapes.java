@@ -21,6 +21,7 @@ public class Shapes {
     public void add(Shape s){
         allShapes.add(s);
     }
+
     //public void draw(){
     //        allShapes.forEach(shape->shape.draw(g));
     //}

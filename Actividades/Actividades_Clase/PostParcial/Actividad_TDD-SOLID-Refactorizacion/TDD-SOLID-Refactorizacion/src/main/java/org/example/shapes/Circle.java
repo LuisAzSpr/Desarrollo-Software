@@ -11,8 +11,4 @@ public class Circle implements Shape {
     public void draw(Graphics g) {
         g.drawCircle(radius);
     }
-
 }
-
-
-

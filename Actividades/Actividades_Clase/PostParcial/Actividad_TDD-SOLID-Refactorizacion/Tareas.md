@@ -84,3 +84,4 @@ Implementemos una clase main, para ver como es que un cliente puede hacer la sim
 Podemos ver la salida en consola...
 
 ![alt text](image-2.png)
+
