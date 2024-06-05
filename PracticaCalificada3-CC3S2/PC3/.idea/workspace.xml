@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="65bad8fd-c7c1-4a8b-8960-e9a37fb07ed1" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../Actividades/Actividades_Clase/RepasoPC3/Refactorizacion/NumberUtilsProject/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividades/Actividades_Clase/RepasoPC3/Refactorizacion/NumberUtilsProject/src/main/java/org/example/NumberUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividades/Actividades_Clase/RepasoPC3/Refactorizacion/NumberUtilsProject/src/test/java/org/example/NumberUtilsNonSystematicTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Actividades/Actividades_Clase/RepasoPC3/PruebasBasadasEnEspecificacion/SubStringsProject/.idea/sonarlint/issuestore/0/b/0ba1b9c7a4878802f938e331cc2d8a042087ec6b" beforeDir="false" afterPath="$PROJECT_DIR$/../../Actividades/Actividades_Clase/RepasoPC3/PruebasBasadasEnEspecificacion/SubStringsProject/.idea/sonarlint/issuestore/0/b/0ba1b9c7a4878802f938e331cc2d8a042087ec6b" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Actividades/Actividades_Clase/RepasoPC3/PruebasBasadasEnEspecificacion/SubStringsProject/.idea/sonarlint/issuestore/3/b/3b4afee10744f01aba6a67cb5a29ca43d15c9ba5" beforeDir="false" afterPath="$PROJECT_DIR$/../../Actividades/Actividades_Clase/RepasoPC3/PruebasBasadasEnEspecificacion/SubStringsProject/.idea/sonarlint/issuestore/3/b/3b4afee10744f01aba6a67cb5a29ca43d15c9ba5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Actividades/Actividades_Clase/RepasoPC3/PruebasBasadasEnEspecificacion/SubStringsProject/.idea/sonarlint/issuestore/8/c/8c69c7622aed5c7e7d6eb787e83a9c89abc6c9d2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Actividades/Actividades_Clase/RepasoPC3/PruebasBasadasEnEspecificacion/SubStringsProject/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../../Actividades/Actividades_Clase/RepasoPC3/PruebasBasadasEnEspecificacion/SubStringsProject/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Actividades/Actividades_Clase/RepasoPC3/PruebasBasadasEnEspecificacion/SubStringsProject/.idea/sonarlint/securityhotspotstore/8/c/8c69c7622aed5c7e7d6eb787e83a9c89abc6c9d2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Actividades/Actividades_Clase/RepasoPC3/PruebasBasadasEnEspecificacion/SubStringsProject/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../../Actividades/Actividades_Clase/RepasoPC3/PruebasBasadasEnEspecificacion/SubStringsProject/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Actividades/Actividades_Clase/RepasoPC3/PruebasBasadasEnEspecificacion/SubStringsProject/src/test/java/org/example/StringUtilsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Actividades/Actividades_Clase/RepasoPC3/PruebasBasadasEnEspecificacion/SubStringsProject/src/test/java/org/example/StringUtilsTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 1
+}]]></component>
+  <component name="ProjectId" id="2hSZWc0fifPjfu2zXIy7g1twVYQ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "/home/luis/Desktop/6to_ciclo/Desarrollo/Desarrollo_Personal_SSH/Desarrollo-Software/PracticaCalificada3-CC3S2/PC3/src/main/java/org/example/Main.java",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="65bad8fd-c7c1-4a8b-8960-e9a37fb07ed1" name="Changes" comment="" />
+      <created>1717589473418</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1717589473418</updated>
+      <workItem from="1717589474474" duration="33000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/Main.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
