@@ -1,0 +1,9 @@
+
+~	java:S125"<This block of commented-out lines of code should be removed.(ğõŠı8³Ë…Ğÿ1J$97ceaa2b-b8e3-4cc1-a24c-c9d5b3c3d29a
+|
+java:S2864%"4Iterate over the "entrySet" instead of the "keySet".(ÒÃêíşÿÿÿÿ8í•ğÀÿ1J$301d4f45-2744-44c7-b2ce-59b496095865
+|
+java:S2864."4Iterate over the "entrySet" instead of the "keySet".(¹Æîÿøÿÿÿÿ8ú»óÎÿ1J$299da341-d389-4eee-8d56-c68da8e6d7ae
+m	java:S106/"+Replace this use of System.out by a logger.(°“§8î•ğÀÿ1J$221d8db7-ecda-4a3e-bfc0-ca69244abca0
+€
+java:S1128"=Remove this unused import 'com.github.javaparser.JavaParser'.(¿”İ¬8¿ü†Ïÿ1J$8707d352-fb2d-4699-9dd9-5c64a92602a4
