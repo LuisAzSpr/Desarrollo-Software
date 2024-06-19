@@ -19,8 +19,8 @@ public class Map {
         mapa[0][2] = "C"; camino[0][0] = 0; camino[0][1] = 2;
         mapa[1][1] = "C"; camino[1][0] = 1; camino[1][1] = 1;
         mapa[2][0] = "C"; camino[2][0] = 2; camino[2][1] = 0;
-        mapa[3][1] = "C"; camino[3][0] = 3; camino[2][1] = 1;
-        mapa[3][2] = "C"; camino[4][0] = 2; camino[4][1] = 2;
+        mapa[3][1] = "C"; camino[3][0] = 3; camino[3][1] = 1;
+        mapa[3][2] = "C"; camino[4][0] = 3; camino[4][1] = 2;
         mapa[2][3] = "C"; camino[5][0] = 2; camino[5][1] = 3;
         mapa[2][4] = "B"; camino[6][0] = 2; camino[6][1] = 4;
     }

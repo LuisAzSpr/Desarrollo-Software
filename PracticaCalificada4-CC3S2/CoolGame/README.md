@@ -159,5 +159,8 @@ Sistema de oleadas:
 • ¿Cómo diseñarías la generación de oleadas para que cada oleada sea progresivamente más
 difícil?
 
+
+
 • Implementa un método en la clase Wave llamado spawnEnemies() que genere los enemigos
 de la oleada y los coloque en el mapa.
+

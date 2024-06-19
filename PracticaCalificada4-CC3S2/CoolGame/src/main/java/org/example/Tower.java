@@ -37,6 +37,8 @@ public class Tower {
         }
     }
 
+
+
     public void setDamage(int damage) {
         this.damage = damage;
     }
