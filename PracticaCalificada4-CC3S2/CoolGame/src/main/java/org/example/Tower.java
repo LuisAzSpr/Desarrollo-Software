@@ -24,7 +24,7 @@ public class Tower {
         // si los enemigos se encuentran en el rango
         for(int i=position[0]-range;i<=position[0]+range;i++){
             for(int j=position[1]-range;j<=position[1]+range;j++){
-                if(map.getMapa()[i][j].equals("E")){
+                if(!map.isNotValid(i,j) && map.getMapa()[i][j].equals("E")){
                     enemigosSeEncuentran = true;
                 }
             }

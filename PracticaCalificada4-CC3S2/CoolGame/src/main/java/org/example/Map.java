@@ -37,6 +37,10 @@ public class Map {
         }
     }
 
+    public boolean isNotValid(int i,int j){
+        return i<0 || i>=size || j<0 || j>=size;
+    }
+
     // Este metodo nos ayudara a actualizar las celdas...
     public void actualizarCelda(int i,int j,String valor){
         mapa[i][j] = valor;

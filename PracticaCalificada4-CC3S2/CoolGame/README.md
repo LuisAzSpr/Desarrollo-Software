@@ -164,3 +164,10 @@ difícil?
 • Implementa un método en la clase Wave llamado spawnEnemies() que genere los enemigos
 de la oleada y los coloque en el mapa.
 
+
+
+SALIDA DEL JUEGO:
+
+
+![img.png](Imagenes%2Fimg.png)
+![img_1.png](Imagenes%2Fimg_1.png)

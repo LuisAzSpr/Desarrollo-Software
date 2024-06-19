@@ -80,18 +80,19 @@ public class Game {
     }
 
 
+    // colocamos una torre especifica en una posicion exacta
     public void colocarTorre(String name,int[]posicion){
         Tower tower;
         int i = posicion[0];
         int j = posicion[1];
-        if(!map.isValidPosition(i,j)){
-            return;
+        if(!map.isValidPosition(i,j)){ // si la posicion no es valida para colocar una torre
+            return; // retornamos
         }
         map.colocarTorre(i,j);
         switch(name){
-            case "Cannon": tower = new CannonTower();break;
-            case "Sniper": tower = new SniperTower();break;
-            default : throw new IllegalArgumentException("Error, torre no existente!");
+            case "Cannon": tower = new CannonTower();break; // insertamos una torre Cannon
+            case "Sniper": tower = new SniperTower();break; // insertamos una torre Sniper
+            default : throw new IllegalArgumentException("Error, torre no existente!"); // lanzamos una exception
         }
         tower.setPosition(new int[]{i,j});
         towers.add(tower);
