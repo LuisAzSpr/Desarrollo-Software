@@ -1,0 +1,10 @@
+
+u	java:S135"YReduce the total number of break and continue statements in this loop to use at most one.(£Ç²¤8éĞÔÅ‚2
+ 
+java:S3008"]Rename this field "EMPTY_STRING_ARRAY" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Æ©ı8ú¿ûÂ‚2J$4663017c-da5d-438c-96b7-e1f2b156f5b9
+}
+java:S1118":Add a private constructor to hide the implicit public one.(ÆÑ©­8ı¿ûÂ‚2J$b7d17a8d-0fb2-4d3c-9f90-97742f983482
+C
+java:S1168"&Return an empty array instead of null.(¥¹ï8øĞÔÅ‚2
+C
+java:S1168$"&Return an empty array instead of null.(¥¹ï8úĞÔÅ‚2

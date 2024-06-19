@@ -1,4 +1,4 @@
 
-”	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¬äªJ$e7684662-86ab-48e6-a63f-8126bd7911da
+”	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¬äªJ$24b14b24-477e-4ecc-a9a6-27a2c3d587d7
 ˜
-java:S1149,"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(ƒÿƒ—ùÿÿÿÿ8»ìè¢þ1J$2cf697fd-adcb-45ff-8a89-d641f06cad09
+java:S1149,"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(ƒÿƒ—ùÿÿÿÿ8»ìè¢þ1J$402afe49-0ccb-4258-8c6a-a9d12228d65e

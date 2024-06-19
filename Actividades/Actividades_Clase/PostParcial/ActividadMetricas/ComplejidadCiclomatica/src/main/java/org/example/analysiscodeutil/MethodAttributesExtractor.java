@@ -18,6 +18,10 @@ public class MethodAttributesExtractor {
                 .orElseThrow(() -> new RuntimeException("Class not found"));
     }
 
+    /*
+        Se extraen los atributos de instancia de una clase usados por el metodo con nombre method
+        Devuelve un set con todos los atributos de instancia usados por ese metodo.
+     */
     public Set<String> extractAttributesOfMethod(String method){
 
         // extraeremos el metodo de la clase actual
@@ -42,6 +46,11 @@ public class MethodAttributesExtractor {
         return attributesOfMethod;
     }
 
+    /*
+        Devuelve un hash clave-valor donde las clave vendrian a ser el nombre de un metodo
+        de instancia y el valores seria un conjunto con los atributos de instancia de esa clase
+        son usados por el metodo.
+     */
     public Map<String,Set<String>> extractAllAtributesOfEachMethod(){
         Map<String,Set<String>> attrsOfMethods = new HashMap<>();
         Set<String> nameOfMethods = extractAllMethods();
@@ -51,6 +60,9 @@ public class MethodAttributesExtractor {
         return attrsOfMethods;
     }
 
+    /*
+        Se extraen todos los nombres de atributos de una clase en particular
+     */
     public Set<String> extractAllAtributes(){
         Set<String> classAttributes = new HashSet<>();
         for(FieldDeclaration fd:classDeclaration.getFields()){
@@ -59,6 +71,9 @@ public class MethodAttributesExtractor {
         return classAttributes;
     }
 
+    /*
+        Se extraen todos los nombres de los metodos d euna clase en particular.
+     */
     public Set<String> extractAllMethods(){
         Set<String> classMethods = new HashSet<>();
         for(MethodDeclaration md:classDeclaration.getMethods()){

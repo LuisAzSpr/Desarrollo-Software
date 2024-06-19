@@ -1,14 +1,10 @@
 
 <
 build.gradle,f/0/f07866736216be0ee2aba49e392191aeae700a35
-S
-#src/main/java/org/example/Main.java,0/b/0ba1b9c7a4878802f938e331cc2d8a042087ec6b
 _
 /src/test/java/org/example/HelloMockitoTest.java,7/2/7203568ec2125ddfb6007482c164bc7bf4578d5a
 ?
 settings.gradle,0/5/05efc8b1657769a27696d478ded1e95f38737233
-B
-libs.versions.toml,6/8/6825bc96d9ce1ba3a55eabfbf28ae67ae380732a
 X
 (src/main/java/org/example/HelloWord.java,f/a/fa97f756f9fe55cf1f74048d4c7dd0c1d5742a62
 a
