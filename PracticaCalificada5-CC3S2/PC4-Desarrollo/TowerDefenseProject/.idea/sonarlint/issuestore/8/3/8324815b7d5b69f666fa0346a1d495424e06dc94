@@ -1,0 +1,12 @@
+
+°
+java:S1319 "mThe return type of this method should be an interface such as "Map" rather than the implementation "HashMap".(ÿ‡§±8¡Û£„2J$01c17847-8e79-432d-ab04-a6833d977709
+§
+java:S1319T"dThe type of "enemies" should be an interface such as "Map" rather than the implementation "HashMap".(Ûİ¾ò8œ¡­¥„2J$442e254d-559d-48a1-9a09-7f307c2b8ffe
+w
+java:S28644"4Iterate over the "entrySet" instead of the "keySet".(ı›£ç8¸¼Õ¡„2J$f2b9c7e5-6964-44ae-af91-9c11a644a641
+r	java:S106`"+Replace this use of System.out by a logger.(÷æ»ûşÿÿÿÿ8º¼Õ¡„2J$5e6d6aa1-a102-4765-b769-42f3a8188dfc
+s
+java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8ô¤Ù¥„2J$3a937d54-4112-46dd-8269-4dc75e1e1a60
+f
+java:S1128"Remove this duplicated import.(™˜”€ùÿÿÿÿ8úŸ£„2J$9dd3b1f7-7d39-4e9a-b33c-bafd7a68df19
