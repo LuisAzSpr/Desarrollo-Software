@@ -295,8 +295,7 @@ Verificamos el estado de nuestro despliegue
 patrones en las pruebas unitarias.
 
 Los stubs solo proporcionan respuestas definidas, los mocks definen comportamientos, es decir, aparte de
-devolver una respuesta definida se deben probar cual es el flujo en el que se da, los fakes pueden reemplazar
-los servicios completos.
+devolver una respuesta definida se deben probar cual es el flujo en el que se da.
 
 • Describe el proceso de creación de pruebas unitarias con Mockito. Explica cómo se pueden
 simular dependencias y verificar comportamientos en las pruebas.
@@ -376,19 +375,3 @@ void towerAttackTest(){
 ```
 
 
-
-### Ejercicio 5: Pruebas de mutación (4 puntos)
-
-
-
-
-### Ejercicio 6: Diseño por contrato (Design by Contract) (2 puntos)
-
-
-**Teoría:**
-
-• Explica el concepto de diseño por contrato y cómo se aplica en el desarrollo de software.
-Discute las diferencias entre precondiciones, postcondiciones e invariantes.
-
-• Describe cómo el diseño por contrato puede mejorar la robustez y mantenibilidad del
-código.
