@@ -611,20 +611,108 @@ kubectl get svc
 
 Docker hub es el registro por defecto de docker, aqui podemos encontrar una gran cantidad de imagenes
 que podemos correr en nuestros proyectos propios.
+    
+Clonamos el repo con el comando:
+    
+```bash
+git clone https://github.com/dockersamples/dockercoins
+```
+
+Construimos la imagen apartir apartir del archivo comopose dockercoins.
+
+```bash
+docker-compose -f dockercoins.yml build
+```
+
+Y subimos nuestra imagen a dockerhub con el comando:
+
+```bash
+docker-compose -f dockercoins.yml push
+```
+
+
+Como podemos ver el archivo dockercoins.yml
+
+Cada servicio tiene su propio dockerfile, el numero de replicas especificadas, sino se especifican el numero de replicas es 1.
+En general se crean las imagenes de cada servicio segun las especificaciones.
+
+```
+version: "3"
+services:
+    rng:
+        build: dockercoins/rng
+        image: ${USERNAME}/rng:${TAG-latest}
+        deploy:
+            mode: global
+    ...
+    
+    redis:
+        image: redis
+    ...
+        
+    worker:
+        build: dockercoins/worker
+        image: ${USERNAME}/worker:${TAG-latest}
+        ...
+    deploy:
+        replicas: 10
+```
+
+### Deploying all the things
+
+Podemos desplegar cada servicio con el siguiente comando
+
+```bash
+for SERVICE in hasher rng webui worker; do
+    kubectl run $SERVICE --image=$USERNAME/$SERVICE -l app=$SERVICE
+done
+```
+
+El comando anterior indica que para cada servicio que sea hasher, rng, webui o worker
+Aplicar el comando:
+
+```bash
+kubectl run SERVICE --image $USERNAME/SEERVICE -l app=$SERVICE 
+```
+
+Con esto estariamos desplegando todos los servicios declarados en nuestro docker-compose.
+
+
+## Exposing services
+
+### Exposing services internally
+
+Se exponen los servicios redis, rng y hasher internamente en el clúster para que otros pods puedan acceder a ellos.
+
+El servicio worker no necesita ser expuesto por que su unica tarea es interactuar con el servicio rng para pedirle bytes aleatorios
+y con el servicio hasher para darle los bytes aleatorios y hashear, es decir, realiza tareas internas.
+
+```bash
+kubectl expose deployment redis --port 6379
+kubectl expose deployment rng --port 80
+kubectl expose deployment hasher --port 80
+```
+
+### Exposing services for external access
+
+Utilizamos kubectl create service nodeport para definir un servicio tipo NodePort que definimos anteriormente
+que redirigirá el tráfico al puerto específico del servicio.
+
+
+```bash
+kubectl create service nodeport webui --tcp=80 --node-port=30001
+```
 
 
 
+END
 
 
+------------------------------------------
 
+### Screenshoots haciendo la actividad de kubernetes :D
 
-
-
-
-
-
-
-### SS
+------------------------------------------
 
 ![img_1.png](img_1.png)
 ![img_2.png](img_2.png)
