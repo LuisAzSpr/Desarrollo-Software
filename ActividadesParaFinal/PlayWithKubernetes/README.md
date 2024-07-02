@@ -292,7 +292,339 @@ no tiene ningun sentido.
 
 ### Kubernetes network model
 
+Kubernetes opera en una red IP plana donde todos los nodos y pods pueden comunicarse directamente entre sí
 
 #### the good
 
+- No hay necesidad de traduccion de direcciones ni puertos, lo que simplifica la configuracion y la administracion de la red.
+- Todos los componentes pueden comunicarse eficientemente sin restricciones de NAT.
+
 #### the less good
+
+- Se requieren politicas de red adicionales para garantizar la seguridad debido a la amplia conectividad entre los resources.
+
+### First contact with kubectl
+
+- kubectl es casi la unica herramienta que necesitamos para comunicarnos con los clusteres de Kubernetes.
+
+- Se comunica con la API de Kubernetes para hacer consultas y modificaciones por linea de comandos a los recursos de un cluster.
+
+
+Hemos intentado inicializar el cluster en el nodo1 nuevamente y esta vez si pudimos lograrlo...
+
+El comando es el siguiente:
+
+```bash
+kubeadm init --apiserver-advertise-address $(hostname -i)\
+```
+
+![img_14.png](Imagenes%2Fimg_14.png)
+
+
+Sinembargo obtenemos un error del servidor al crear nuestra redes de cluster.
+
+![img_26.png](Imagenes%2Fimg_26.png)
+
+
+Utilizamos el siguiente comando para poder unir un noodo worker al cluster de kubernetes.
+
+```bash
+kubeadm join 192.168.0.23:6443 --token ek2abv.6llwe53n0aq3efx3 --discovery-token-ca-cert-hash sha256:75181c0a11b1992e534fae601f49a54b7b44b8062828e495ba643dd3bc2c3215
+```
+
+Como podemos ver este nodo ha sido unido al cluster...
+
+![img_15.png](Imagenes%2Fimg_15.png)
+
+### kubectl get nodes
+
+Podemos ejecutar el comando kubectl get nodes en el primer terminal para ver los nodos existentes en el cluster. 
+
+```bash
+kubectl get nodes
+```
+
+Como podemos ver tenemos node1 y node2 que no estan corriendo aun.
+
+![img_16.png](Imagenes%2Fimg_16.png)
+
+### Obtaining machine-readable output
+
+Podemos obtener las salidas en diferentes formatos con los comandos:
+
+```bash
+kubectl get nodes -o wide 
+kubectl get no -o yaml
+```
+
+![img_17.png](Imagenes%2Fimg_17.png)
+
+### (Ab)using kubectl and jq
+
+Podemos darle formatos mucho mas interesantes como podemos ver:
+
+![img_18.png](Imagenes%2Fimg_18.png)
+
+### What’s available?
+
+Podemos ver detalles sobre un recurso específico con :
+
+```bash
+kubectl describe <type>
+```
+
+Para el caso nuestro podemos ver detalles de un nodo (nodo actual):
+
+```bash
+kubectl describe node
+```
+
+![img_19.png](Imagenes%2Fimg_19.png)
+
+### Services
+
+Podemos listar los servicios en nuestro clúster con:
+
+```bash
+kubectl get services
+```
+
+Este servicio es responsable de exponer el plano de control de Kubernetes a los pods y a las aplicaciones externas.
+
+![img_29.png](Imagenes%2Fimg_29.png)
+
+### ClusterIP services
+
+Intenteamos establecer una conexión HTTPS con el servicio utilizando la IP del clúster
+
+En el comando anterior vimos que la IP era 10.96.0.1.
+
+```bash
+curl -k https://10.96.0.1
+```
+
+Podemos ver que tenemos un error 403 (error de autorizacion).
+
+![img_21.png](Imagenes%2Fimg_21.png)
+
+### Listing running containers
+
+Veamos los pods que estan en ejecucion.
+
+```bash
+kubectl get pods
+```
+
+Como podemos ver no existen pods ..., en donde estan?
+
+![img_22.png](Imagenes%2Fimg_22.png)
+
+### Namespaces
+
+Los namespaces nos permiten tener diferentes entornos o espacios de trabajo aislados dentro del mismo clúster.
+
+```bash
+kubectl get namespaces
+```
+
+![img_23.png](Imagenes%2Fimg_23.png)
+
+### Accessing namespaces
+
+Por defecto kubectl usa el namespace default.
+
+Podemos cambiar de namespace para ver los pods con el siguiente comando.
+
+```bash
+kubectl -n kube-system get pods
+```
+
+![img_24.png](Imagenes%2Fimg_24.png)
+
+### What are all these pods?
+
+En este caso cambiamos al namespace kube-system.
+
+- kube-apiserver-node1 : Este es el api server del cluster de kubernetes.
+- etcd : Es nuestro servidor etcd.
+- kube-controller-manager : Es un componente del nodo maestro que permite gestionar la carga y otras funciones importantes.
+- Entre otros ...
+
+
+### Running our first containers on Kubernetes
+
+
+### Starting a simple pod with kubectl run | Behind the scenes of kubectl run
+
+Ejecutamos el siguiente comando para crear un pod con nombre pingpong, usando la
+imagen base de alpine y ejecutando el comando ping 8.8.8.8 dentro del contenedor.
+
+```bash
+kubectl run pingpong --image alpine ping 8.8.8.8
+```
+
+![img_27.png](Imagenes%2Fimg_27.png)
+
+Ahora obtenemos todos los resources con el siguiente comando:
+
+```bash
+kubectl get all
+```
+
+Como podemos ver tenemos nuestro pod pingpong.
+Aparantemente esta salida no es correcta:
+
+![img_28.png](Imagenes%2Fimg_28.png)
+
+La salida correcta debe ser la siguiente:
+
+```
+deploy/pingpong (the deployment that we just created)
+rs/pingpong-xxxx (a replica set created by the deployment)
+po/pingpong-yyyy (a pod created by the replica set)
+```
+
+### What are these different things?
+
+**deploy/pinpong**
+-> deploy :Administra pods y permite escalado y actualizaciones.
+
+**rs/pingpong**
+-> replica set: Garantiza que se ejecute un número deseado de pods idénticos.
+
+**po/pingpong**
+-> Pod: La instancia real en ejecución de su aplicación contenedorizada.
+
+### Our pingpong deployment
+
+En la actividad nos dan una explicacion sencilla y bastante buena de como se crea un pod.
+Al ejecutar el comando kubectl run pingpong,
+
+**kubectl run --> crea un deployment --> crea un replicaset -> crea el pod** 
+
+Es decir, al ejecutar el comando kubectl este crea un deployment, este a su vez
+crea un replicaset y este al final crea un pod.
+
+Luego veremos como estos trabajan juntos para proporcionar:
+
+- escalado
+- alta disponiblidad
+- actualizaciones continuas
+
+
+### Scaling our application
+
+Con el siguiente comando podemos escalar cuantas replicas queramos para nuestra aplicacion
+
+En este caso estamos escalando 8 replicas.
+
+```bash
+kubectl scale deploy/pingpong --replicas 8
+```
+
+### Resilience
+
+El deployment/pinpong verifica su replicaset y este se asegura de que la cantidad de replicas ejecutandose
+en el cluster sean 8.
+
+```bash
+kubectl scale deploy/pingpong --replicas 8
+```
+
+Si queremos destruir algun pod, podemos usar el siguiente comando:
+
+Donde yyyy es el identificador del pod (id o nombre).
+
+```bash
+kubectl delete pod pingpong-yyyy
+```
+
+### Clean-up
+
+Limpiamos nuestro entorno ejecutando el siguiente comando
+
+```bash
+kubectl delete deploy/pingpong
+```
+
+## Exposing containers
+
+El comando **kubectl expose** crea un servicio para nodos existentes, es decir,
+apartir de nodos ya existentes podemos crear un servicio para que otro nodo pueda comunicarse
+con estos nodos (con el servicio que brindan).
+
+Ademas kube-dns resuelve los nombres de dominio de estos eervicios.
+
+## Basic service types
+
+- **ClusterIp** : Se le asigna una direccion IP virtual al servicio. 
+- **NodePort**: Se asigna un puerto externo al servicio.
+- **LoadBalancer**: Se asigna un balanceador de carga externo que dirige el tráfico.
+
+
+### Running containers with open ports
+
+El problema con el ejemplo anterior es que no habia nada para conectar:
+
+Ahora, con el siguiente comando podemos correr la imagen elasticsearch version 2, con 4 replicas.
+
+```bash
+kubectl run elastic --image=elasticsearch:2 --replicas=4
+```
+
+
+Se supone que deben haber creado:
+
+- deploy/elastic
+- rs/elastic
+- po/ping {1,2,3,4} // 4 replicas
+
+Y veamos los pods:
+
+```bash 
+kubectl get pods -w
+```
+
+- po/pingpong1
+- po/pingpong2
+- po/pingpong3
+- po/pingpong4
+
+### Exposing our deployment
+
+Ahora exponemos nuestro deploy/elastic en el puerto 
+
+```bash
+kubectl expose deploy/elastic --port 9200
+```
+
+Se crea un servicio de tipo ClusterIP, el cual expone el puerto 9200 , como vimos anteriormente 
+se expone una direccion IP para un servicio  permitiendo a los pods acceder a este servicio.
+
+### Services are layer 4 constructs
+
+```bash
+kubectl get svc
+```
+
+### Docker Hub
+
+Docker hub es el registro por defecto de docker, aqui podemos encontrar una gran cantidad de imagenes
+que podemos correr en nuestros proyectos propios.
+
+
+
+
+
+
+
+
+
+
+
+
+
+### SS
+
+![img_1.png](img_1.png)
+![img_2.png](img_2.png)
