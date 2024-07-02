@@ -1,4 +1,4 @@
-package org.example.objetos;
+package org.example;
 
 public class Juego {
     private int notaMinAprobatoria;

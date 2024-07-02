@@ -20,6 +20,7 @@ public class Game {
         mapa = new Map(5);
         mapa.inicializarPorDefecto();
         posicionBase = mapa.buscarBase();
+        mapa.mostrarMapa();
     }
 
     public void oleadaGame(){

@@ -1,8 +1,11 @@
-package org.example.objetos;
+package org.example.objetos.procastinators;
+
+import org.example.objetos.Objeto;
 
 public class Procastinadores extends Objeto {
+    private int tiempo;
 
-    public Procastinadores(int energia) {
-        super(energia);
+    protected Procastinadores(int tiempo, int energia) {
+        super(tiempo, energia);
     }
 }

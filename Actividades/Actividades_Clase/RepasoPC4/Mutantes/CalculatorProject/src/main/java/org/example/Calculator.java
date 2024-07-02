@@ -1,7 +1,6 @@
 package org.example;
 
 public class Calculator {
-
     public int calculate(String operation, int a, int b) {
         switch (operation) {
             case "add":  return add(a, b);

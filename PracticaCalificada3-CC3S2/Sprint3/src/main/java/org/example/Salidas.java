@@ -21,7 +21,4 @@ public class Salidas {
         }
         System.out.println("---------------------------------");
     }
-
-
-
 }

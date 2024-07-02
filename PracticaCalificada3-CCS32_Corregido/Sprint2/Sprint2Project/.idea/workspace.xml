@@ -5,42 +5,69 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="110242e3-d9b0-4346-b18f-2457aff032db" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../Sprint1/Sprint1Project/Imagenes/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Sprint1/Sprint1Project/Imagenes/img_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Sprint1/Sprint1Project/Imagenes/img_10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Sprint1/Sprint1Project/Imagenes/img_11.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Sprint1/Sprint1Project/Imagenes/img_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Sprint1/Sprint1Project/Imagenes/img_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Sprint1/Sprint1Project/Imagenes/img_4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Sprint1/Sprint1Project/Imagenes/img_5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Sprint1/Sprint1Project/Imagenes/img_6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Sprint1/Sprint1Project/Imagenes/img_7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Sprint1/Sprint1Project/Imagenes/img_8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Sprint1/Sprint1Project/Imagenes/img_9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Sprint1/Sprint1Project/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Sprint1/Sprint1Project/src/main/java/org/example/Juego.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Sprint1/Sprint1Project/src/main/java/org/example/Jugador.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Sprint1/Sprint1Project/src/main/java/org/example/Laberinto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Sprint1/Sprint1Project/src/main/java/org/example/Salidas.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Sprint1/Sprint1Project/src/test/java/org/example/JuegoTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Sprint1/Sprint1Project/src/test/java/org/example/JugadorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Sprint1/Sprint1Project/src/test/java/org/example/LaberintoTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sprint1Project/Imagenes/img_12.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sprint1Project/Imagenes/img_13.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sprint1Project/Imagenes/img_14.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sprint1Project/Imagenes/img_15.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sprint1Project/Imagenes/img_16.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sprint1Project/Imagenes/img_17.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sprint1Project/Imagenes/img_21.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sprint1Project/Imagenes/img_22.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sprint1Project/Imagenes/img_23.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sprint1Project/Imagenes/img_24.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sprint1Project/Imagenes/img_25.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sprint1Project/Imagenes/img_26.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sprint1Project/Imagenes/img_27.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sprint1Project/Imagenes/img_28.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sprint1Project/Imagenes/img_29.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sprint1Project/Imagenes/img_30.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Actividades/Actividades_Clase/PostParcial/Mockito_PiTest/Mock-Stubs-InyeccionDeDependencias/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Actividades/Actividades_Clase/PostParcial/Mockito_PiTest/Mock-Stubs-InyeccionDeDependencias/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Actividades/Actividades_Clase/PostParcial/Mockito_PiTest/Mocks-Stubs-NotificacionesPorEmail/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Actividades/Actividades_Clase/PostParcial/Mockito_PiTest/Mocks-Stubs-NotificacionesPorEmail/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Actividades/Actividades_Clase/PostParcial/Mockito_PiTest/Mocks-Stubs-NotificacionesPorEmail/src/main/java/org/example/InvalidCredentialsException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Actividades/Actividades_Clase/PostParcial/Mockito_PiTest/Mocks-Stubs-NotificacionesPorEmail/src/main/java/org/example/MailServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Actividades/Actividades_Clase/PostParcial/Mockito_PiTest/Mocks-Stubs-NotificacionesPorEmail/src/main/java/org/example/RealMailServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Actividades/Actividades_Clase/PostParcial/Mockito_PiTest/Mocks-Stubs-NotificacionesPorEmail/src/main/java/org/example/UserNotifications.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Actividades/Actividades_Clase/PostParcial/Mockito_PiTest/Mocks-Stubs-NotificacionesPorEmail/src/test/java/org/example/UserNotificationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Actividades/Actividades_Clase/PostParcial/Mockito_PiTest/Mocks-Stubs/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Actividades/Actividades_Clase/PostParcial/Mockito_PiTest/Mocks-Stubs/src/main/java/org/example/LanzamientoDados.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Actividades/Actividades_Clase/PostParcial/Mockito_PiTest/Mocks-Stubs/src/main/java/org/example/NumerosAleatorios.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Actividades/Actividades_Clase/PostParcial/Mockito_PiTest/Mocks-Stubs/src/main/java/org/example/NumerosGeneradosAleatoriamente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Actividades/Actividades_Clase/PostParcial/Mockito_PiTest/Mocks-Stubs/src/test/java/org/example/LanzamientoDadosTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Actividades/Actividades_Clase/PostParcial/ActividadMetricas/ComplejidadCiclomatica/.idea/sonarlint/issuestore/0/4/049feaf161ae6dc066892440caafa04e63e4c98b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Actividades/Actividades_Clase/PostParcial/ActividadMetricas/ComplejidadCiclomatica/.idea/sonarlint/issuestore/1/b/1b02596b0189403bc3be170960090383942e884b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Actividades/Actividades_Clase/PostParcial/ActividadMetricas/ComplejidadCiclomatica/.idea/sonarlint/issuestore/3/5/356e4a947ea04d377d14cc59faf9899e372ee68e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Actividades/Actividades_Clase/PostParcial/ActividadMetricas/ComplejidadCiclomatica/.idea/sonarlint/issuestore/7/e/7e0f9cbdf0cf7888ddb6ffa76df2015a5d89ca22" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Actividades/Actividades_Clase/PostParcial/ActividadMetricas/ComplejidadCiclomatica/.idea/sonarlint/issuestore/8/d/8db1673f216db54bf33abc8993a4433218302e11" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Actividades/Actividades_Clase/PostParcial/ActividadMetricas/ComplejidadCiclomatica/.idea/sonarlint/issuestore/8/d/8db1673f216db54bf33abc8993a4433218302e11" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Actividades/Actividades_Clase/PostParcial/ActividadMetricas/ComplejidadCiclomatica/.idea/sonarlint/issuestore/a/1/a1c015860fb3e02cbdece6bd4d7baa2a25c43d84" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Actividades/Actividades_Clase/PostParcial/ActividadMetricas/ComplejidadCiclomatica/.idea/sonarlint/issuestore/a/7/a77716be020f7f3231b4db331e23038864e4d377" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Actividades/Actividades_Clase/PostParcial/ActividadMetricas/ComplejidadCiclomatica/.idea/sonarlint/issuestore/a/7/a77716be020f7f3231b4db331e23038864e4d377" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Actividades/Actividades_Clase/PostParcial/ActividadMetricas/ComplejidadCiclomatica/.idea/sonarlint/issuestore/c/0/c0a268b8e7a8ed151c4406d892ffb8896f45f01d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Actividades/Actividades_Clase/PostParcial/ActividadMetricas/ComplejidadCiclomatica/.idea/sonarlint/issuestore/c/2/c2d3bef67626289b2240285d7368bb69e09ebe5d" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Actividades/Actividades_Clase/PostParcial/ActividadMetricas/ComplejidadCiclomatica/.idea/sonarlint/issuestore/c/2/c2d3bef67626289b2240285d7368bb69e09ebe5d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Actividades/Actividades_Clase/PostParcial/ActividadMetricas/ComplejidadCiclomatica/.idea/sonarlint/issuestore/d/6/d65e24fed692ddb8e53a0483acd0efac15bb8bd1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Actividades/Actividades_Clase/PostParcial/ActividadMetricas/ComplejidadCiclomatica/.idea/sonarlint/issuestore/d/6/d6e8f15e90e197b4cd100e0458d5c22e89a036bd" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Actividades/Actividades_Clase/PostParcial/ActividadMetricas/ComplejidadCiclomatica/.idea/sonarlint/issuestore/d/6/d6e8f15e90e197b4cd100e0458d5c22e89a036bd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Actividades/Actividades_Clase/PostParcial/ActividadMetricas/ComplejidadCiclomatica/.idea/sonarlint/issuestore/d/9/d94952117112b784bfb31079bc5a47175fedd277" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Actividades/Actividades_Clase/PostParcial/ActividadMetricas/ComplejidadCiclomatica/.idea/sonarlint/issuestore/d/9/d94952117112b784bfb31079bc5a47175fedd277" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Actividades/Actividades_Clase/PostParcial/ActividadMetricas/ComplejidadCiclomatica/.idea/sonarlint/issuestore/f/6/f6191d9ec0e321f3d7dbc4fd9d819bda035773ed" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Actividades/Actividades_Clase/PostParcial/ActividadMetricas/ComplejidadCiclomatica/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Actividades/Actividades_Clase/PostParcial/ActividadMetricas/ComplejidadCiclomatica/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Actividades/Actividades_Clase/PostParcial/ActividadMetricas/ComplejidadCiclomatica/.idea/sonarlint/securityhotspotstore/0/4/049feaf161ae6dc066892440caafa04e63e4c98b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Actividades/Actividades_Clase/PostParcial/ActividadMetricas/ComplejidadCiclomatica/.idea/sonarlint/securityhotspotstore/1/b/1b02596b0189403bc3be170960090383942e884b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Actividades/Actividades_Clase/PostParcial/ActividadMetricas/ComplejidadCiclomatica/.idea/sonarlint/securityhotspotstore/3/5/356e4a947ea04d377d14cc59faf9899e372ee68e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Actividades/Actividades_Clase/PostParcial/ActividadMetricas/ComplejidadCiclomatica/.idea/sonarlint/securityhotspotstore/7/e/7e0f9cbdf0cf7888ddb6ffa76df2015a5d89ca22" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Actividades/Actividades_Clase/PostParcial/ActividadMetricas/ComplejidadCiclomatica/.idea/sonarlint/securityhotspotstore/a/1/a1c015860fb3e02cbdece6bd4d7baa2a25c43d84" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Actividades/Actividades_Clase/PostParcial/ActividadMetricas/ComplejidadCiclomatica/.idea/sonarlint/securityhotspotstore/c/0/c0a268b8e7a8ed151c4406d892ffb8896f45f01d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Actividades/Actividades_Clase/PostParcial/ActividadMetricas/ComplejidadCiclomatica/.idea/sonarlint/securityhotspotstore/d/6/d65e24fed692ddb8e53a0483acd0efac15bb8bd1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Actividades/Actividades_Clase/PostParcial/ActividadMetricas/ComplejidadCiclomatica/.idea/sonarlint/securityhotspotstore/f/6/f6191d9ec0e321f3d7dbc4fd9d819bda035773ed" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Actividades/Actividades_Clase/PostParcial/ActividadMetricas/ComplejidadCiclomatica/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Actividades/Actividades_Clase/PostParcial/ActividadMetricas/ComplejidadCiclomatica/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Actividades/Actividades_Clase/PostParcial/ActividadMetricas/ComplejidadCiclomatica/src/main/java/org/example/analysiscodeutil/MethodAttributesExtractor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Actividades/Actividades_Clase/PostParcial/ActividadMetricas/ComplejidadCiclomatica/src/main/java/org/example/analysiscodeutil/MethodAttributesExtractor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Actividades/Actividades_Clase/PostParcial/ActividadMockito/MockitoStups/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Actividades/Actividades_Clase/PostParcial/ActividadMockito/MockitoStups/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Actividades/Actividades_Clase/PostParcial/ActividadMockito/MockitoStups/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Actividades/Actividades_Clase/PostParcial/ActividadMockito/MockitoStups/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Actividades/Actividades_Clase/PostParcial/ActividadMockito/MockitoStups/.idea/sonarlint/issuestore/0/b/0ba1b9c7a4878802f938e331cc2d8a042087ec6b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Actividades/Actividades_Clase/PostParcial/ActividadMockito/MockitoStups/.idea/sonarlint/issuestore/d/9/d9db101f591b927e11d0678fc74a63f0247cfa41" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Actividades/Actividades_Clase/PostParcial/ActividadMockito/MockitoStups/.idea/sonarlint/issuestore/d/a/da118d1bd543c88a367047790640e8b5b211d007" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Actividades/Actividades_Clase/PostParcial/ActividadMockito/MockitoStups/.idea/sonarlint/issuestore/f/0/f07866736216be0ee2aba49e392191aeae700a35" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Actividades/Actividades_Clase/PostParcial/ActividadMockito/MockitoStups/.idea/sonarlint/issuestore/index.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Actividades/Actividades_Clase/PostParcial/ActividadMockito/MockitoStups/.idea/sonarlint/securityhotspotstore/0/b/0ba1b9c7a4878802f938e331cc2d8a042087ec6b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Actividades/Actividades_Clase/PostParcial/ActividadMockito/MockitoStups/.idea/sonarlint/securityhotspotstore/d/9/d9db101f591b927e11d0678fc74a63f0247cfa41" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Actividades/Actividades_Clase/PostParcial/ActividadMockito/MockitoStups/.idea/sonarlint/securityhotspotstore/d/a/da118d1bd543c88a367047790640e8b5b211d007" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Actividades/Actividades_Clase/PostParcial/ActividadMockito/MockitoStups/.idea/sonarlint/securityhotspotstore/f/0/f07866736216be0ee2aba49e392191aeae700a35" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Actividades/Actividades_Clase/PostParcial/ActividadMockito/MockitoStups/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Actividades/Actividades_Clase/PostParcial/ActividadMockito/MockitoStups/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Actividades/Actividades_Clase/PostParcial/ActividadMockito/MockitoStups/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Actividades/Actividades_Clase/PostParcial/ActividadMockito/MockitoStups/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Actividades/Actividades_Clase/PostParcial/ActividadMockito/MockitoStups/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Actividades/Actividades_Clase/PostParcial/ActividadMockito/MockitoStups/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Actividades/Actividades_Clase/PostParcial/ActividadMockito/MockitoStups/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Actividades/Actividades_Clase/PostParcial/ActividadMockito/MockitoStups/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Actividades/Actividades_Clase/PostParcial/ActividadMockito/MockitoStups/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Actividades/Actividades_Clase/PostParcial/ActividadMockito/MockitoStups/src/main/java/org/example/LanzamientoDados.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Actividades/Actividades_Clase/PostParcial/ActividadMockito/MockitoStups/src/main/java/org/example/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Actividades/Actividades_Clase/PostParcial/ActividadMockito/MockitoStups/src/test/java/org/example/LanzamientoDadosTest.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../Actividades/Actividades_Clase/PostParcial/Mockito/Mockito1/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Actividades/Actividades_Clase/PostParcial/Mockito/Mockito1/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../Actividades/Actividades_Clase/PostParcial/Mockito/Mockito1/.idea/sonarlint/issuestore/0/b/0ba1b9c7a4878802f938e331cc2d8a042087ec6b" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../Actividades/Actividades_Clase/PostParcial/Mockito/Mockito1/.idea/sonarlint/issuestore/6/8/6825bc96d9ce1ba3a55eabfbf28ae67ae380732a" beforeDir="false" />
@@ -49,6 +76,30 @@
       <change beforePath="$PROJECT_DIR$/../../../Actividades/Actividades_Clase/PostParcial/Mockito/Mockito1/.idea/sonarlint/securityhotspotstore/0/b/0ba1b9c7a4878802f938e331cc2d8a042087ec6b" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../Actividades/Actividades_Clase/PostParcial/Mockito/Mockito1/.idea/sonarlint/securityhotspotstore/6/8/6825bc96d9ce1ba3a55eabfbf28ae67ae380732a" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../Actividades/Actividades_Clase/PostParcial/Mockito/Mockito1/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Actividades/Actividades_Clase/PostParcial/Mockito/Mockito1/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Actividades/Actividades_Clase/PostParcial/PiTestGraddle/CalculatorProject/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Actividades/Actividades_Clase/PostParcial/PiTestGraddle/CalculatorProject/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Actividades/Actividades_Clase/PostParcial/PiTestGraddle/CalculatorProject/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Actividades/Actividades_Clase/PostParcial/PiTestGraddle/CalculatorProject/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Actividades/Actividades_Clase/PostParcial/PiTestGraddle/CalculatorProject/.idea/sonarlint/issuestore/0/b/0ba1b9c7a4878802f938e331cc2d8a042087ec6b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Actividades/Actividades_Clase/PostParcial/PiTestGraddle/CalculatorProject/.idea/sonarlint/issuestore/2/1/21e41828486a077e7e7eb141e0bf1123b7c141de" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Actividades/Actividades_Clase/PostParcial/PiTestGraddle/CalculatorProject/.idea/sonarlint/issuestore/e/5/e5b02a72d345f8da494b878120d3bbbd78927664" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Actividades/Actividades_Clase/PostParcial/PiTestGraddle/CalculatorProject/.idea/sonarlint/issuestore/f/0/f07866736216be0ee2aba49e392191aeae700a35" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Actividades/Actividades_Clase/PostParcial/PiTestGraddle/CalculatorProject/.idea/sonarlint/issuestore/index.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Actividades/Actividades_Clase/PostParcial/PiTestGraddle/CalculatorProject/.idea/sonarlint/securityhotspotstore/0/b/0ba1b9c7a4878802f938e331cc2d8a042087ec6b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Actividades/Actividades_Clase/PostParcial/PiTestGraddle/CalculatorProject/.idea/sonarlint/securityhotspotstore/2/1/21e41828486a077e7e7eb141e0bf1123b7c141de" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Actividades/Actividades_Clase/PostParcial/PiTestGraddle/CalculatorProject/.idea/sonarlint/securityhotspotstore/e/5/e5b02a72d345f8da494b878120d3bbbd78927664" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Actividades/Actividades_Clase/PostParcial/PiTestGraddle/CalculatorProject/.idea/sonarlint/securityhotspotstore/f/0/f07866736216be0ee2aba49e392191aeae700a35" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Actividades/Actividades_Clase/PostParcial/PiTestGraddle/CalculatorProject/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Actividades/Actividades_Clase/PostParcial/PiTestGraddle/CalculatorProject/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Actividades/Actividades_Clase/PostParcial/PiTestGraddle/CalculatorProject/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Actividades/Actividades_Clase/PostParcial/PiTestGraddle/CalculatorProject/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Actividades/Actividades_Clase/PostParcial/PiTestGraddle/CalculatorProject/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Actividades/Actividades_Clase/PostParcial/PiTestGraddle/CalculatorProject/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Actividades/Actividades_Clase/PostParcial/PiTestGraddle/CalculatorProject/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Actividades/Actividades_Clase/PostParcial/PiTestGraddle/CalculatorProject/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Actividades/Actividades_Clase/PostParcial/PiTestGraddle/CalculatorProject/src/main/java/org/example/Calculadora.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Actividades/Actividades_Clase/PostParcial/PiTestGraddle/CalculatorProject/src/main/java/org/example/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Actividades/Actividades_Clase/PostParcial/PiTestGraddle/CalculatorProject/src/test/java/org/example/CalculadoraTest.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../PracticaCalificada3-CC3S2/Sprint1/.idea/sonarlint/issuestore/0/b/0ba1b9c7a4878802f938e331cc2d8a042087ec6b" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PracticaCalificada3-CC3S2/Sprint1/.idea/sonarlint/issuestore/0/b/0ba1b9c7a4878802f938e331cc2d8a042087ec6b" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../PracticaCalificada3-CC3S2/Sprint1/.idea/sonarlint/issuestore/3/0/3003bba828273cb57a2b8655e76982bf2e2f4878" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PracticaCalificada3-CC3S2/Sprint1/.idea/sonarlint/issuestore/3/0/3003bba828273cb57a2b8655e76982bf2e2f4878" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../PracticaCalificada3-CC3S2/Sprint1/.idea/sonarlint/issuestore/3/6/367111bb19058207bff64123c67d17a0cde7552e" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PracticaCalificada3-CC3S2/Sprint1/.idea/sonarlint/issuestore/3/6/367111bb19058207bff64123c67d17a0cde7552e" afterDir="false" />
@@ -69,6 +120,13 @@
       <change beforePath="$PROJECT_DIR$/../../../PracticaCalificada3-CC3S2/Sprint3/src/main/java/org/example/Laberinto.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PracticaCalificada3-CC3S2/Sprint3/src/main/java/org/example/Laberinto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../PracticaCalificada3-CC3S2/Sprint3/src/main/java/org/example/Salidas.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PracticaCalificada3-CC3S2/Sprint3/src/main/java/org/example/Salidas.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../PracticaCalificada3-CC3S2/Sprint3/src/test/java/example/JuegoTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/7/0717420cfefb5bd399d6aa4cf86c3f6bc6613eef" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/7/0717420cfefb5bd399d6aa4cf86c3f6bc6613eef" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/a/ca725317d52fa12c38f4c92edd47de2daf64cbe1" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/a/ca725317d52fa12c38f4c92edd47de2daf64cbe1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/5/f518ba3208368107cbeace18df17635922951f1f" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/5/f518ba3208368107cbeace18df17635922951f1f" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Sprint3/Sprint3Project/.idea/sonarlint/issuestore/0/7/0717420cfefb5bd399d6aa4cf86c3f6bc6613eef" beforeDir="false" afterPath="$PROJECT_DIR$/../../Sprint3/Sprint3Project/.idea/sonarlint/issuestore/0/7/0717420cfefb5bd399d6aa4cf86c3f6bc6613eef" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Sprint3/Sprint3Project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Sprint3/Sprint3Project/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,42 +159,42 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 3
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2hYVd3EQbQUl4rSwN3zXOXSbRoR" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Gradle.JuegoTest.actualizarEstadoAlMoverseAlVacio.executor": "Run",
-    "Gradle.JuegoTest.actualizarEstadoAlMoverseAunTesoro.executor": "Run",
-    "Gradle.JuegoTest.actualizarEstadoAlMoverseAunaTrampa.executor": "Run",
-    "Gradle.JuegoTest.executor": "Run",
-    "Gradle.JuegoTest.verificarEstadoTerminadoDelJuego_Gana.executor": "Run",
-    "Gradle.JuegoTest.verificarEstadoTerminadoDelJuego_Pierde.executor": "Run",
-    "Gradle.JugadorTest.executor": "Run",
-    "Gradle.JugadorTest.moverJugadorHaciaUnTesoro.executor": "Run",
-    "Gradle.JugadorTest.moverJugadorHaciaUnaTrampa.executor": "Run",
-    "Gradle.LaberintoTest.actualizarCelda.executor": "Run",
-    "Gradle.LaberintoTest.colcarTesorosYTrampas.executor": "Run",
-    "Gradle.LaberintoTest.executor": "Run",
-    "Gradle.Sprint1Project [:Main.main()].executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Gradle.JuegoTest.actualizarEstadoAlMoverseAlVacio.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.JuegoTest.actualizarEstadoAlMoverseAunTesoro.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.JuegoTest.actualizarEstadoAlMoverseAunaTrampa.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.JuegoTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.JuegoTest.verificarEstadoTerminadoDelJuego_Gana.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.JuegoTest.verificarEstadoTerminadoDelJuego_Pierde.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.JugadorTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.JugadorTest.moverJugadorHaciaUnTesoro.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.JugadorTest.moverJugadorHaciaUnaTrampa.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.LaberintoTest.actualizarCelda.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.LaberintoTest.colcarTesorosYTrampas.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.LaberintoTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Sprint1Project [:Main.main()].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Main" />
@@ -266,6 +324,10 @@
       <option name="presentableId" value="Default" />
       <updated>1717771081213</updated>
       <workItem from="1717771082289" duration="31033000" />
+      <workItem from="1717956534686" duration="1212000" />
+      <workItem from="1718052595805" duration="512000" />
+      <workItem from="1718054166844" duration="4000" />
+      <workItem from="1718159861483" duration="6000" />
     </task>
     <servers />
   </component>

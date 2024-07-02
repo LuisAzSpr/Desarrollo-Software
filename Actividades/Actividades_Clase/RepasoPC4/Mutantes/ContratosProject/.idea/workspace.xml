@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5d67e2ee-467b-47b9-bc65-2dfef7d0d068" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../CalculatorProject/.idea/sonarlint/issuestore/6/d/6dbb70572d6d26423f4ad47315245f583c53e7f8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CalculatorProject/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../CalculatorProject/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CalculatorProject/.idea/sonarlint/securityhotspotstore/6/d/6dbb70572d6d26423f4ad47315245f583c53e7f8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CalculatorProject/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../CalculatorProject/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CalculatorProject/src/main/java/org/example/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CalculatorProject/src/main/java/org/example/Calculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../PracticaCalificada3-CC3S2/Sprint1/.idea/sonarlint/issuestore/0/b/0ba1b9c7a4878802f938e331cc2d8a042087ec6b" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../PracticaCalificada3-CC3S2/Sprint1/.idea/sonarlint/issuestore/0/b/0ba1b9c7a4878802f938e331cc2d8a042087ec6b" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../PracticaCalificada3-CC3S2/Sprint1/.idea/sonarlint/issuestore/3/0/3003bba828273cb57a2b8655e76982bf2e2f4878" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../PracticaCalificada3-CC3S2/Sprint1/.idea/sonarlint/issuestore/3/0/3003bba828273cb57a2b8655e76982bf2e2f4878" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../PracticaCalificada3-CC3S2/Sprint1/.idea/sonarlint/issuestore/3/6/367111bb19058207bff64123c67d17a0cde7552e" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../PracticaCalificada3-CC3S2/Sprint1/.idea/sonarlint/issuestore/3/6/367111bb19058207bff64123c67d17a0cde7552e" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../PracticaCalificada3-CC3S2/Sprint1/.idea/sonarlint/issuestore/6/f/6f85920ebbd7006688d927d4177adc58f752cff1" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../PracticaCalificada3-CC3S2/Sprint1/.idea/sonarlint/issuestore/6/f/6f85920ebbd7006688d927d4177adc58f752cff1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../PracticaCalificada3-CC3S2/Sprint1/src/main/java/org/example/Salidas.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../PracticaCalificada3-CC3S2/Sprint1/src/main/java/org/example/Salidas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../PracticaCalificada3-CC3S2/Sprint2/.idea/sonarlint/issuestore/3/6/367111bb19058207bff64123c67d17a0cde7552e" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../PracticaCalificada3-CC3S2/Sprint2/.idea/sonarlint/issuestore/3/6/367111bb19058207bff64123c67d17a0cde7552e" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../PracticaCalificada3-CC3S2/Sprint2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../PracticaCalificada3-CC3S2/Sprint2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../PracticaCalificada3-CC3S2/Sprint2/src/main/java/org/example/Juego.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../PracticaCalificada3-CC3S2/Sprint2/src/main/java/org/example/Juego.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../PracticaCalificada3-CC3S2/Sprint3/.idea/sonarlint/issuestore/3/0/3003bba828273cb57a2b8655e76982bf2e2f4878" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../PracticaCalificada3-CC3S2/Sprint3/.idea/sonarlint/issuestore/3/0/3003bba828273cb57a2b8655e76982bf2e2f4878" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../PracticaCalificada3-CC3S2/Sprint3/.idea/sonarlint/issuestore/3/6/367111bb19058207bff64123c67d17a0cde7552e" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../PracticaCalificada3-CC3S2/Sprint3/.idea/sonarlint/issuestore/3/6/367111bb19058207bff64123c67d17a0cde7552e" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../PracticaCalificada3-CC3S2/Sprint3/.idea/sonarlint/issuestore/6/f/6f85920ebbd7006688d927d4177adc58f752cff1" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../PracticaCalificada3-CC3S2/Sprint3/.idea/sonarlint/issuestore/6/f/6f85920ebbd7006688d927d4177adc58f752cff1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../PracticaCalificada3-CC3S2/Sprint3/.idea/sonarlint/issuestore/9/a/9a595aaecf5b2dd1f7679525192e5508426f3d7d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../PracticaCalificada3-CC3S2/Sprint3/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../PracticaCalificada3-CC3S2/Sprint3/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../PracticaCalificada3-CC3S2/Sprint3/.idea/sonarlint/securityhotspotstore/9/a/9a595aaecf5b2dd1f7679525192e5508426f3d7d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../PracticaCalificada3-CC3S2/Sprint3/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../PracticaCalificada3-CC3S2/Sprint3/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../PracticaCalificada3-CC3S2/Sprint3/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../PracticaCalificada3-CC3S2/Sprint3/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../PracticaCalificada3-CC3S2/Sprint3/src/main/java/org/example/Juego.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../PracticaCalificada3-CC3S2/Sprint3/src/main/java/org/example/Juego.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../PracticaCalificada3-CC3S2/Sprint3/src/main/java/org/example/Laberinto.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../PracticaCalificada3-CC3S2/Sprint3/src/main/java/org/example/Laberinto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../PracticaCalificada3-CC3S2/Sprint3/src/main/java/org/example/Salidas.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../PracticaCalificada3-CC3S2/Sprint3/src/main/java/org/example/Salidas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../PracticaCalificada3-CC3S2/Sprint3/src/test/java/example/JuegoTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../PracticaCalificada3-CCS32_Corregido/Sprint2/Sprint2Project/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../PracticaCalificada3-CCS32_Corregido/Sprint2/Sprint2Project/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../PracticaCalificada3-CCS32_Corregido/Sprint2/Sprint2Project/.idea/sonarlint/issuestore/0/7/0717420cfefb5bd399d6aa4cf86c3f6bc6613eef" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../PracticaCalificada3-CCS32_Corregido/Sprint2/Sprint2Project/.idea/sonarlint/issuestore/0/7/0717420cfefb5bd399d6aa4cf86c3f6bc6613eef" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../PracticaCalificada3-CCS32_Corregido/Sprint2/Sprint2Project/.idea/sonarlint/issuestore/c/a/ca725317d52fa12c38f4c92edd47de2daf64cbe1" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../PracticaCalificada3-CCS32_Corregido/Sprint2/Sprint2Project/.idea/sonarlint/issuestore/c/a/ca725317d52fa12c38f4c92edd47de2daf64cbe1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../PracticaCalificada3-CCS32_Corregido/Sprint2/Sprint2Project/.idea/sonarlint/issuestore/f/5/f518ba3208368107cbeace18df17635922951f1f" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../PracticaCalificada3-CCS32_Corregido/Sprint2/Sprint2Project/.idea/sonarlint/issuestore/f/5/f518ba3208368107cbeace18df17635922951f1f" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../PracticaCalificada3-CCS32_Corregido/Sprint2/Sprint2Project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../PracticaCalificada3-CCS32_Corregido/Sprint2/Sprint2Project/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../PracticaCalificada3-CCS32_Corregido/Sprint3/Sprint3Project/.idea/sonarlint/issuestore/0/7/0717420cfefb5bd399d6aa4cf86c3f6bc6613eef" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../PracticaCalificada3-CCS32_Corregido/Sprint3/Sprint3Project/.idea/sonarlint/issuestore/0/7/0717420cfefb5bd399d6aa4cf86c3f6bc6613eef" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../PracticaCalificada3-CCS32_Corregido/Sprint3/Sprint3Project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../PracticaCalificada3-CCS32_Corregido/Sprint3/Sprint3Project/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../../.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 6
+}]]></component>
+  <component name="ProjectId" id="2i5SIZend0i7Ly4XQIkA7DPFBVE" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "/home/luis/Desktop/6to_ciclo/Desarrollo/Desarrollo_Personal_SSH/Desarrollo-Software/Actividades/Actividades_Clase/RepasoPC4/Mutantes/ContratosProject/src/main/java/org/example/Main.java",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5d67e2ee-467b-47b9-bc65-2dfef7d0d068" name="Changes" comment="" />
+      <created>1718778869719</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1718778869719</updated>
+      <workItem from="1718778870806" duration="1279000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

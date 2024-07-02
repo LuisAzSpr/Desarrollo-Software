@@ -2,8 +2,10 @@ FROM openjdk:17
 
 WORKDIR /app
 
-COPY src/main/java /app
+COPY . /app
 
-RUN javac org/example/*.java
+RUN chmod +x ./gradlew build
 
-CMD ["java", "org.example.Main"]
+CMD ["java", "-cp","build/classes/java/main", "towerdefense.TowerDefenseGame"]
+
+

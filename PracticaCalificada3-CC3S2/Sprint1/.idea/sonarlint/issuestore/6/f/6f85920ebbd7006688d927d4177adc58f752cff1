@@ -1,7 +1,7 @@
 
 }
-java:S1854":Remove this useless assignment to local variable "matriz".(ÏÓí¿8é¶‰Åş1J$fba2d6a0-2b9a-46de-bb75-2a56a8177c33
+java:S1854":Remove this useless assignment to local variable "matriz".(ÏÓí¿8é¶‰Åş1J$1d2ff273-cdf8-43a5-829c-da6dcc17f766
 n
-java:S1481"+Remove this unused "matriz" local variable.(ÏÓí¿8ê¶‰Åş1J$d724ccbc-84a5-4f91-a6dd-cb55ca6a6366
-r	java:S106"+Replace this use of System.out by a logger.(¸—İåúÿÿÿÿ8âŸÅş1J$aaa20e8f-7713-4291-8c4e-157d4ed0bff7
-r	java:S106"+Replace this use of System.out by a logger.(ªÓ¼áşÿÿÿÿ8ãŸÅş1J$3284ea9c-2988-4bb5-a2da-6cb77ee9612f
+java:S1481"+Remove this unused "matriz" local variable.(ÏÓí¿8ê¶‰Åş1J$aa76f961-9c46-4d33-be1c-ed9613f1030e
+r	java:S106"+Replace this use of System.out by a logger.(¸—İåúÿÿÿÿ8âŸÅş1J$d164ba7f-26eb-4ed2-bef3-d6013823d493
+r	java:S106"+Replace this use of System.out by a logger.(ªÓ¼áşÿÿÿÿ8ãŸÅş1J$4e85557e-8380-4468-9e4b-8fadb2d2fc45

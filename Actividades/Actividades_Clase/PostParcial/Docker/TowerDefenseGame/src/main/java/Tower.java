@@ -1,5 +1,3 @@
-package org.example;
-
 public class Tower {
     private char symbol;
     public Tower(char symbol) {

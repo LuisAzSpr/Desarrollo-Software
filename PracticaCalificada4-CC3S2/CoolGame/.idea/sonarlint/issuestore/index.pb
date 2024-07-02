@@ -18,8 +18,6 @@ S
 U
 %src/main/java/org/example/Player.java,d/b/db455f11f40504110fb1ef2567ff0b7b6044c09c
 Y
-)src/main/java/org/example/CannonTowe.java,a/6/a6b6dd100cab94699fa38cad9fd2350a0f31d1bb
-Y
 )src/main/java/org/example/BasicEnemy.java,b/e/beaba247c0334fcbee5af54dd5759bb87c4d62b5
 X
 (src/main/java/org/example/BossEnemy.java,1/f/1f35871d3052b6eb3b2571fd0d1aa6b4e4a2ebed

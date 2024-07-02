@@ -9,19 +9,6 @@ public class Laberinto {
 
     public Laberinto(int size){
         this.size = size;
-        incializar();
-    }
-
-    public void incializar(){
-        inicializarEnVacio();
-        // Agregamos la posicion del jugador, que es aleatoria
-        int[] posicionJugador = posicionAleatoria();
-        matriz[posicionJugador[0]][posicionJugador[1]] = "P";
-
-        colcarTesoros();
-    }
-
-    public void inicializarEnVacio(){
         matriz = new String[size][size];
         // inicializamos con espacios vacios
         for(int i=0;i<size;i++){
@@ -29,6 +16,11 @@ public class Laberinto {
                 matriz[i][j] = ".";
             }
         }
+        // Agregamos la posicion del jugador, que es aleatoria
+        int[] posicionJugador = posicionAleatoria();
+        matriz[posicionJugador[0]][posicionJugador[1]] = "P";
+
+        colcarTesoros();
     }
 
     public void actualizarCelda(int[]posicionActual,int[]posicionFinal){
@@ -41,7 +33,7 @@ public class Laberinto {
     public void colcarTesoros(){
         // Ahora pondremos en el mapa 3 tesoros y 3 trampas de manera aleatoria
         int contador = 0;
-        while(contador<2){ // creamos un while para que no se sobreescriban
+        while(contador<4){ // creamos un while para que no se sobreescriban
             int[] posicionTesoros = posicionAleatoria(); // posicion aleatoria para los tesoros
             int[] posicionTrampas = posicionAleatoria(); // posicion aleatoria para las trampas
             if(matriz[posicionTesoros[0]][posicionTesoros[1]].equals(".")

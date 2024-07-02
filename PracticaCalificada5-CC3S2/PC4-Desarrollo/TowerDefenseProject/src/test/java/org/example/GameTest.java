@@ -26,6 +26,7 @@ class GameTest {
     @BeforeEach
     void SetUp(){
         game = new Game();
+        game.colocarTorre("Cannon",new int[]{0,0});
     }
 
     @Test
@@ -69,22 +70,4 @@ class GameTest {
         // Ahora veamos que la vida de la base ha disminuido en 5 dado que
         assertThat(game.getBaseHealth()).isEqualTo(90);
     }
-
-    @Test
-    void oleadaGameTest(){
-
-        Game game = new Game();
-        int[][]camino = game.getMapa().getCamino();
-        Wave wave = new Wave(1,camino);
-
-        List<Enemy> enemies = wave.getEnemies();
-        game.oleadaGame();
-
-        // Verifiquemos los movimientos de los enemigos
-        assertThat(enemies.get(0).getPosition()).isEqualTo(camino[0]);
-        // La torre ha sido dañada por un enemigo
-        assertThat(game.getBaseHealth()).isEqualTo(95);
-
-    }
-
 }

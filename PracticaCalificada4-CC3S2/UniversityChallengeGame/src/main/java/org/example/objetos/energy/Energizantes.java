@@ -1,8 +1,13 @@
-package org.example.objetos;
+package org.example.objetos.energy;
 
-public class Energizantes extends Objeto{
+import org.example.objetos.Objeto;
 
-    public Energizantes(int energia) {
-        super(energia);
+public class Energizantes extends Objeto {
+    private int energia;
+    private int tiempo;
+
+    public Energizantes(int energia){
+        super(0,energia);
     }
+
 }

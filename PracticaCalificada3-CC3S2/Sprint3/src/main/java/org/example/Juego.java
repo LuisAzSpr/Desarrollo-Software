@@ -38,7 +38,6 @@ public class Juego {
         return false;
     }
 
-
     public void actualizarEstado(String mov){
         int[] posicionActual = jugador.getPosicionActual();
         int[] posicionFinal = procesarComandos(mov);

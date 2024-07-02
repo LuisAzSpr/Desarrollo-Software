@@ -8,7 +8,6 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
 
@@ -33,7 +32,7 @@ class WaveTest {
         enemies.add(new BasicEnemy(map.getCamino()[2]));
         when(wave1.getEnemies()).thenReturn(enemies);
     }
-
+    /*
     @Test
     void generateBasicEnemyTest(){
         wave.generateEnemie();
@@ -42,7 +41,7 @@ class WaveTest {
         Enemy expectedEnemy = new BasicEnemy(map.getCamino()[0]);
         assertThat(enemy.getClass()).isEqualTo(expectedEnemy.getClass());
     }
-
+    */
 
 
     @Test

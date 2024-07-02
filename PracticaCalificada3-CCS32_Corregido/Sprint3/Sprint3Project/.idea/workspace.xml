@@ -5,71 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="110242e3-d9b0-4346-b18f-2457aff032db" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../Sprint1/Sprint1Project/Imagenes/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Sprint1/Sprint1Project/Imagenes/img_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Sprint1/Sprint1Project/Imagenes/img_10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Sprint1/Sprint1Project/Imagenes/img_11.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Sprint1/Sprint1Project/Imagenes/img_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Sprint1/Sprint1Project/Imagenes/img_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Sprint1/Sprint1Project/Imagenes/img_4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Sprint1/Sprint1Project/Imagenes/img_5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Sprint1/Sprint1Project/Imagenes/img_6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Sprint1/Sprint1Project/Imagenes/img_7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Sprint1/Sprint1Project/Imagenes/img_8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Sprint1/Sprint1Project/Imagenes/img_9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Sprint1/Sprint1Project/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Sprint1/Sprint1Project/src/main/java/org/example/Juego.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Sprint1/Sprint1Project/src/main/java/org/example/Jugador.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Sprint1/Sprint1Project/src/main/java/org/example/Laberinto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Sprint1/Sprint1Project/src/main/java/org/example/Salidas.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Sprint1/Sprint1Project/src/test/java/org/example/JuegoTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Sprint1/Sprint1Project/src/test/java/org/example/JugadorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Sprint1/Sprint1Project/src/test/java/org/example/LaberintoTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Sprint2/Sprint2Project/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Sprint2/Sprint2Project/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Sprint2/Sprint2Project/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Sprint2/Sprint2Project/Sprint1Project/Imagenes/img_12.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Sprint2/Sprint2Project/Sprint1Project/Imagenes/img_13.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Sprint2/Sprint2Project/Sprint1Project/Imagenes/img_14.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Sprint2/Sprint2Project/Sprint1Project/Imagenes/img_15.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Sprint2/Sprint2Project/Sprint1Project/Imagenes/img_16.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Sprint2/Sprint2Project/Sprint1Project/Imagenes/img_17.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Sprint2/Sprint2Project/Sprint1Project/Imagenes/img_21.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Sprint2/Sprint2Project/Sprint1Project/Imagenes/img_22.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Sprint2/Sprint2Project/Sprint1Project/Imagenes/img_23.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Sprint2/Sprint2Project/Sprint1Project/Imagenes/img_24.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Sprint2/Sprint2Project/Sprint1Project/Imagenes/img_25.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Sprint2/Sprint2Project/Sprint1Project/Imagenes/img_26.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Sprint2/Sprint2Project/Sprint1Project/Imagenes/img_27.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Sprint2/Sprint2Project/Sprint1Project/Imagenes/img_28.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Sprint2/Sprint2Project/Sprint1Project/Imagenes/img_29.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Sprint2/Sprint2Project/Sprint1Project/Imagenes/img_30.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sprint1Project/Imagenes/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sprint1Project/Imagenes/img_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sprint1Project/Imagenes/img_10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sprint1Project/Imagenes/img_11.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sprint1Project/Imagenes/img_12.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sprint1Project/Imagenes/img_13.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sprint1Project/Imagenes/img_14.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sprint1Project/Imagenes/img_15.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sprint1Project/Imagenes/img_16.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sprint1Project/Imagenes/img_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sprint1Project/Imagenes/img_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sprint1Project/Imagenes/img_4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sprint1Project/Imagenes/img_5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sprint1Project/Imagenes/img_6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sprint1Project/Imagenes/img_7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sprint1Project/Imagenes/img_8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sprint1Project/Imagenes/img_9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sprint1Project/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sprint1Project/img_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sprint1Project/img_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sprint1Project/src/main/java/org/example/Graficas.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sprint1Project/src/main/java/org/example/metrics/ClassMetric.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sprint1Project/src/main/java/org/example/metrics/Lcom.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sprint1Project/src/main/java/org/example/metrics/Lcom4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sprint1Project/src/main/java/org/example/metrics/MethodAttributesExtractor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sprint1Project/src/main/java/org/example/metrics/Report.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../Actividades/Actividades_Clase/PostParcial/ActividadMetricas/ComplejidadCiclomatica/.idea/sonarlint/issuestore/0/4/049feaf161ae6dc066892440caafa04e63e4c98b" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../Actividades/Actividades_Clase/PostParcial/ActividadMetricas/ComplejidadCiclomatica/.idea/sonarlint/issuestore/1/b/1b02596b0189403bc3be170960090383942e884b" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../Actividades/Actividades_Clase/PostParcial/ActividadMetricas/ComplejidadCiclomatica/.idea/sonarlint/issuestore/3/5/356e4a947ea04d377d14cc59faf9899e372ee68e" beforeDir="false" />
@@ -122,6 +57,7 @@
       <change beforePath="$PROJECT_DIR$/../../../PracticaCalificada3-CC3S2/Sprint3/src/main/java/org/example/Laberinto.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PracticaCalificada3-CC3S2/Sprint3/src/main/java/org/example/Laberinto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../PracticaCalificada3-CC3S2/Sprint3/src/main/java/org/example/Salidas.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PracticaCalificada3-CC3S2/Sprint3/src/main/java/org/example/Salidas.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../PracticaCalificada3-CC3S2/Sprint3/src/test/java/example/JuegoTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -173,39 +109,39 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Gradle.JuegoTest.actualizarEstadoAlMoverseAlVacio.executor": "Run",
-    "Gradle.JuegoTest.actualizarEstadoAlMoverseAunTesoro.executor": "Run",
-    "Gradle.JuegoTest.actualizarEstadoAlMoverseAunaTrampa.executor": "Run",
-    "Gradle.JuegoTest.executor": "Run",
-    "Gradle.JuegoTest.numeroDeTesorosRestantes.executor": "Run",
-    "Gradle.JuegoTest.verificarEstadoTerminadoDelJuego_Gana.executor": "Run",
-    "Gradle.JuegoTest.verificarEstadoTerminadoDelJuego_Pierde.executor": "Run",
-    "Gradle.JugadorTest.executor": "Run",
-    "Gradle.JugadorTest.moverJugadorHaciaUnTesoro.executor": "Run",
-    "Gradle.JugadorTest.moverJugadorHaciaUnaTrampa.executor": "Run",
-    "Gradle.LaberintoTest.actualizarCelda.executor": "Run",
-    "Gradle.LaberintoTest.colcarTesorosYTrampas.executor": "Run",
-    "Gradle.LaberintoTest.encontrarPosicionJugadorTest.executor": "Run",
-    "Gradle.LaberintoTest.executor": "Run",
-    "Gradle.LaberintoTest.numeroDeTesorosRestantes.executor": "Run",
-    "Gradle.LaberintoTest.setSizeTest.executor": "Run",
-    "Gradle.Sprint1Project [:Main.main()].executor": "Run",
-    "Gradle.Sprint1Project [sonar].executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/luis/Desktop/6to_ciclo/Desarrollo/Desarrollo_Personal_SSH/Desarrollo-Software/PracticaCalificada3-CCS32_Corregido/Sprint3/Sprint3Project/Sprint1Project/src/main/java/org/example",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Gradle.JuegoTest.actualizarEstadoAlMoverseAlVacio.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.JuegoTest.actualizarEstadoAlMoverseAunTesoro.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.JuegoTest.actualizarEstadoAlMoverseAunaTrampa.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.JuegoTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.JuegoTest.numeroDeTesorosRestantes.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.JuegoTest.verificarEstadoTerminadoDelJuego_Gana.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.JuegoTest.verificarEstadoTerminadoDelJuego_Pierde.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.JugadorTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.JugadorTest.moverJugadorHaciaUnTesoro.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.JugadorTest.moverJugadorHaciaUnaTrampa.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.LaberintoTest.actualizarCelda.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.LaberintoTest.colcarTesorosYTrampas.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.LaberintoTest.encontrarPosicionJugadorTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.LaberintoTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.LaberintoTest.numeroDeTesorosRestantes.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.LaberintoTest.setSizeTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Sprint1Project [:Main.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Sprint1Project [sonar].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/luis/Desktop/6to_ciclo/Desarrollo/Desarrollo_Personal_SSH/Desarrollo-Software/PracticaCalificada3-CCS32_Corregido/Sprint3/Sprint3Project/Sprint1Project/src/main/java/org/example&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Sprint1Project/src/main/java/org/example" />
@@ -355,6 +291,8 @@
       <workItem from="1717822995172" duration="2659000" />
       <workItem from="1717849261598" duration="4839000" />
       <workItem from="1717873671407" duration="31756000" />
+      <workItem from="1717949717103" duration="47000" />
+      <workItem from="1717956519552" duration="14000" />
     </task>
     <servers />
   </component>

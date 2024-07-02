@@ -1,14 +1,14 @@
 
-m
-java:S1197"*Move the array designators [] to the type.(ÏÔÜ¡8š¶¸Æş1J$a7b940b0-7bcc-4163-b129-df18baef7fd8
-r
-java:S1197"*Move the array designators [] to the type.(®Òÿşÿÿÿÿ8š¶¸Æş1J$b20bbd9c-f285-4576-a31a-faaa6d65178b
-i	java:S131""Add a default case to this switch.(Ÿ¨–¸øÿÿÿÿ8›¶¸Æş1J$1d59cdcf-956b-452e-8f56-292f9c5327d4
-i
-java:S1168"&Return an empty array instead of null.(¥¹ï8œ¶¸Æş1J$d2009812-100a-4998-b2c1-59fb5b3f3d29
-„
-java:S1126#"AReplace this if-then-else statement by a single return statement.(‚Ä©×8—À»Æş1J$14c95e74-c0fc-4f6e-b5fc-cd6c473be423
-b
-java:S1659N"Declare "y" on a separate line.(äÛÁ”8Ÿ¶¸Æş1J$61072bbe-5654-4118-a9a5-ac8a5629bd9d
-r
-java:S1197]"*Move the array designators [] to the type.(—Õ«òşÿÿÿÿ8 ¶¸Æş1J$044832e0-2769-43ce-862f-d84b34567396
+G
+java:S1197"*Move the array designators [] to the type.(ÏÔÜ¡8ïæ² ÿ1
+L
+java:S1197"*Move the array designators [] to the type.(®Òÿşÿÿÿÿ8ïæ² ÿ1
+C	java:S131""Add a default case to this switch.(Ÿ¨–¸øÿÿÿÿ8ğæ² ÿ1
+C
+java:S1168"&Return an empty array instead of null.(¥¹ï8ñæ² ÿ1
+^
+java:S1126#"AReplace this if-then-else statement by a single return statement.(‚Ä©×8òæ² ÿ1
+<
+java:S1659M"Declare "y" on a separate line.(äÛÁ”8õæ² ÿ1
+L
+java:S1197\"*Move the array designators [] to the type.(—Õ«òşÿÿÿÿ8÷æ² ÿ1
