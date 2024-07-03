@@ -563,6 +563,7 @@ se empiezan a crear los servicios y a cada uno se les asigna la red que ha sido 
 docker stack deploy --compose-file=docker-stack.yml voting_stack
 ```
 
+
 ![img_41.png](ImagenesStage1%2Fimg_41.png)
 
 Como podemos ver en la imagen inferior existen 5 servicios  desplegados, estos son los que detallamos

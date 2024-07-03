@@ -1,0 +1,12 @@
+rootProject.name = 'Docker-kubernetes-Microservicios'
+include 'PlayerService'
+include 'GameService'
+include 'MapService'
+include 'TowerService'
+include 'WaveService'
+include 'game-service'
+include 'map-service'
+include 'player-service'
+include 'tower-service'
+include 'wave-service'
+
