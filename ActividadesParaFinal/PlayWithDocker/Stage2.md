@@ -1,6 +1,147 @@
 # PLAY WITH DOCKER (Stage II)
 
 
+## Security Lab: Seccomp
+
+
+
+## Security Lab: Capabilities
+Antes de empezar este Laboratorio me gustaria aclarar que no soy tan bueno en seguridad, por lo
+que especificare mas a detalle ciertos conceptos no tan claros para mi :).
+
+**Empecemos:**
+
+- root : Es el usuario que tiene todos los permisos dentro de un SO.
+- Capacidad : Una capacidad nos permite dividir los privilegios del superusuario(root) en unidades mas pequeñas, es decir, 
+a un usuario podemos agregarle ciertas capacidades especificas sobre el sistema sin otorgarles control total sobre el mismo.
+
+El objetivo de este laboratorio es justamente añadir y eliminar capacidades en los contenedores. 
+
+
+### Step 1: Introduction to capabilities
+En este paso aprenderemos los conceptos básicos de las capacidades.
+
+Como habiamos mencionado anteriormente se pueden desglosar los privilegios del usuario root
+en unidades distintas llamadas capacidades.
+
+Ejemplo de estos son:
+
+- **CAP_CHOWN** : permite al usuario root cambiar arbitrariamente los UID y GID de los archivos
+- **CAP_DAC_OVERRIDE**: permite al usuario root ignorar las verificaciones de permisos del kernel en las operaciones de lectura, escritura y ejecución de archivos.
+
+En general se entiende que cualquier permiso (accion que puede realizar un usuario sobre los recursos del sistema) es una capacidad.
+
+**Ahora la pregunta es que beneficios nos da esto?**
+
+Desglosar los privilegios de root en capacidades nos permite eliminar ciertas capacidades del usuario root haciendolo 
+menos poderoso y añadir capacidades a un usuario root de manera completamente controlada tal que estemos seguros que permisos le estamos
+dando a este usuario.
+
+**En donde se aplican las capacidades?**
+
+1. **Capacidades de archivos**: Otorgar privilegios elevados a programas. 
+2. **Capacidades de hilos**: Gestionar los privilegios de procesos.
+
+Docker establece un conjunto límites de capacidades antes de iniciar un contenedor.
+Esto quiere decir que cualquier proceso que se ejecute dentro del contenedor no podra
+obtener capacidad mas alla de las establecidas en el conjunto limite.
+Se puede usar comandos de Docker para añadir o eliminar capacidades del conjunto de límites
+
+Por defecto, Docker elimina todas las capacidades excepto las necesarias, utilizando un enfoque de lista blanca.
+
+### Step 2: Working with Docker and capabilities
+
+Ahora toca trabajar con docker y sus capacidades, existen 3 opciones principalmente en docker para usar capacidades:
+
+
+1. Ejecutar contenedores como root con un gran conjunto de capacidades y tratar de gestionar las capacidades dentro de nuestro contenedor manualmente. (NO RECOMENDABLE)
+2. Ejecutar contenedores como root con capacidades limitadas y nunca camb iarlas dentro de un contenedor. (RECOMENDABLE)
+3. Ejecutar contenedores como un usuario no privilegiado sin capacidades. (RECOMENDABLE PERO POCO REALISTA)
+
+
+**Sea $CAP una o mas capacidades individuales**, tenemos los siguientes comandos para poder gestionar capacidades dentro de un contenedor:
+
+Para eliminar capacidades de la cuenta root de un contenedor, ejecutamos el siguiente comando:
+
+```bash
+docker run --rm -it --cap-drop $CAP alpine sh
+```
+
+Para añadir capacidades a la cuenta root de un contenedor, ejecutamos el siguiente comando.
+
+
+```bash
+docker run --rm -it --cap-add $CAP alpine sh
+```
+
+
+Para eliminar todas las capacidades y luego añadir explícitamente capacidades individuales a la cuenta root de un contenedor, ejecutamos el siguiente comando:
+
+```bash
+docker run --rm -it --cap-drop ALL --cap-add $CAP alpine sh
+```
+
+### Step 3: Testing Docker capabilities
+
+Ahora toca probar los comandos 
+
+Primero vamos a iniciar un contenedor y probar que la cuenta root (superusuario) del contenedor puede cambiar la
+propiedad de los archivos.
+
+```bash
+docker run --rm -it alpine chown nobody /
+```
+
+Como podemos ver no nos arroja ningun error, por lo que el comando se ejecuto correctamente.
+
+![img_50.png](ImagenesStage2%2Fimg_50.png)
+
+Ahora vamos a iniciar otro contenedor nuevo y eliminar todas las capacidades de la cuenta root del contenedor
+(**--cap-drop ALL**),  excepto la capacidad CAP_CHOWN (**--cap-add CHOWN**) que nos permite poder cambiar la propiedade de los archivos.
+
+```bash
+docker run --rm -it --cap-drop ALL --cap-add CHOWN alpine chown nobody /
+```
+
+Como podemos ver tampoco nos sale ningun error, ya que el usuario root tiene la capacidad de CHOWN lo
+que le permite cambiar la propiedad de los archivos a nobody.
+
+![img_52.png](ImagenesStage2%2Fimg_52.png)
+
+Ahora vamos a inicializar otro contenedor nuevo y eliminar solo la capacidad CHOWN(**--cap-drop CHOWN**) de su cuenta root.
+
+```bash
+docker run --rm -it --cap-drop CHOWN alpine chown nobody /
+```
+
+Como podemos ver ahora nos sale un error que nos indica que el usuario root no tiene el permiso
+para cambiar la propiedad de los archivos ya que apesar que el usuario root tiene todos los permisos, le hemos
+quitado el unico que le hacia falta para ejecutar el contenedor de manera exitosa(CHOWN).
+
+
+![img_51.png](ImagenesStage2%2Fimg_51.png)
+
+
+Ahora crearemo otro contenedor nuevo e intenaremos añadir la capacidad CHOWN (**--cap-add chown**) al usuario no-root llamado 
+nobody(**-u nobody**). Como parte del mismo comando intentaremos cambiar la propiedad de un archivo o carpeta.
+
+```bash
+docker run --rm -it --cap-add chown -u nobody alpine chown nobody /
+```
+
+![img_53.png](ImagenesStage2%2Fimg_53.png)
+
+
+### Step 4: Extra for experts
+
+#### Listando todas las capacidades
+
+El siguiente comando iniciara un nuevo contenedor usando Alpine, instalará el paquete libcap y luego listara las capacidades.
+
+![img_55.png](ImagenesStage2%2Fimg_55.png)
+
+
+
 ## Docker Networking Hands-on Lab
 
 
