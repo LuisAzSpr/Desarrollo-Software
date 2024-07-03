@@ -107,20 +107,83 @@ el comando **ls -l** es enviado a Alpine, el cual lo ejecuta y la salida es
 retornada al SO host y el contenedor se apaga, posteriormente el SO host
 muestra la salida por consola.
 
-
 ![img_7.png](ImagenesStage1%2Fimg_7.png)
 
-![img_8.png](ImagenesStage1%2Fimg_8.png)
+Probemos el siguiente comando:
 
-![img_9.png](ImagenesStage1%2Fimg_9.png)
+```bash
+docker container run alpine /bin/sh
+```
+
+Al parecer no muestra ninguna salida, esto es porque no estamos ejecutando ningun comando,
+se inicio una instancia del contenedor y ejecuto el comando /bin/sh luego se salio del shell y se apago el contenedor.
+
+![img_50.png](ImagenesStage1%2Fimg_50.png)
+
+En teoria se esperaba un shell interactivo en el que podamos escribir comandos, para esto
+podemos ejecutar el siguiente comando, agregando la bandera -it:
+
+```bash
+docker container run -it alpine /bin/sh
+```
+
+Y una vez dentro podemos listar los directorios como vemos en la imagen inferior:
+
+![img_51.png](ImagenesStage1%2Fimg_51.png)
+
+El comando inferior solo sirve para ver los contenedores que estan corriendo.
+
+```bash
+docker container ls
+```
+Por lo que es mejor agregarle la bandera -a, esto mostrara todos los contenedores creados, aqui podemos ver 
+que para el laboratorio de hoy creamos 4.
+
+```bash
+docker container ls -a
+```
+
+Lo que podemos ver es una lista de todos los contenedores que ejecutamos.
+Observamos tambien que la columna ESTADO muestra que estos contenedores dejaron de correr hace algún tiempo.
+
+![img_52.png](ImagenesStage1%2Fimg_52.png)
+
+Como podemos ver en la imagen inferior cada vez que corrimos una imagen
+se esta creando un contenedor, es decir, una instancia con una tarea especifica a ejecutar.
+
+![img_53.png](ImagenesStage1%2Fimg_53.png)
+
+### 1.2 Container Isolation
+
+Ahora veamos un poco de la isolacion de los conetendores, esto indica que los contenedores son aislados. 
+
+Veamos un ejemplo, corramos una imagen de alpine y dentro abramos una linea de comandos para
+posteriormente crear un archivo llamado hello.txt. 
 
 ![img_10.png](ImagenesStage1%2Fimg_10.png)
 
+Luego salimos y corremos de nuevo una imagen de alpine, como podemos ver que no se encuentra
+el archivo hello.txt creado inicialmente, esto se debe a que cada instancia esta totalmente aislada
+de las otras y del host.
+
 ![img_11.png](ImagenesStage1%2Fimg_11.png)
+
+Ahora veamos cual fue la imagen que habiamos corrido con el comando /bin/ash con el que 
+escribimos el archivo hello.txt, este tiene un ID 7656...
 
 ![img_12.png](ImagenesStage1%2Fimg_12.png)
 
+Ahora volvamos  acorrer el contenedor listando los archivos...
+
+Como podemos ver en la linea 4 se encuentra el archivo hello.txt, esto se debe a que 
+los contenedores almacenan en cierto modo el ultimo estado de la imagen en ese contedor.
+
 ![img_13.png](ImagenesStage1%2Fimg_13.png)
+
+Como podemos ver en la imagen inferior, cada contenedor creado realmente es como una
+instancia de la imagen que esta totalmente aislada de las otras instancias creadas anteriormente.
+
+![img_54.png](ImagenesStage1%2Fimg_54.png)
 
 ## Doing More With Docker Images
 
@@ -355,24 +418,28 @@ e instalar nuevamente los paquetes nuevamente.
 
 ### Image Inspection
 
+Ahora veamos la lista de capas de cada imagen.
 
 
+- Alpine es solo una pequeña imagen base de SO, por lo que hay solo una capa.
 
-![img_34.png](ImagenesStage1%2Fimg_34.png)
+    ![img_34.png](ImagenesStage1%2Fimg_34.png)
+    
+    ```
+    ["sha256:94e5f06ff8e3d4441dc3cd8b090ff38dc911bfa8ebdb0dc28395bc98f82f983f"]
+    ```
 
-```
-["sha256:94e5f06ff8e3d4441dc3cd8b090ff38dc911bfa8ebdb0dc28395bc98f82f983f"]
-```
+- Ahora podemos ver que tenemos una lista de 4 capas para nuestra imagenpersonalizada, esto se
+debe a que justamente habian 4 instrucciones que creaban a esta imagen. 
 
-![img_35.png](ImagenesStage1%2Fimg_35.png)
-
-```
-["sha256:94e5f06ff8e3d4441dc3cd8b090ff38dc911bfa8ebdb0dc28395bc98f82f983f",
-"sha256:ec8f189859a936f059c49f99759ef76e5bb5a278dd7fd59f6f8918b776ffd142",
-"sha256:79257cc8465f3db969c98a93a0e29e90b56b1135dee3b1e455576a1918cac8f7",
-"sha256:5f70bf18a086007016e948b04aed3b82103a36bea41755b6cddfaf10ace3c6ef"]
-```
-
+    ![img_35.png](ImagenesStage1%2Fimg_35.png)
+    
+    ```
+    ["sha256:94e5f06ff8e3d4441dc3cd8b090ff38dc911bfa8ebdb0dc28395bc98f82f983f",
+    "sha256:ec8f189859a936f059c49f99759ef76e5bb5a278dd7fd59f6f8918b776ffd142",
+    "sha256:79257cc8465f3db969c98a93a0e29e90b56b1135dee3b1e455576a1918cac8f7",
+    "sha256:5f70bf18a086007016e948b04aed3b82103a36bea41755b6cddfaf10ace3c6ef"]
+    ```
 
 
 ## Swarm Mode Introduction for IT Pros

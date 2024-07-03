@@ -1,15 +1,181 @@
 # PLAY WITH DOCKER (Stage II)
 
+--------------------------------------------------------------------------------------------------
 
 ## Security Lab: Seccomp
 
+**Notas:**
 
+**Perfil de Seccomp**: Un perfil de seccomp es una lista de políticas que especifican qué llamadas al sistema están permitidas y cuáles están bloqueadas para un proceso o contenedor.
+Los perfiles de  seccomp se utilizan para aplicar estas  políticas de seguridad de manera granular.
+
+
+### Step 1: Clone the labs GitHub repo
+
+Clonamos el repositorio labs de docker y nos movemos al directorio de trabajo labs/security/seccomp
+Este repositorio tiene los perfiles de SECOMP necesarios para el laboratorio.
+
+
+![img_57.png](ImagenesStage2%2Fimg_57.png)
+
+
+### Step 2: Test a seccomp profile
+
+En este paso usaremos el perfil deny.json, este perfil tiene una lista blanca de syscalls vacía,
+lo que significa que todas las syscalls serán bloqueadas
+
+Al ejecutar el comando:
+
+```bash
+docker run --rm -it --cap-add ALL --security-opt apparmor=unconfined \ 
+  --security-opt seccomp=seccomp-profiles/deny.json alpine sh```
+```
+
+El contenedor se queda quieto y no responde a ninguna interaccion con el, el nodo se queda congelado.
+
+![img_71.png](ImagenesStage2%2Fimg_71.png)
+
+Ahora inspeccionamos el perfil de deny y vemos que tiene una lista blanca (vacia), esto quiere decir
+que no se permitiran syscalls desde los contenedores que sean inciados con  este perfil de SECOMP. 
+
+![img_70.png](ImagenesStage2%2Fimg_70.png)
+
+### Step 3: Run a container with no seccomp profile
+
+Ahora iniciaremos un nuevo contenedor con la bandera **--security-opt seccomp=unconfined** 
+para que no se aplique ningún perfil de seccomp.
+
+
+```bash
+docker un --rm -it --security-opt seccomp=unconfined debian:jessie
+sh unshare --map-root-user --user
+```
+
+Y ejecutemos el siguiente comando whoami para confirmar que el contenedor funciona y puede hacer syscalls de vuelta 
+al host de Docker.
+
+![img_62.png](ImagenesStage2%2Fimg_62.png)
+
+Salimos del shell y del contenedor.
+
+![img_63.png](ImagenesStage2%2Fimg_63.png)
+
+
+Ahora ejecutaremos el siguiente comando strace para ver una lista de las syscalls utilizadas por nuestro programa whoami.
+
+
+Para esto necesitaremos el paquete strace instalado.
+```bash
+apk add --update strace
+```
+
+![img_64.png](ImagenesStage2%2Fimg_64.png)
+
+```bash
+strace -c -f -s name whoami 2>&1
+```
+
+![img_65.png](ImagenesStage2%2Fimg_65.png)
+
+### Step 4: Selectively remove syscalls
+
+
+En este caso veremos 2 perfiles de SECOMP, el primero default-no-chmod que como su nombre lo indica
+tiene las syscalls como chmod( ) , fchmod( ) y fchmodat( ) eliminadas de su lista blanca.
+
+Por lo que podemos ver a la hora de conectarnos con el perfil **default-no-chmod** nos sale un error (Operation not permitted).
+
+![img_67.png](ImagenesStage2%2Fimg_67.png)
+
+Y si nos conectamos con el perfil default.json que tiene en su lista blanca las syscalls chmod( ), fhcmod( ) y fchmodat( ).
+
+Podemos ver que si funciona!!
+
+![img_68.png](ImagenesStage2%2Fimg_68.png)
+
+Ahora veamos que, en efecto el perfil default.json contiene en su lista blanca la syscall chmod
+
+![img_69.png](ImagenesStage2%2Fimg_69.png)
+
+### Step 5: Write a seccomp profile
+
+Tambien podemos escribir un perfil de SECOMP, este se puede de ver de la siguiente manera...
+
+```
+{
+  "defaultAction": "SCMP_ACT_ERRNO",
+    "architectures": [
+      "SCMP_ARCH_X86_64",
+      "SCMP_ARCH_X86",
+      "SCMP_ARCH_X32"
+    ],
+  "syscalls": [
+      {
+        "name": "accept",
+        "action": "SCMP_ACT_ALLOW",
+        "args": []
+      },
+      {
+        "name": "accept4",
+        "action": "SCMP_ACT_ALLOW",
+        "args": []
+      },
+      ...
+  ]
+}
+```
+
+Aqui tenemos algunos ejemplos de como se podria dar:
+
+```
+ACTION                |     Description
+SCMP_ACT_KILL         |  Kill with a exit status of 0x80 + 31 (SIGSYS) = 159
+SCMP_ACT_TRAP         |  Send a SIGSYS signal without executing the system call
+...                   | ............
+```
+
+Inclusive podemos personalizar mucho mas el filtro... 
+
+
+```
+{
+    ...
+    "syscalls": [
+        {
+            "name": "accept",
+            "action": "SCMP_ACT_ALLOW",
+            "args": [
+                {
+                    "index": 0,
+                    "op": "SCMP_CMP_MASKED_EQ",
+                    "value": 2080505856,
+                    "valueTwo": 0
+                }
+            ]
+        }
+    ]
+}
+```
+
+Ahora la pregunta es que syscalls agregar?
+
+Bueno, podemos utilizar el siguiente comando para obtener  una lista de todas las llamadas al sistema realizadas por un programa. 
+Es un muy buen punto de partida para redactar políticas de seccomp. De esta forma nos aseguramos que el programa
+tenga unicamente las llamadas del sistema justas y necesarias.
+
+```bash
+strace -c -f -S name ls 2>&1 1>/dev/null | tail -n +3 | head -n -2 | awk '{print $(NF)}'
+```
+
+![img_73.png](ImagenesStage2%2Fimg_73.png)
+
+
+
+--------------------------------------------------------------------------------------------------
 
 ## Security Lab: Capabilities
-Antes de empezar este Laboratorio me gustaria aclarar que no soy tan bueno en seguridad, por lo
-que especificare mas a detalle ciertos conceptos no tan claros para mi :).
 
-**Empecemos:**
+**Notas:**
 
 - root : Es el usuario que tiene todos los permisos dentro de un SO.
 - Capacidad : Una capacidad nos permite dividir los privilegios del superusuario(root) en unidades mas pequeñas, es decir, 
@@ -140,16 +306,20 @@ El siguiente comando iniciara un nuevo contenedor usando Alpine, instalará el p
 
 ![img_55.png](ImagenesStage2%2Fimg_55.png)
 
+El comando capsh puede ser util para experimentar con capacidades. capsh --help muestra como usar el comando:
 
+![img_56.png](ImagenesStage2%2Fimg_56.png)
+
+--------------------------------------------------------------------------------------------------
 
 ## Docker Networking Hands-on Lab
-
 
 ### Section #1 - Networking Basics
 
 **Step 1: The Docker Network Command**
 
 El comando inferior nos ayuda a configurar y gestionar redes de contenedores.
+
 
 ```bash
 docker network
@@ -739,6 +909,8 @@ Por utimo eliminemos el nodo1 y el nodo2 ejecutando el siguiente comando en cada
 ```bash
 docker swarm leave --force
 ```
+
+--------------------------------------------------------------------------------------------------
 
 ## Docker Orchestration Hands-on Lab
 
