@@ -17,6 +17,7 @@
             <option value="$PROJECT_DIR$/map-service" />
             <option value="$PROJECT_DIR$/player-service" />
             <option value="$PROJECT_DIR$/tower-service" />
+            <option value="$PROJECT_DIR$/wave-service" />
           </set>
         </option>
       </GradleProjectSettings>

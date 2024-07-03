@@ -4,24 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="34245e51-6277-4c57-ac18-585a198a1cf4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GameService/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GameService/src/main/java/org/example/GameService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MapService/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MapService/src/main/java/org/example/MapService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PlayerService/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PlayerService/src/main/java/org/example/PlayerService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TowerService/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TowerService/src/main/java/org/example/TowerService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WaveService/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WaveService/src/main/java/org/example/WaveService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PlayWithDocker/Stage1.md" beforeDir="false" afterPath="$PROJECT_DIR$/../PlayWithDocker/Stage1.md" afterDir="false" />
-    </list>
+    <list default="true" id="34245e51-6277-4c57-ac18-585a198a1cf4" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -59,74 +42,6 @@
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
                 <item name="build" type="c8890929:TasksNode$1" />
               </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="Docker-kubernetes-Microservicios" type="f1a62948:ProjectNode" />
-                <item name="GameService" type="2d1252cf:ModuleNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="Docker-kubernetes-Microservicios" type="f1a62948:ProjectNode" />
-                <item name="GameService" type="2d1252cf:ModuleNode" />
-                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="Docker-kubernetes-Microservicios" type="f1a62948:ProjectNode" />
-                <item name="GameService" type="2d1252cf:ModuleNode" />
-                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
-                <item name="compileClasspath" type="62daadca:ExternalSystemViewDefaultContributor$DependencyScopeExternalSystemNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="Docker-kubernetes-Microservicios" type="f1a62948:ProjectNode" />
-                <item name="GameService" type="2d1252cf:ModuleNode" />
-                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
-                <item name="runtimeClasspath" type="62daadca:ExternalSystemViewDefaultContributor$DependencyScopeExternalSystemNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="Docker-kubernetes-Microservicios" type="f1a62948:ProjectNode" />
-                <item name="MapService" type="2d1252cf:ModuleNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="Docker-kubernetes-Microservicios" type="f1a62948:ProjectNode" />
-                <item name="MapService" type="2d1252cf:ModuleNode" />
-                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="Docker-kubernetes-Microservicios" type="f1a62948:ProjectNode" />
-                <item name="MapService" type="2d1252cf:ModuleNode" />
-                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
-                <item name="compileClasspath" type="62daadca:ExternalSystemViewDefaultContributor$DependencyScopeExternalSystemNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="Docker-kubernetes-Microservicios" type="f1a62948:ProjectNode" />
-                <item name="MapService" type="2d1252cf:ModuleNode" />
-                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
-                <item name="runtimeClasspath" type="62daadca:ExternalSystemViewDefaultContributor$DependencyScopeExternalSystemNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="Docker-kubernetes-Microservicios" type="f1a62948:ProjectNode" />
-                <item name="PlayerService" type="2d1252cf:ModuleNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="Docker-kubernetes-Microservicios" type="f1a62948:ProjectNode" />
-                <item name="PlayerService" type="2d1252cf:ModuleNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="Docker-kubernetes-Microservicios" type="f1a62948:ProjectNode" />
-                <item name="PlayerService" type="2d1252cf:ModuleNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="build" type="c8890929:TasksNode$1" />
-              </path>
             </expand>
             <select />
           </tree_state>
@@ -143,6 +58,21 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="KubernetesApiProvider"><![CDATA[{
+  "contexts": [
+    {
+      "name": "minikube",
+      "originalNamespace": "default"
+    }
+  ],
+  "isMigrated": true
+}]]></component>
+  <component name="KubernetesSettings">
+    <option name="contextName" value="minikube" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 0
@@ -162,6 +92,7 @@
     "Gradle.Docker-kubernetes-Microservicios:PlayerService [clean].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "jdk.selected.JAVA_MODULE": "17",
     "kotlin-language-version-configured": "true",
@@ -171,7 +102,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "/home/luis/Desktop/6to_ciclo/Desarrollo/Desarrollo_Personal_SSH/Desarrollo-Software/ActividadesParaFinal/Docker-kubernetes-Microservicios/WaveService/src/main/java/org/example/Main.java",
+    "onboarding.tips.debug.path": "/home/luis/Desktop/6to_ciclo/Desarrollo/Desarrollo_Personal_SSH/Desarrollo-Software/ActividadesParaFinal/Docker-kubernetes-Microservicios/wave-service/src/main/java/org/example/Main.java",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -181,6 +112,16 @@
       <recent name="$PROJECT_DIR$/TowerService" />
       <recent name="$PROJECT_DIR$/PlayerService" />
       <recent name="$PROJECT_DIR$/MapService" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/game-service" />
+      <recent name="$PROJECT_DIR$/wave-service" />
+      <recent name="$PROJECT_DIR$/tower-service" />
+      <recent name="$PROJECT_DIR$/player-service" />
+      <recent name="$PROJECT_DIR$/map-service" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.example" />
     </key>
   </component>
   <component name="RunManager" selected="Gradle.Docker-kubernetes-Microservicios [build]">
@@ -266,7 +207,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1719991054136</updated>
-      <workItem from="1719991055165" duration="4481000" />
+      <workItem from="1719991055165" duration="8338000" />
     </task>
     <servers />
   </component>
